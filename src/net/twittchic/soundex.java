@@ -1,3 +1,4 @@
+package net.twittchic;
 //Y ve H ne olacak
 
 public class soundex {
@@ -12,12 +13,12 @@ public class soundex {
 	public static String str4 = "L";
 	public static String str5 = "MN";
 	public static String str6 = "R";
-	
+
 	public static String sound(String word)
 	{
-	
+
 		String uppWord = word.toUpperCase();
-		
+
 		String temp1 = Character.toString(uppWord.charAt(0));
 		for(int i = 1; i < uppWord.length(); i++)
 		{
@@ -48,19 +49,19 @@ public class soundex {
 				temp1 += "5";
 			else if(str6.contains(Character.toString(ch)))
 				temp1 += "6";
-			
+
 		}
 		String temp2 = "";
 		temp2 += Character.toString(temp1.charAt(0));
 		for(int i = 1; i < temp1.length(); i++)
 		{
-			
+
 			if(temp1.charAt(i) != temp2.charAt(temp2.length() - 1))
 				temp2 += Character.toString(temp1.charAt(i));
-			
+
 		}
 		String temp3 = "";
-		
+
 		temp3 = temp2.replaceAll("0", "");
 		int N = 20;
 		if(temp3.length() < N)
@@ -69,14 +70,14 @@ public class soundex {
 				temp3 += "0";
 		}
 
-		
+
 		return temp3;
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 //		sound("ÇEKOSLOVAKYALILAŞTIRAMADIKLARIMIZDANMISINIZ");
 		sound("mrb");
-		
+
 	}
 
 }

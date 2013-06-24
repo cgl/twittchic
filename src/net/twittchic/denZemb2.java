@@ -1,9 +1,10 @@
+package net.twittchic;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 
 /**
- * 
+ *
  */
 import net.zemberek.erisim.Zemberek;
 //import net.zemberek.islemler.AsciiDonusturucu;
@@ -22,21 +23,21 @@ public class denZemb2 {
 	public static Zemberek z = new Zemberek(new TurkiyeTurkcesi());
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
-		
+
+
 		String st = "ile";
 
 		String s[] = z.hecele("merhaba");
 		System.out.println(Arrays.toString(s));
-		String stri = "gelmiyorm";
+		String stri = "gelmiyor";
 		String[] str = z.oner(stri);
 		System.out.println(Arrays.toString(z.asciiCozumle("masa")));
-		
+
 		System.out.println(z.kelimeDenetle("masa"));
-		
-		
+
+
 		System.out.println(Arrays.toString(str));
-		
+
 		soundex snd = new soundex();
 		String sndStri = snd.sound(stri);
 		ArrayList<String> al = new ArrayList<String>();
@@ -57,7 +58,7 @@ public class denZemb2 {
 				System.out.println(al.get(i));
 				break;
 			}
-				
+
 		}
 	}
 
