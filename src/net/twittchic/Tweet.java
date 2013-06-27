@@ -50,6 +50,8 @@ public class Tweet {
 
     @Override
     public String toString() {
+        return text;
+        /*
         return "Tweet{" +
                 "text='" + text + '\'' +
                 ", mentions=" + mentions.values().toString() +
@@ -57,7 +59,7 @@ public class Tweet {
                 ", ivs=" + ivs.values().toString() +
                 ", oovs=" + oovs.values().toString() +
                 ", deasciified=" + deasciified.toString() +
-                '}';
+                '}';    */
     }
 
     public void addHashtag(String hashtag, int ind){
