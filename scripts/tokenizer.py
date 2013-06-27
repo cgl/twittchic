@@ -16,7 +16,7 @@ def tokenize():
         tokens.append(nltk.tokenize.regexp_tokenize(endLinesubs,pattern=upattern,flags=re.UNICODE | re.MULTILINE | re.DOTALL))
 
     for line in tokens:
-        tweet_tokenized = " ".join(line).encode('utf8')
+        tweet_tokenized = " ".join(map( lambda x: x.strip("\'"), line)).encode('utf8')
         print(tweet_tokenized, file=outFile)
 
 if len(sys.argv) == 3:
