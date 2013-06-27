@@ -18,8 +18,8 @@ public class Parser {
     static TreeMap<String, String> oovlist = new TreeMap<String,String>();
     // PRIVATE
     private final String fFileName;
-    private final String outFileName = "resources/output/deasciified.txt";
-    private final String needToNorm = "resources/output/deasciified_words.txt";
+    private final String outFileName = "resources/output/parsed.txt";
+    private final String needToNorm = "resources/output/parsed_oov_words.txt";
     private final String fEncoding = "utf-8";
     private final String INPUT_TEXT = "";
     private String FIXED_TEXT = "But soft! what code in yonder program breaks?";

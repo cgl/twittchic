@@ -1,0 +1,600 @@
+Tweet{text='#GençlerTakipleşiyor #Güleoynayatakipleşelim #TÜMHAYRANGRUPLARITAKİPLEŞSİN GERİ TAKİP VAR AMA SDCEHAYRAN GRUPLARINABOŞUNA TAKİP ETME ...', mentions=[], hashtags=[1, 2, 3], ivs=[7, 11, 4, 10, 6], oovs=[9, 8], deasciified=[]}
+Tweet{text='Siz Black Sea deyince sorun yok !! Başbakan White Sea deyince auuuvvv ! Yedirtmeyiz ! Asıl mesele Akepe düşmanlığı ! #Hüloooğğğğ', mentions=[], hashtags=[21], ivs=[16, 8, 1, 14, 11, 19, 17, 5, 6], oovs=[18, 2, 10, 9, 12], deasciified=[]}
+Tweet{text='#1Düşünsene #ÇapukÇapukTakipleşiyoruz bekleriiim :) x2', mentions=[], hashtags=[1, 2], ivs=[], oovs=[3, 5], deasciified=[]}
+Tweet{text='#KıskançlıktanÇatlayanlaraNOT Büyüyünce geçer :)', mentions=[], hashtags=[1], ivs=[2, 3], oovs=[], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN #GençlerTakipleşiyor #Güleoynayatakipleşelim UNFOLLOW'SUZ TAKİP Mİ İSTİYORSUN KAMOON ! 51', mentions=[], hashtags=[2, 3, 1], ivs=[6, 5, 7], oovs=[8, 4], deasciified=[]}
+Tweet{text='#KıskançlıktanÇatlayanlaraNOT Biz birbirimizi seviyoruz ve asla vazgeçmeyeceğiz :) Daha nice nice 3 yılları beraber geçireceğiz :)', mentions=[], hashtags=[1], ivs=[2, 9, 6, 14, 3, 15, 11, 4, 7, 5, 13], oovs=[], deasciified=[]}
+Tweet{text='#Hüloooğğğğ yeter artık şu kadının peşini bırakın , Halkın içinden gelmiş bu insanlardan ne istiyorsunuz . Halkını bilmeyen hakkı ne bilsin .', mentions=[], hashtags=[1], ivs=[9, 17, 3, 18, 21, 12, 7, 11, 19, 13, 15, 10, 5, 20, 6, 2, 4], oovs=[], deasciified=[]}
+Tweet{text='Uyanık bir adam uyuyan bin adama bedeldir ... #KıskançlıktanÇatlayanlaraNOT http://t.co/4L11eBdc0D', mentions=[], hashtags=[9], ivs=[1, 3, 6, 7, 5, 2, 4], oovs=[], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN Anında Geri Takip Yapıyorum : D Yalnızca HAYRAN GRUPLARINA ! 74', mentions=[], hashtags=[1], ivs=[2, 7, 10, 3, 9, 4, 8, 5], oovs=[], deasciified=[]}
+Tweet{text='TOMA'mda ve gazımda emeği geçen herkese teşekkür ederim . Sıhhat buldum , beynim açıldı . #hüloooğğğğ', mentions=[], hashtags=[16], ivs=[10, 14, 13, 11, 8, 4, 3, 5, 6, 7, 2], oovs=[1], deasciified=[]}
+Tweet{text='Hünkar White Sea dediyse öyledir , pardon da ondan iyi mi bileceksiniz ? Ne lobisisiniz siz ?', mentions=[], hashtags=[], ivs=[1, 14, 12, 8, 4, 10, 15, 11, 9, 7, 16, 5], oovs=[3, 2], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN TAKİP İÇİN #FAV YETERLİ S2', mentions=[], hashtags=[4, 1], ivs=[2, 5, 3], oovs=[6], deasciified=[]}
+Tweet{text='#ÇapukÇapukTakipleşiyoruz daha seri :)', mentions=[], hashtags=[1], ivs=[2, 3], oovs=[], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN GALATASARAY ve ATATÜRK aşıkları başta olmak üzere ..', mentions=[], hashtags=[1], ivs=[4, 2, 5, 6, 7, 3, 8], oovs=[], deasciified=[]}
+Tweet{text='#ÇapukÇapukTakipleşiyoruz UNFOLLOW ZAMANI , TAKİP EDİLİP TAKİP EDİLMEYENLER ADİOS ! : D x5', mentions=[], hashtags=[1], ivs=[12, 8, 6, 7, 3], oovs=[9, 2, 13], deasciified=[]}
+Tweet{text='#HayatımFilmOlsaİsmi sen daha bak oyle olurdu', mentions=[], hashtags=[1], ivs=[4, 3, 6, 2], oovs=[5], deasciified=[]}
+Tweet{text='Şimdi DahaYüksekSesle SonSözümüz FENERBAHÇE 3 3 3', mentions=[], hashtags=[], ivs=[1], oovs=[2, 4, 3], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN HADİ SON 31 KİŞİ KALDI LÜTFEEN GERİ TAKİP YAPIYORUM YARDIM EDİN', mentions=[], hashtags=[1], ivs=[12, 8, 2, 6, 5, 3, 9, 10, 11], oovs=[7], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN ( mixerler hariç ) mixerleri sevmeyen her insana geri takip yaparım x15', mentions=[], hashtags=[1], ivs=[10, 4, 8, 9, 7, 11, 12], oovs=[3, 6, 13], deasciified=[]}
+Tweet{text='@can_atakli_ Hayaldi gerçek oldu , valla :)) white sea', mentions=[1], hashtags=[], ivs=[2, 3, 4], oovs=[9, 6, 8], deasciified=[]}
+Tweet{text='Şimdi DahaYüksekSesle SonSözümüz FENERBAHÇE elhamdüllillah TÜRKÜM müslümanım FENERBAHÇELİYİM', mentions=[], hashtags=[], ivs=[6, 1], oovs=[2, 4, 8, 3, 5, 7], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN geri takip için fav yapman yeterli sadece hayran gruplarına geri takip yapıyorum :) 30', mentions=[], hashtags=[1], ivs=[11, 10, 9, 4, 8, 12, 6, 13, 7], oovs=[5], deasciified=[]}
+Tweet{text='#1Düşünsene öyleyse varım', mentions=[], hashtags=[1], ivs=[3, 2], oovs=[], deasciified=[]}
+Tweet{text='#BirazGülmekiçin herzaman bi bahane bulunabilir .. )', mentions=[], hashtags=[1], ivs=[4, 5], oovs=[3, 2], deasciified=[]}
+Tweet{text='@fahribozgeyik27 Abi'mizin limiti doldu , emeğine sağlık abim ! MuhsinYazıcıoğlunun KatilleriBulunsun', mentions=[1], hashtags=[], ivs=[4, 6, 3, 7], oovs=[2, 11, 10, 8], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN Eğer ; ' Smiler , Directioner , Belieber , Lovatic ' içlerinden biriysen takip et geri takip için #fav yeterliğ', mentions=[], hashtags=[1, 20], ivs=[2, 14, 16, 17, 19, 13, 18], oovs=[9, 7, 11, 5, 21], deasciified=[]}
+Tweet{text='@atlascn #HayatımFilmOlsaİsmi #Hüloooğğğğ olur kuzeen ! : D : D', mentions=[1], hashtags=[2, 3], ivs=[10, 4], oovs=[5], deasciified=[]}
+Tweet{text='#KıskançlıktanÇatlayanlaraNOT kıskançlığın bana verdiği yetkiye dayanarak benden başkasıyla samimi olmanı istemiyorum !', mentions=[], hashtags=[1], ivs=[3, 8, 7, 6, 11, 2, 10, 9, 4, 5], oovs=[], deasciified=[]}
+Tweet{text='#ÇapukÇapukTakipleşiyoruz ANINDA GERİ TAKİP YAPIYORUM SORMANIZ VEYA FAV YAPMANIZ YETERLİ x98', mentions=[], hashtags=[1], ivs=[2, 3, 6, 4, 7, 5, 9, 10], oovs=[8, 11], deasciified=[]}
+Tweet{text='#KıskançlıktanÇatlayanlaraNOT Gülüşüm size inat hep on numara', mentions=[], hashtags=[1], ivs=[2, 5, 4, 7, 6, 3], oovs=[], deasciified=[]}
+Tweet{text='ÇOK DAHA SERİ DEVAM EDİYORUZTÜM TÜRKİYE'YE DUYURUYORUZMuhsinYazıcıoğlunun KatilleriBulunsun', mentions=[], hashtags=[], ivs=[2, 4, 3, 6, 1], oovs=[7, 5, 8], deasciified=[]}
+Tweet{text='#fenerbahçe TARAFTARI http://t.co/nMjlOlvERF SİTESİNDEŞimdi DahaYüksekSesle SonSözümüz FENERBAHÇE#FB#LafıBurdan1Koyuyorum#okadarsıcakki', mentions=[], hashtags=[1], ivs=[2], oovs=[5, 7, 6, 4], deasciified=[]}
+Tweet{text='#BirazGülmekiçin çok bişey yapmana gerek yok : DD : dd : D', mentions=[], hashtags=[1], ivs=[12, 5, 4, 6, 2], oovs=[8, 3, 10], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN TAKİP ET , GERİ TAKİP İÇİN #FAV YAPMAN YETERLİ x26', mentions=[], hashtags=[8, 1], ivs=[3, 5, 6, 9, 10, 7], oovs=[11], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN Beni Takip Et Fav Yada Rt Yap Yada Sor Anında Geri Takip ( Sadece Hayran Grupları )... x25', mentions=[], hashtags=[1], ivs=[11, 2, 4, 12, 17, 16, 15, 10, 13, 9, 8], oovs=[5, 7, 19], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN GERİ TAKİP İÇİN SORMAN YETERLİ X45', mentions=[], hashtags=[1], ivs=[2, 5, 3, 6, 4], oovs=[7], deasciified=[]}
+Tweet{text='#HayatımFilmOlsaİsmi ikilem olurdu .', mentions=[], hashtags=[1], ivs=[2, 3], oovs=[], deasciified=[]}
+Tweet{text='#KıskançlıktanÇatlayanlaraNOT catlamaya gerek yok ben denedim sonuca ulasamiyoruz zaten bosverin', mentions=[], hashtags=[1], ivs=[5, 6, 3, 7, 4, 9], oovs=[10, 2, 8], deasciified=[]}
+Tweet{text='En yeni ve güncel fimler burda ! http://t.co/3ng4iA9pVK :) #TÜMHAYRANGRUPLARITAKİPLEŞSİN #takipedenitakipederim #Gülmekİçin', mentions=[], hashtags=[12, 10, 11], ivs=[1, 4, 3, 2], oovs=[6, 5], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN #GençlerTakipleşiyor #Güleoynayatakipleşelim takip edeni takip ederim', mentions=[], hashtags=[2, 3, 1], ivs=[5, 7, 6], oovs=[], deasciified=[]}
+Tweet{text='Hayatımda hiç bir zaman ders çıkartamıyomm hadi o zaman #Hüloooğğğğ', mentions=[], hashtags=[10], ivs=[1, 3, 5, 7, 2, 8, 9], oovs=[6], deasciified=[]}
+Tweet{text='mesele white sea değil , sen hala anlamadın mı ?..', mentions=[], hashtags=[], ivs=[8, 4, 7, 1, 9, 6], oovs=[3, 2], deasciified=[]}
+Tweet{text='#1Düşünsene CHP iktidar olmuş . Allah muhafaza :)', mentions=[], hashtags=[1], ivs=[6, 2, 3, 7, 4], oovs=[], deasciified=[]}
+Tweet{text='#KıskançlıktanÇatlayanlaraNOT #kıymetlimizcagatayulusoy', mentions=[], hashtags=[1, 2], ivs=[], oovs=[], deasciified=[]}
+Tweet{text='Ben sana seni seviyorum diyorum sen bana ne diyorsun biliyorsun #Hüloooğğğğ', mentions=[], hashtags=[11], ivs=[1, 7, 10, 9, 5, 8, 2, 6, 3, 4], oovs=[], deasciified=[]}
+Tweet{text='TürkGençliği UyuşturucuyaHayırDiyor O ZAMAN KİMYASALA EVET AMK', mentions=[], hashtags=[], ivs=[6, 5, 3, 4], oovs=[7, 1, 2], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN GERİ TAKİP İÇİN #FAV 15', mentions=[], hashtags=[5, 1], ivs=[2, 3, 4], oovs=[], deasciified=[]}
+Tweet{text='Olmamis bu :) #TÜMHAYRANGRUPLARITAKİPLEŞSİN', mentions=[], hashtags=[4], ivs=[2], oovs=[1], deasciified=[]}
+Tweet{text='yemin ederim bizim milli takım bu tahitiye 2 atar sonra defans yapar . #Hüloooğğğğ diyede seviniriz .', mentions=[], hashtags=[14], ivs=[9, 3, 6, 11, 15, 2, 4, 16, 10, 5, 12, 1], oovs=[7], deasciified=[]}
+Tweet{text='Takibe anında takip #TÜMHAYRANGRUPLARITAKİPLEŞSİN', mentions=[], hashtags=[4], ivs=[1, 2, 3], oovs=[], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN geri dönerim :) x1', mentions=[], hashtags=[1], ivs=[3, 2], oovs=[5], deasciified=[]}
+Tweet{text='#HayatımFilmOlsaİsmi omrun kisa ve yasa', mentions=[], hashtags=[1], ivs=[4, 5], oovs=[3, 2], deasciified=[]}
+Tweet{text='#1Düşünsene gozlerinolmasaydı diye Biraz sukretmesini öğren bence Herşeyin fazlasini istemekle degil Yetin biraz elindekiyle', mentions=[], hashtags=[1], ivs=[4, 12, 7, 13, 3, 14, 10, 6], oovs=[8, 11, 9, 2, 5], deasciified=[]}
+Tweet{text='Benide takip edin :((( aninda geri takip yapom : P #TÜMHAYRANGRUPLARITAKİPLEŞSİN', mentions=[], hashtags=[11], ivs=[3, 6, 7], oovs=[1, 10, 5, 8], deasciified=[]}
+Tweet{text='#HayatımFilmOlsaİsmi the godfather olurdu :)', mentions=[], hashtags=[1], ivs=[4], oovs=[3, 2], deasciified=[]}
+Tweet{text='#TürkGençliği UyuşturucuyaHayırDiyor beynini uyuşturarak hiç bir şeyi çözemezsin !!!', mentions=[], hashtags=[1], ivs=[3, 6, 5, 4, 8, 7], oovs=[2], deasciified=[]}
+Tweet{text='#BilmemBiliyormusun mesaj atmak diye bir kavram var ?', mentions=[], hashtags=[1], ivs=[3, 5, 4, 6, 2, 7], oovs=[], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN Sor Ya Da Fav Yap . Geri Takip Yapmazsam Unf . Yap . x11', mentions=[], hashtags=[1], ivs=[4, 8, 2, 9, 3, 13, 10], oovs=[5, 11, 15], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN geri takip icin söylemeniz yeterli x19', mentions=[], hashtags=[1], ivs=[2, 5, 3, 6], oovs=[4, 7], deasciified=[]}
+Tweet{text='#BirazGülmekiçin fenerbahce ve besiktas yorumlarini okuyorum ahaahahahah ;)', mentions=[], hashtags=[1], ivs=[6, 3], oovs=[7, 4, 2, 5], deasciified=[]}
+Tweet{text='#ÇapukÇapukTakipleşiyoruz UNF YOK', mentions=[], hashtags=[1], ivs=[3], oovs=[2], deasciified=[]}
+Tweet{text='#GümbürGümbürTakipleşelim #TÜMHAYRANGRUPLARITAKİPLEŞSİN #GençlerTakipleşiyor Sen takip et anında geri dönüş dönmezsem unfollow yapp . x28', mentions=[], hashtags=[3, 1, 2], ivs=[4, 7, 10, 9, 6, 8, 5], oovs=[11, 14, 12], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN GERİ TAKİP İÇİN RT YA DA #FAV . YAPIN YETERLİ x25', mentions=[], hashtags=[8, 1], ivs=[7, 2, 3, 6, 10, 11, 4], oovs=[5, 12], deasciified=[]}
+Tweet{text='Karşınızdakini vicdanına emanet edin . O , gerekeni yapar ... #Sözbidaha', mentions=[], hashtags=[11], ivs=[1, 6, 4, 3, 8, 2, 9], oovs=[], deasciified=[]}
+Tweet{text='sonra döndüm ve dedim ki ; #Hüloooğğğğ', mentions=[], hashtags=[7], ivs=[4, 2, 5, 1, 3], oovs=[], deasciified=[]}
+Tweet{text='Hiç aklına gelmiyor ama #1Düşünsene seni gerçekten unuttuğumu', mentions=[], hashtags=[5], ivs=[1, 2, 4, 3, 7, 6, 8], oovs=[], deasciified=[]}
+Tweet{text='#BirazGülmekiçin #islergucler', mentions=[], hashtags=[1, 2], ivs=[], oovs=[], deasciified=[]}
+Tweet{text='Yahu madem İngilizce 2 laf edeceksin , doğrusunu öğren White Sea nedir .. Ayıp vallahi ayıp ..', mentions=[], hashtags=[], ivs=[14, 1, 16, 8, 6, 5, 2, 12, 15, 9, 3], oovs=[11, 10], deasciified=[]}
+Tweet{text='Guldurebilecek bseyler olmasi lazim #BirazGülmekiçin', mentions=[], hashtags=[5], ivs=[], oovs=[1, 2, 4, 3], deasciified=[]}
+Tweet{text='Twitter'da yeniyim . Karşılıklı takip isteyenler anında geri takip yapılır ! #TÜMHAYRANGRUPLARITAKİPLEŞSİN #GençlerTakipleşiyor Vol9 !', mentions=[], hashtags=[13, 12], ivs=[4, 7, 8, 6, 9, 10, 2], oovs=[1, 14], deasciified=[]}
+Tweet{text='#HayatımFilmOlsaİsmi film olmuş hayatım olsun isterdim', mentions=[], hashtags=[1], ivs=[2, 4, 6, 3, 5], oovs=[], deasciified=[]}
+Tweet{text='#BuSıralarRuhHalim #okadarsıcakki #BizAKPartiliyiz #BilmemBiliyormusun .', mentions=[], hashtags=[4, 3, 1, 2], ivs=[], oovs=[], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN geri takip için #fav yapman yeterli anında geri takip yaparun x5', mentions=[], hashtags=[1, 5], ivs=[8, 9, 4, 10, 6, 7], oovs=[12, 11], deasciified=[]}
+Tweet{text='#BirazGülmekiçin :) http://t.co/RqphISEIFb”', mentions=[], hashtags=[1], ivs=[], oovs=[], deasciified=[]}
+Tweet{text='#BirazGülmekiçin Kendimizi zorlayalım belki bişiler buluruz', mentions=[], hashtags=[1], ivs=[2, 4, 6, 3], oovs=[5], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN sadece hayran guruplarını takip ediyorum beni takip edin geri takip yapıcam unf asla yapmam xxxooo', mentions=[], hashtags=[1], ivs=[14, 7, 9, 6, 10, 4, 3, 2, 11, 15], oovs=[13, 16, 12], deasciified=[]}
+Tweet{text='#KıskançlıktanÇatlayanlaraNOT arkadaslar şu olaylar bitsede kimse çatlamadan patlamadan huzur içinde yaşasak ne dersiniz ???', mentions=[], hashtags=[1], ivs=[13, 9, 10, 6, 12, 4, 8, 11, 7, 3], oovs=[2, 5], deasciified=[]}
+Tweet{text='#BilmemBiliyormusun Bilmem derken biliyorsun demem garip ama :)', mentions=[], hashtags=[1], ivs=[2, 7, 4, 5, 3, 6], oovs=[], deasciified=[]}
+Tweet{text='#BilmemBiliyormusun benim her kim olduğumu sanıyorsan , ben o değilim .', mentions=[], hashtags=[1], ivs=[8, 2, 10, 3, 4, 9, 5, 6], oovs=[], deasciified=[]}
+Tweet{text='#BirazGülmekiçin 21 Aralıkta Şirinceye gidenleri hatırlamanız yeterli : D : dAD : F : dD', mentions=[], hashtags=[1], ivs=[3, 9, 5, 6, 7, 4], oovs=[13, 11, 15], deasciified=[]}
+Tweet{text='BizGALATASARAYaHastayız AllahŞifaVermesin ŞehitTürkmenlere GıyabiCenazeNamazı BizCİMBOMlular KenetledikAileceTakipteyiz takip edeni takippp', mentions=[], hashtags=[], ivs=[8, 7], oovs=[2, 5, 1, 4, 6, 9, 3], deasciified=[]}
+Tweet{text='#HayatımFilmOlsaİsmi YOBAZIN ÇAPULCUYLA İMTİHANI OLURDU .', mentions=[], hashtags=[1], ivs=[5, 2, 3, 4], oovs=[], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN geri takip etcem söz unf yapma ama aylayım : D', mentions=[], hashtags=[1], ivs=[11, 8, 9, 2, 5, 3, 7], oovs=[4, 6], deasciified=[]}
+Tweet{text='ŞehitTürkmenlere GıyabiCenazeNamazı orda olmak isterdim . Allah sizden razı olsun . Türk Irkı sağ olsun .', mentions=[], hashtags=[], ivs=[7, 13, 12, 5, 4, 15, 9, 14, 8], oovs=[2, 3, 1], deasciified=[]}
+Tweet{text='#BirazGülmekiçin konuşmaya ihtiyacım var', mentions=[], hashtags=[1], ivs=[3, 2, 4], oovs=[], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN Geri takip hızım ışık hızıyla yarışır arkadaşlar . d ( unf . yaparsan spam yersin ) x120', mentions=[], hashtags=[1], ivs=[2, 8, 4, 6, 3, 14, 7, 16, 5], oovs=[10, 15, 12, 18], deasciified=[]}
+Tweet{text='300 OLMAK İSTİYORUM GERİ TAKİP İÇİN #FAV VEYA #RT #TÜMHAYRANGRUPLARITAKİPLEŞSİN X2', mentions=[], hashtags=[7, 9, 10], ivs=[4, 2, 5, 8, 3, 6], oovs=[11], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN gelin qnqlar', mentions=[], hashtags=[1], ivs=[2], oovs=[3], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN takip edeni anında geri takip ederim x20', mentions=[], hashtags=[1], ivs=[4, 3, 7, 5, 6], oovs=[8], deasciified=[]}
+Tweet{text='#1Düşünsene Kimler Çapulcu olabilir ? #Hüloooğğğğ http://t.co/CNJaZoq5QV #HayatımFilmOlsaİsmi #ÇapukÇapukTakipleşiyoruz', mentions=[], hashtags=[1, 8, 6, 9], ivs=[2, 4, 3], oovs=[], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN GERİ TAKİP İSTEYENLER RT'LESİNLER', mentions=[], hashtags=[1], ivs=[2, 3, 4], oovs=[5], deasciified=[]}
+Tweet{text='#SözbiDaha diyip tutan var mı ???', mentions=[], hashtags=[1], ivs=[5, 3, 4], oovs=[2], deasciified=[]}
+Tweet{text='Sen üşüdün biz yandık koca reis ! MuhsinYazıcıoğlunun KatilleriBulunsun', mentions=[], hashtags=[], ivs=[1, 3, 5, 6, 4, 2], oovs=[9, 8], deasciified=[]}
+Tweet{text='Aceleniz ne tabakhaneye bişey mi yetiştiriyorsunuz ? #ÇapukÇapukTakipleşiyoruz', mentions=[], hashtags=[8], ivs=[1, 5, 2, 3, 6], oovs=[4], deasciified=[]}
+Tweet{text='Seninle tanışmak bir tesadüf . Ve ben tesadüfleri severim #BilmemBiliyormusun ?', mentions=[], hashtags=[10], ivs=[1, 6, 7, 3, 9, 2, 4, 8], oovs=[], deasciified=[]}
+Tweet{text='kemal kilictaroglunu izlerim : ) #BirazGülmekiçin', mentions=[], hashtags=[6], ivs=[3, 1], oovs=[2], deasciified=[]}
+Tweet{text='#1Düşünsene düşündükçe boka sarıyor hayatım o yüzden umursamazlığım ..', mentions=[], hashtags=[1], ivs=[3, 2, 5, 6, 4, 8, 7], oovs=[], deasciified=[]}
+Tweet{text='#1Düşünsene Ben şimdiye kadar yürek acısına kulaktan şifa verildiğini duymadım ...', mentions=[], hashtags=[1], ivs=[2, 6, 10, 4, 7, 9, 5, 8, 3], oovs=[], deasciified=[]}
+Tweet{text='MuhsinYazıcıoğlunun KatilleriBulunsun Şu Günlerde Gözüm Şehitimden Başkasını Görmüyor . Vallahi Şahitsin Ya'Rabbim . Sen Yardım Et Bizlere .', mentions=[], hashtags=[], ivs=[7, 17, 16, 8, 5, 4, 14, 10, 12, 15, 11, 3], oovs=[2, 1, 6], deasciified=[]}
+Tweet{text='#BirazGülmekiçin kalbinizle konuşmayın beyninizle konuşun eğlenirsiniz mutlu olursunuz .', mentions=[], hashtags=[1], ivs=[4, 6, 2, 3, 5, 7, 8], oovs=[], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN sonunda bu tag oldu', mentions=[], hashtags=[1], ivs=[3, 5, 2], oovs=[4], deasciified=[]}
+Tweet{text='#BELİCTİONERLAR1DiçinOyVeriyor http://t.co/dIsL1QHGUi ARKADAŞLAR OYLAMA VAR BELİCTİONERLAR LİNKE TIK #TÜMHAYRANGRUPLARITAKİPLEŞSİN', mentions=[], hashtags=[1, 9], ivs=[3, 7, 4, 8, 5], oovs=[6], deasciified=[]}
+Tweet{text='çok üzgünüm be #Hüloooğğğğ', mentions=[], hashtags=[4], ivs=[3, 1, 2], oovs=[], deasciified=[]}
+Tweet{text='#BirazGülmekiçin kılıchdaroğlu başbakan olacakmış ... http://t.co/Ykjk3aQwiN', mentions=[], hashtags=[1], ivs=[3, 4], oovs=[2], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN ANINSA GERİ TAKİP YAPARIM #fav yapman yterli UNFOLLOW YAPCAKSAN HİÇ TAKİP ETME : D 2500 az kaldıı', mentions=[], hashtags=[1, 6], ivs=[2, 15, 13, 3, 11, 12, 5, 17, 7], oovs=[9, 10, 18, 8], deasciified=[]}
+Tweet{text='Neden mi GALATASARAY ? Çünkü KirlenenTürkFutbolununTertemizYüzüdürGALATASARAY', mentions=[], hashtags=[], ivs=[3, 1, 2, 5], oovs=[6], deasciified=[]}
+Tweet{text='mediterranean diye kim uydurmuş türkiye de göte göt denir white sea sıkıntı yok helal başbagan ulan ne ironik bir memlekette yaşıyoruz', mentions=[], hashtags=[], ivs=[19, 6, 9, 2, 8, 7, 14, 3, 20, 17, 12, 16, 4, 21, 13], oovs=[15, 18, 1, 11, 5, 10], deasciified=[]}
+Tweet{text='@gericiiyobazz : #AnlamıştımZaten #BirazGülmekiçin #direnmüezzin :) http://t.co/1ku578R8Yp\', mentions=[1], hashtags=[3, 4, 5], ivs=[], oovs=[], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN TAKİP ET GERİ TAKİP VAR AMA SADECE HAYRAN GRUPLARI İÇİN TAKİP'İ BIRAKMA X41', mentions=[], hashtags=[1], ivs=[7, 13, 3, 4, 10, 9, 8, 5, 6, 11], oovs=[12, 14], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN geri takip için #RT sormana gerek yok xd25', mentions=[], hashtags=[5, 1], ivs=[7, 2, 4, 6, 3, 8], oovs=[9], deasciified=[]}
+Tweet{text='White Sea nedir la bu mala kim oy veriyorsa solesin kizmayacam :)', mentions=[], hashtags=[], ivs=[5, 7, 4, 6, 3, 8, 9], oovs=[2, 1, 11, 10], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN YEDEK HESABIMI VE @malikgiller HESABINI TAKİP EDİN . ANINDA GERİ TAKİP YAPIYORUM x7', mentions=[5], hashtags=[1], ivs=[10, 8, 11, 3, 6, 12, 4, 13, 2], oovs=[14], deasciified=[]}
+Tweet{text='#fenerbahçe TARAFTARI http://t.co/WQSt0DmYns SİTESİNDEŞimdi DahaYüksekSesle SonSözümüz FENERBAHÇE#FB#LafıBurdan1Koyuyorum#okadarsıcakki', mentions=[], hashtags=[1], ivs=[2], oovs=[5, 7, 6, 4], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN #GençlerTakipleşiyor #takipedenitakipederim #Güleoynayatakipleşelim #GümbürGümbürTakipleşelim 36', mentions=[], hashtags=[2, 4, 5, 1, 3], ivs=[], oovs=[], deasciified=[]}
+Tweet{text='ZincirlerKırılsın AYASOFYAMaçılsın ZincirlerKırılsın AYASOFYAMaçılsın', mentions=[], hashtags=[], ivs=[], oovs=[4, 3], deasciified=[]}
+Tweet{text='#BirazGülmekiçin bile sebep arayanlar var . Ben komik olmayan espirilere komik olmadığı için bile gülüyorum', mentions=[], hashtags=[1], ivs=[7, 4, 14, 15, 13, 11, 12, 9, 3, 5], oovs=[10], deasciified=[]}
+Tweet{text='Bunlarin sorumlusu belli burdaki aci beddular hala gunahlarina yaziliyor lozanda satan kemal ve inonu ŞehitTürkmenlere GıyabiCenazeNamazı', mentions=[], hashtags=[], ivs=[3, 7, 12, 11, 2, 13], oovs=[1, 16, 5, 6, 4, 8, 14, 10, 9, 15], deasciified=[]}
+Tweet{text='#fenerbahçe TARAFTARI http://t.co/MvGyO4YVTE SİTESİNDEŞimdi DahaYüksekSesle SonSözümüz FENERBAHÇE#FB#LafıBurdan1Koyuyorum#okadarsıcakki', mentions=[], hashtags=[1], ivs=[2], oovs=[5, 7, 6, 4], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN unf yapcaksan hic takip etme .', mentions=[], hashtags=[1], ivs=[6, 5], oovs=[4, 2, 3], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN 2200 olmak istiyorum . Geri takip yaparım . Mixerlar takip etmesin . Geri takip için sor yada fav yap x27', mentions=[], hashtags=[1], ivs=[14, 12, 4, 16, 3, 17, 15, 18, 20, 8], oovs=[10, 19, 21], deasciified=[]}
+Tweet{text='#ÇapukÇapukTakipleşiyoruz #CiciCiciTakipleşelim ANINDA GERİ TAKİP YAPIYORUM . SORMANA GEREK YOK . 20 x', mentions=[], hashtags=[2, 1], ivs=[3, 9, 4, 8, 5, 6, 10], oovs=[13], deasciified=[]}
+Tweet{text='Aninda geri takip yardim edin #TÜMHAYRANGRUPLARITAKİPLEŞSİN', mentions=[], hashtags=[6], ivs=[5, 2, 3, 4], oovs=[1], deasciified=[]}
+Tweet{text='Başbakanın Akdeniz'e White sea dediğini #unutmakistiyorum .', mentions=[], hashtags=[6], ivs=[2, 1, 5], oovs=[3, 4], deasciified=[]}
+Tweet{text='#ÇapukÇapukTakipleşiyoruz BizGALATASARAYlıyızDiyenler Takipleşiyoruz Sen takip et anında geri dönüş , dönmezsem unfollow et85', mentions=[], hashtags=[1], ivs=[4, 3, 7, 11, 9, 6, 13, 8, 5], oovs=[2, 12], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN Anında geri takip yapıyorum . Yapmazsam sorun ! ( YALNIZCA HAYRAN GRUPLARINA !) vbv', mentions=[], hashtags=[1], ivs=[2, 13, 12, 11, 7, 3, 8, 4, 5], oovs=[15], deasciified=[]}
+Tweet{text='#BilmemBiliyormusun bizm eve hiç makrna , kömür gelmdi ama yine de #BizAKPartiliyiz Bu millet bunlara kanacak kadr kör değl ! Kendinzi kandrmayn', mentions=[], hashtags=[1, 12], ivs=[13, 9, 15, 11, 3, 4, 16, 7, 18, 14, 10], oovs=[21, 2, 19, 8, 17, 22, 5], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN Takip et , sormana gerek yok hemen takip ederim . x23', mentions=[], hashtags=[1], ivs=[2, 10, 3, 6, 8, 5, 9, 7], oovs=[12], deasciified=[]}
+Tweet{text='#BirazGülmekiçin http://t.co/88VrXPNp2k', mentions=[], hashtags=[1], ivs=[], oovs=[], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN sadece hayran gruplarına geri takip ediyorum geri takip için sorabilirsin x25', mentions=[], hashtags=[1], ivs=[7, 8, 4, 3, 10, 2, 11, 9], oovs=[12], deasciified=[]}
+Tweet{text='sadece #BirazGülmekiçin ( ergen öğrencimin doğum günümü kutlayışı ) http://t.co/N9lRVTlMGQ', mentions=[], hashtags=[2], ivs=[6, 4, 7, 8, 1, 5], oovs=[], deasciified=[]}
+Tweet{text='#BuSıralarRuhHalim BİM marketlerinden alınmış keçi peyniri gibi . #BilmemBiliyormusun #Güleoynayatakipleşelim #okadarsıcakki #BirazGülmekiçin', mentions=[], hashtags=[9, 12, 1, 10, 11], ivs=[4, 7, 5, 3, 6], oovs=[2], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİNgeri takip için #fav', mentions=[], hashtags=[1, 4], ivs=[3, 2], oovs=[], deasciified=[]}
+Tweet{text='#HayatımFilmOlsaİsmi olma lan o kadar değersizim', mentions=[], hashtags=[1], ivs=[6, 5, 3, 4, 2], oovs=[], deasciified=[]}
+Tweet{text='#1Düşünsene lan sayılar ne zaman düşünür oldu lan 1 hayırdır amk', mentions=[], hashtags=[1], ivs=[6, 10, 8, 4, 7, 3, 5], oovs=[11], deasciified=[]}
+Tweet{text='Faiz yükselince kim kazanıyor #1Düşünsene', mentions=[], hashtags=[5], ivs=[1, 4, 3, 2], oovs=[], deasciified=[]}
+Tweet{text='#tuemhayranlartakiplesiyor #CiciCiciTakipleselim #ÇapukÇapukTakipleşiyoruz', mentions=[], hashtags=[2, 1, 3], ivs=[], oovs=[], deasciified=[]}
+Tweet{text='GERİ TAKİP VAR . #ÇapukÇapukTakipleşiyoruz', mentions=[], hashtags=[5], ivs=[1, 2, 3], oovs=[], deasciified=[]}
+Tweet{text='#SözbiDaha seni affetmiycem :)', mentions=[], hashtags=[1], ivs=[2], oovs=[3], deasciified=[]}
+Tweet{text='#HayatımFilmOlsaİsmi yalnızlık olur o derece yalnızım', mentions=[], hashtags=[1], ivs=[5, 4, 3, 2, 6], oovs=[], deasciified=[]}
+Tweet{text='#KıskançlıktanÇatlayanlaraNOT #BirazGülmekiçin #BuSıralarRuhHalimBir bakıyorsun hayatta yapamam dediğin şeyin başrolündesin #AnlamıştımZaten', mentions=[], hashtags=[10, 2, 3, 1], ivs=[4, 7, 5, 6, 8], oovs=[9], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN HESABIM ÇALINDI TAKİP EDİN GERİ TAKİP İÇİN RT YAPMANIZ YETERLİ YADA SORMANIZ YETERLİ X', mentions=[], hashtags=[1], ivs=[5, 6, 2, 13, 7, 12, 10, 14, 3, 8], oovs=[9, 15], deasciified=[]}
+Tweet{text='#SözbiDaha değil Söz Bir Daha', mentions=[], hashtags=[1], ivs=[4, 5, 3, 2], oovs=[], deasciified=[]}
+Tweet{text='Twitter'da yeniyim . Karşılıklı takip isteyenler anında geri takip yapılır ! #TÜMHAYRANGRUPLARITAKİPLEŞSİN #GençlerTakipleşiyor Vol12 !', mentions=[], hashtags=[13, 12], ivs=[4, 7, 8, 6, 9, 10, 2], oovs=[1, 14], deasciified=[]}
+Tweet{text='#ÇapukÇapukTakipleşiyoruz #ÇapukÇapukTakipleşiyoruz Anında geri takip Sormanıza gerek YOK', mentions=[], hashtags=[2], ivs=[3, 6, 8, 7, 4, 5], oovs=[], deasciified=[]}
+Tweet{text='#fenerbahçe TARAFTARI http://t.co/fVH3mDGeUI SİTESİNDEŞimdi DahaYüksekSesle SonSözümüz FENERBAHÇE#FB#LafıBurdan1Koyuyorum#okadarsıcakki', mentions=[], hashtags=[1], ivs=[2], oovs=[5, 7, 6, 4], deasciified=[]}
+Tweet{text='@DogusOfficial #BizAKPartiliyiz #BilmemBiliyormusun http://t.co/rsKlLLEui1', mentions=[1], hashtags=[3, 2], ivs=[], oovs=[], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN anında egeri takip yapılır', mentions=[], hashtags=[1], ivs=[2, 4, 5], oovs=[3], deasciified=[]}
+Tweet{text='#BirazGülmekiçin Umutlarınız mutluluk , mutluluklarınız sonsuz olsun #KıskançlıktanÇatlayanlaraNOT ... #TÜMHAYRANGRUPLARITAKİPLEŞSİN', mentions=[], hashtags=[1, 8, 10], ivs=[2, 3, 5, 7, 6], oovs=[], deasciified=[]}
+Tweet{text='#SözbiDaha dediğinden dışarı çıkmayacağım . Yeter ki inan bana . Hep güven ...', mentions=[], hashtags=[1], ivs=[11, 6, 9, 2, 3, 12, 8, 7, 4], oovs=[], deasciified=[]}
+Tweet{text='#BirazGülmekiçin google ye komik fotolar yazin :', mentions=[], hashtags=[1], ivs=[5, 4, 3], oovs=[2, 6], deasciified=[]}
+Tweet{text='#1Düşünsene piyangodan para çıkmış on numara bi hatunla tanışıp mutlu olmuşsun tam hayatın düzene girmiş ken ... Uyan la uyan tamam', mentions=[], hashtags=[1], ivs=[18, 14, 15, 8, 13, 19, 10, 6, 11, 5, 3, 2, 12, 21, 9, 20, 4], oovs=[7, 16], deasciified=[]}
+Tweet{text='#BirazGülmekiçin gezi parkını anlamak yeter .', mentions=[], hashtags=[1], ivs=[4, 2, 3, 5], oovs=[], deasciified=[]}
+Tweet{text='En Taş Kalpli İnsanı Bile Yumuşatacak Kadar Özeldi Sözleri ; Ve Sokağa Çıkması Yasaklanacak Kadar Güzeldi Gözleri . #BilmemBiliyormusun', mentions=[], hashtags=[19], ivs=[5, 1, 17, 16, 15, 3, 12, 9, 2, 11, 14, 6, 13, 8, 4], oovs=[], deasciified=[]}
+Tweet{text='#BirazGülmekiçin i . melih i seçin . Evet ...', mentions=[], hashtags=[1], ivs=[8, 5, 6], oovs=[4], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN anında geri takip yapıyorum xxX52', mentions=[], hashtags=[1], ivs=[2, 3, 4, 5], oovs=[6], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN #TakipEdeniTakipEderim #GençlerTakipleşiyor #CiciCiciTakipleşelim #GümbürGümbürTakipleşelim UNF yok', mentions=[], hashtags=[4, 3, 5, 2, 1], ivs=[7], oovs=[6], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN GERİ TAKİP İÇİN #FAV x', mentions=[], hashtags=[5, 1], ivs=[2, 3, 4], oovs=[6], deasciified=[]}
+Tweet{text='#BirazGülmekiçin 90'lar izleyelim bence , tebessüm ettirir bol bol :)', mentions=[], hashtags=[1], ivs=[4, 9, 7, 3, 6], oovs=[2], deasciified=[]}
+Tweet{text='ULAN KAÇ YILDIR Ş . LİGİNE GİDEMİYORUZ HALA NE DİYOLAR : d Şimdi DahaYüksekSesle SonSözümüz FENERBAHÇE', mentions=[], hashtags=[], ivs=[7, 8, 2, 6, 9, 1, 3, 13], oovs=[14, 10, 16, 15, 12, 4], deasciified=[]}
+Tweet{text='#BirazGülmekiçin : D http://t.co/bdYKFZuam3', mentions=[], hashtags=[1], ivs=[3], oovs=[], deasciified=[]}
+Tweet{text='TaksimiEzen KandileEzilenAkp'lilerle beach clubta buluşalım . Yihuuuw Havuç partisi .', mentions=[], hashtags=[], ivs=[8, 5, 9], oovs=[2, 1, 7, 3, 4], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN sarmana gerek yok anında takip ediyorum 11', mentions=[], hashtags=[1], ivs=[5, 7, 3, 2, 6, 4], oovs=[], deasciified=[]}
+Tweet{text='white sea olimpiyatlarina ragmen #direnmersin #direningilizce', mentions=[], hashtags=[6, 5], ivs=[], oovs=[3, 4, 2, 1], deasciified=[]}
+Tweet{text='#1Düşünsene adam işemeli sıçmalı white sea li siyaset yapıyor . İns cnm yaa hyrlısı .', mentions=[], hashtags=[1], ivs=[2, 3, 8, 4, 9], oovs=[12, 14, 7, 6, 5, 13, 11], deasciified=[]}
+Tweet{text='Gunlerden pazartesi olunca ; #Hüloooğğğğ', mentions=[], hashtags=[5], ivs=[3, 2], oovs=[1], deasciified=[]}
+Tweet{text='#Hüloooğğğğ dıyenler', mentions=[], hashtags=[1], ivs=[], oovs=[2], deasciified=[]}
+Tweet{text=''White sea' nedir arkadaş ? Bilmiyosun madem 'Akdeniz' de gitsin , zorlamaya ne gerek var #direnİngilizce', mentions=[], hashtags=[16], ivs=[8, 4, 9, 14, 10, 7, 13, 3, 15, 12], oovs=[1, 6, 2], deasciified=[]}
+Tweet{text='#ÇapukÇapukTakipleşiyoruz nerde çokluk orda bokluk', mentions=[], hashtags=[1], ivs=[5, 3], oovs=[2, 4], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN TAKİP ET GERİ TAKİP VAR AMA SADECE HAYRAN GRUPLARI İÇİN TAKİP'İ BIRAKMA X97', mentions=[], hashtags=[1], ivs=[7, 13, 3, 4, 10, 9, 8, 5, 6, 11], oovs=[12, 14], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN GERİ TAKİP İÇİN #RT YA DA #FAV YETERLİ x4', mentions=[], hashtags=[8, 5, 1], ivs=[7, 2, 3, 6, 9, 4], oovs=[10], deasciified=[]}
+Tweet{text='#1Düşünsene tek görevi asayişi sağlamak olan Türk Polisine saldırmanın amacı neydi ?', mentions=[], hashtags=[1], ivs=[8, 7, 10, 4, 3, 11, 6, 9, 5, 2], oovs=[], deasciified=[]}
+Tweet{text='@UlkucuRTBiz şehit edilirken keyfini süren kimdi ? MuhsinYazıcıoğlunun KatilleriBulunsun ZincirlerKırılsın AYASOFYAMaçılsın', mentions=[1], hashtags=[], ivs=[3, 4, 6, 5, 2], oovs=[11, 9, 8, 10], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN GERİ TAKİP İÇİN #FAV X27', mentions=[], hashtags=[5, 1], ivs=[2, 3, 4], oovs=[6], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN inş cnm yha . s . s', mentions=[], hashtags=[1], ivs=[], oovs=[3, 2, 8, 4], deasciified=[]}
+Tweet{text='SHOUTOUT İSTEYEN VARSA TAKİP ETSİN VE RT YAPISIN #TÜMHAYRANGRUPLARITAKİPLEŞSİN', mentions=[], hashtags=[9], ivs=[5, 4, 3, 6, 8, 2], oovs=[7, 1], deasciified=[]}
+Tweet{text='Şimdi DahaYüksekSesle SonSözümüz FENERBAHÇEBaşkanımız için ; #PazarGünüBağdatCaddesindeyiz', mentions=[], hashtags=[7], ivs=[5, 1], oovs=[2, 4, 3], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN Anında Geri Takip Yapıyorum : D Yalnızca HAYRAN GRUPLARINA ! 69', mentions=[], hashtags=[1], ivs=[2, 7, 10, 3, 9, 4, 8, 5], oovs=[], deasciified=[]}
+Tweet{text='white sea herseyi bilen demisse oyledir , bilmemekle cahil kalan cumle alem utansin', mentions=[], hashtags=[], ivs=[12, 4, 8, 9, 10], oovs=[11, 5, 3, 6, 2, 13, 1], deasciified=[]}
+Tweet{text='#BilmemBiliyormusun Kilavzu krga olanin brnu bktan cikmzmis . Ne güzel söylenmis adeta kendini sivil savunma birlgi sann CARSI icn söylenmis', mentions=[], hashtags=[1], ivs=[18, 9, 12, 10, 13, 15, 14], oovs=[2, 16, 6, 5, 7, 19, 3, 4, 17, 20], deasciified=[]}
+Tweet{text='@AlperTerzioglu @mali3461 çok korkmuştur #Hüloooğğğğ', mentions=[1, 2], hashtags=[5], ivs=[4, 3], oovs=[], deasciified=[]}
+Tweet{text='#1Düşünsene #HayatımFilmOlsaİsmi İspanya : 10 Tahiti : 0 DirenTahiti :)) olurdu : D', mentions=[], hashtags=[1, 2], ivs=[13, 11, 3], oovs=[9, 6], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN GERİ TAKİP İÇİN #FAV YETERLİx22', mentions=[], hashtags=[5, 1], ivs=[2, 3, 4], oovs=[6], deasciified=[]}
+Tweet{text='#direnmersin #Hüloooğğğğ yatan adam mersin diren ! http://t.co/d4QsqKO2H0', mentions=[], hashtags=[2, 1], ivs=[4, 6, 5, 3], oovs=[], deasciified=[]}
+Tweet{text='Hasssssiktirrr sdfghj #BirazGülmekiçin http://t.co/tygHVSbG2m', mentions=[], hashtags=[3], ivs=[], oovs=[1, 2], deasciified=[]}
+Tweet{text='cCc ŞehitTürkmenlere GıyabiCenazeNamazı cCcArada yazalım lütfen tabelamıza #ATA', mentions=[], hashtags=[8], ivs=[6, 7, 5], oovs=[3, 1, 4, 2], deasciified=[]}
+Tweet{text='#Güleoynayatakipleşelim #TÜMHAYRANGRUPLARITAKİPLEŞSİN #GençlerTakipleşiyor takip edeni takip ederim :)))', mentions=[], hashtags=[3, 1, 2], ivs=[5, 7, 6], oovs=[], deasciified=[]}
+Tweet{text='#ÇapukÇapukTakipleşiyoruz !! :)', mentions=[], hashtags=[1], ivs=[], oovs=[], deasciified=[]}
+Tweet{text='#SözbiDaha kalbimin sesini dinlemeyeceğim .', mentions=[], hashtags=[1], ivs=[4, 2, 3], oovs=[], deasciified=[]}
+Tweet{text='Mujdeler olsun nurtopu gibi bir white sea miz oldu', mentions=[], hashtags=[], ivs=[5, 4, 9, 2], oovs=[1, 8, 3, 7, 6], deasciified=[]}
+Tweet{text='Şimdi DahaYüksekSesle SonSözümüz FENERBAHÇERenkler değişir ! Dilleri değişir ! Yolları değişir ! #FBdüşmanları DEĞİŞMEZ !', mentions=[], hashtags=[13], ivs=[14, 7, 10, 11, 1], oovs=[2, 4, 3], deasciified=[]}
+Tweet{text='Ben geldimmmm #BilmemBiliyormusun :))', mentions=[], hashtags=[3], ivs=[1], oovs=[2], deasciified=[]}
+Tweet{text='#Hüloooğğğğ bu sana : http://t.co/sKhlP5IHEc', mentions=[], hashtags=[1], ivs=[2, 3], oovs=[], deasciified=[]}
+Tweet{text='#HayatımFilmOlsaİsmi #1Düşünsene #SenHiçMi sevmedin beni', mentions=[], hashtags=[2, 1, 3], ivs=[5, 4], oovs=[], deasciified=[]}
+Tweet{text='#GençlerTakipleşiyor #GümbürGümbürTakipleşelim #Güleoynayatakipleşelim #TÜMHAYRANGRUPLARITAKİPLEŞSİN ANINDA GERİ TAKİP VAR . 3', mentions=[], hashtags=[1, 3, 2, 4], ivs=[5, 6, 7, 8], oovs=[], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN GERİ TAKİP İSTEYEN FAVLASIN 14', mentions=[], hashtags=[1], ivs=[2, 3, 4], oovs=[5], deasciified=[]}
+Tweet{text='Avrupa lı ve Amerika lılar uzaya çıktılar biz daha murat gilin damından atlayamadık . #BirazGuelmekicin #TÜMHAYRANGRUPLARITAKİPLEŞSİN', mentions=[], hashtags=[15, 16], ivs=[4, 1, 13, 8, 9, 12, 10, 6, 3, 7], oovs=[11, 2, 5], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN GERİ TAKİP İÇİN #FAV YETERLİ', mentions=[], hashtags=[5, 1], ivs=[2, 3, 6, 4], oovs=[], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN Geri takip için FAV yap , unfollow yapmayacaksan gel . FAV yapmayanları veya sormayanları takip etmiyorum .', mentions=[], hashtags=[1], ivs=[2, 17, 10, 4, 15, 16, 14, 6, 9, 13], oovs=[12, 8], deasciified=[]}
+Tweet{text='TürkGençliği UyuşturucuyaHayırDiyor Adam tuvalet kağıdına sarmış amk . http://t.co/KBB8TlxsT3', mentions=[], hashtags=[], ivs=[3, 5, 6, 4], oovs=[1, 2, 7], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN anında geri takip var : D 5 dakika içinde yapmazsam sor : D x140', mentions=[], hashtags=[1], ivs=[14, 2, 9, 3, 10, 12, 4, 5, 11], oovs=[15], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN GERİ TAKİP İÇİN SORMAN YETERLİ X3', mentions=[], hashtags=[1], ivs=[2, 5, 3, 6, 4], oovs=[7], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN Geri takip için KAMOOOOON . !', mentions=[], hashtags=[1], ivs=[2, 4, 3], oovs=[5], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN Sor Ya Da Fav Yap . Geri Takip Yapayım', mentions=[], hashtags=[1], ivs=[4, 8, 2, 9, 3, 6, 10], oovs=[5], deasciified=[]}
+Tweet{text='ŞehitTürkmenlere GıyabiCenazeNamazı Lütfen Örgütlenelim ve herkeze duyuralım !!', mentions=[], hashtags=[], ivs=[3, 7, 5, 4], oovs=[2, 6, 1], deasciified=[]}
+Tweet{text='Bir #Hüloooğğğğ çeksem karşı dağlar yıkılır .', mentions=[], hashtags=[2], ivs=[1, 5, 4, 6, 3], oovs=[], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN geri dönüşleri kes .....', mentions=[], hashtags=[1], ivs=[3, 2, 4], oovs=[], deasciified=[]}
+Tweet{text='Tahitinin kalecisi olursun inşallah RTE #Hüloooğğğğ', mentions=[], hashtags=[6], ivs=[4, 2, 3], oovs=[5, 1], deasciified=[]}
+Tweet{text='#ÇapukÇapukTakipleşiyoruz GERİ TAKİİPPPPPPVARRRR', mentions=[], hashtags=[1], ivs=[2], oovs=[3], deasciified=[]}
+Tweet{text='Aşk olsun aşk olsun aşk olsun sana çocuk aşk olsunAcıyorsam sana anam avradım olsun Şimdi DahaYüksekSesle SonSözümüz FENERBAHÇE', mentions=[], hashtags=[], ivs=[1, 12, 13, 9, 14, 11, 8, 15], oovs=[16, 18, 17, 10], deasciified=[]}
+Tweet{text='Kimileri Gül dediler , ömür boyu güldüler ; Kimileri de Gül dediler , Gül uğruna öldülerMuhsinYazıcıoğlunun KatilleriBulunsun', mentions=[], hashtags=[], ivs=[14, 9, 6, 10, 12, 7, 15, 5], oovs=[17, 16], deasciified=[]}
+Tweet{text='TürkGençliği UyuşturucuyaHayırDiyor AYNEN .. televizyonuda bu kulvara sokmalıyız bence ..', mentions=[], hashtags=[], ivs=[3, 9, 6, 7, 8], oovs=[1, 2, 5], deasciified=[]}
+Tweet{text='#HayatımFilmOlsaİsmi Bir İhtimal Daha Var olurdu', mentions=[], hashtags=[1], ivs=[2, 4, 5, 6, 3], oovs=[], deasciified=[]}
+Tweet{text='#ÇapukÇapukTakipleşiyoruz #TurkishHuntersWantSPN 46', mentions=[], hashtags=[2, 1], ivs=[], oovs=[], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN GERİ TAKİP İÇİN #FAV YETERLİ 5', mentions=[], hashtags=[5, 1], ivs=[2, 3, 6, 4], oovs=[], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN geri takip icin söylemeniz yeterli x18', mentions=[], hashtags=[1], ivs=[2, 5, 3, 6], oovs=[4, 7], deasciified=[]}
+Tweet{text='White sea demiş , ingilizcenin 50 sini sözlüklerde zor tutuyorum . #DirenMersin #direningilizce', mentions=[], hashtags=[12, 13], ivs=[3, 7, 8, 10, 9], oovs=[1, 5, 2], deasciified=[]}
+Tweet{text='ne diyecegimi bilemedim #Hüloooğğğğ', mentions=[], hashtags=[4], ivs=[3, 1], oovs=[2], deasciified=[]}
+Tweet{text='#1Düşünsene Belki de kabahat AK Parti'de ! Çünkü , memlekete hizmet etmek istiyorsan bunu kimseye duyurmadan yapacaksın . Yoksa engellerler ...', mentions=[], hashtags=[1], ivs=[5, 2, 6, 19, 14, 3, 16, 20, 12, 11, 13, 4, 15, 10, 17, 8], oovs=[], deasciified=[]}
+Tweet{text='San Marino halkı Taithi'ye uygulanan orantısız güç için direnişe başladı ! #Hüloooğğğğ', mentions=[], hashtags=[12], ivs=[1, 10, 9, 7, 3, 8, 6, 5], oovs=[2, 4], deasciified=[]}
+Tweet{text='#Hüloooğğğğ ankara canlı yine müdahale var http://t.co/Yd0l6ha4uw', mentions=[], hashtags=[1], ivs=[3, 5, 6, 4], oovs=[2], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN GERİ TAKİP İÇİN FAV YAPIN YETER . X18', mentions=[], hashtags=[1], ivs=[2, 3, 6, 7, 4], oovs=[5, 9], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN GERİ TAKİP İÇİN FAV ASQM xx39', mentions=[], hashtags=[1], ivs=[2, 3, 4], oovs=[6, 5, 7], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN geri takip istemene gerek yok #FAV veya #RT yeterli takaydınız iyiyidi x', mentions=[], hashtags=[7, 9, 1], ivs=[5, 2, 4, 11, 3, 8, 10, 6], oovs=[12, 13], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN hadii anında takip', mentions=[], hashtags=[1], ivs=[3, 4], oovs=[2], deasciified=[]}
+Tweet{text='#BirazGülmekiçin levent Kırca nın londra konuşmasını dinle : )', mentions=[], hashtags=[1], ivs=[3, 7, 6, 2], oovs=[5, 4], deasciified=[]}
+Tweet{text='#BilmemBiliyormusun bende bilmiyorum _', mentions=[], hashtags=[1], ivs=[2, 3], oovs=[], deasciified=[]}
+Tweet{text='#1Düşünsene mutluluğun huzurun aşkın eğlencenin dibine vurduğumuz harika bi tatil ne nezih olurduğğğ', mentions=[], hashtags=[1], ivs=[4, 6, 5, 8, 3, 2, 11, 12, 10, 7], oovs=[9, 13], deasciified=[]}
+Tweet{text='MuhsinYazıcıoğlunun KatilleriBulunsun MuhsinYazıcıoğlunun KatilleriBulunsun MuhsinYazıcıoğlunun KatilleriBulunsun 7', mentions=[], hashtags=[], ivs=[], oovs=[6, 5], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN GERİ TAKİP İÇİN RT YAPMANIZ YETERLİDİR :) sadece hayran profillerini geri takip yapıyorum :)', mentions=[], hashtags=[1], ivs=[2, 3, 6, 7, 12, 10, 11, 9, 13, 14, 4], oovs=[5], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN #TümHayranlarÇılgıncaTakipleşiyor ANINDA GERİ TAKİP UNFOLLOWSUZ X50', mentions=[], hashtags=[1, 2], ivs=[3, 4, 5], oovs=[6, 7], deasciified=[]}
+Tweet{text='#BirazGülmekiçin neden bana şans vermiyorsun ey hayat ..', mentions=[], hashtags=[1], ivs=[3, 6, 7, 2, 5, 4], oovs=[], deasciified=[]}
+Tweet{text='#BirazGülmekiçin du bi gulmeden beceriyom : )', mentions=[], hashtags=[1], ivs=[], oovs=[5, 3, 2, 4], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN bu kızı takip edin hesabı askıya alındı @kidrauhllovato6 bende sizi 5 hesaptan takip ediyim takip için #RT 2', mentions=[9], hashtags=[18, 1], ivs=[8, 7, 10, 2, 5, 6, 13, 17, 3, 11, 16], oovs=[15], deasciified=[]}
+Tweet{text='geri takip yapıyorum yapmasam unf . layınnnnn . 1 dk içinde followlarım #TÜMHAYRANGRUPLARITAKİPLEŞSİN x27', mentions=[], hashtags=[13], ivs=[10, 1, 11, 2, 4, 3], oovs=[12, 7, 5, 14], deasciified=[]}
+Tweet{text='Aziz Yıldırım yarın basının karşısında çıkacak http://t.co/j5fD74alpK Şimdi DahaYüksekSesle SonSözümüz FENERBAHÇE', mentions=[], hashtags=[], ivs=[1, 2, 4, 5, 3, 6, 8], oovs=[9, 11, 10], deasciified=[]}
+Tweet{text='Şimdi DahaYüksekSesle SonSözümüz FENERBAHÇE', mentions=[], hashtags=[], ivs=[1], oovs=[2, 4, 3], deasciified=[]}
+Tweet{text='#HayatımFilmOlsaİsmi 44 Malatyalı olurdu )', mentions=[], hashtags=[1], ivs=[3, 4], oovs=[], deasciified=[]}
+Tweet{text='white sea Mediterranean sea de bakıyım tayyip meditarreneyamdkjshgdkj tamam siktir et sen white sea de amk :( #direningilizce', mentions=[], hashtags=[18], ivs=[6, 15, 11, 12, 10, 9], oovs=[3, 16, 8, 14, 7, 13], deasciified=[]}
+Tweet{text='MuhsinYazıcıoğlunun KatilleriBulunsun MuhsinYazıcıoğlunun KatilleriBulunsun MuhsinYazıcıoğlunun KatilleriBulunsun 45', mentions=[], hashtags=[], ivs=[], oovs=[6, 5], deasciified=[]}
+Tweet{text='@Busrasalli #BirazGülmekiçin müşteri hizmetlerini aradık :)', mentions=[1], hashtags=[2], ivs=[5, 4, 3], oovs=[], deasciified=[]}
+Tweet{text='ama takip etmeyi bırakmayıııınnn !!! #TÜMHAYRANGRUPLARITAKİPLEŞSİN anında geri takip vaar kaamooon', mentions=[], hashtags=[6], ivs=[1, 7, 3, 8, 9], oovs=[4, 11, 10], deasciified=[]}
+Tweet{text='RTE'nin #Hüloooğğğğ larının ouokl ouokl aktığı deniz .. #whitesea .... #direningilizce', mentions=[], hashtags=[2, 11, 9], ivs=[6, 7], oovs=[1, 3, 5], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN HAYRAN GRUPLARINA GERİ TAKİP VAR . GERİ TAKİP İÇİN #RT YA DA #FAV YAPMANIZ YETERLİ x13', mentions=[], hashtags=[14, 11, 1], ivs=[13, 8, 3, 2, 9, 6, 12, 15, 16, 10], oovs=[17], deasciified=[]}
+Tweet{text='Ayasofya bir turistik mekan değildir .. Bedelini şüheda kuyularında yatan şehitler ödemiştir .. ZincirlerKırılsın AYASOFYAMaçılsın', mentions=[], hashtags=[], ivs=[7, 2, 5, 9, 4, 3, 10, 12, 11, 8], oovs=[15, 1, 14], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN Bİ HAYRAN GRUBUNDAN OLMAYANLARI GERİ TAKİP ETMİYORUM ARKDŞLR GERİ TAKİP İÇİN FAV 10', mentions=[], hashtags=[1], ivs=[8, 10, 4, 3, 5, 11, 12], oovs=[9, 2, 13], deasciified=[]}
+Tweet{text='#BirazGülmekiçin birçok şeyden fedakarlık yapmak gerekiyor ne yazıkki', mentions=[], hashtags=[1], ivs=[2, 4, 6, 7, 5, 3], oovs=[8], deasciified=[]}
+Tweet{text='Anında geri takip ederim . #TÜMHAYRANGRUPLARITAKİPLEŞSİN 11', mentions=[], hashtags=[6], ivs=[1, 4, 2, 3], oovs=[], deasciified=[]}
+Tweet{text='#KıskançlıktanÇatlayanlaraNOT calisin sizinde olsun ;))', mentions=[], hashtags=[1], ivs=[2, 4, 3], oovs=[], deasciified=[]}
+Tweet{text='#BirazGülmekiçin accük gülelim', mentions=[], hashtags=[1], ivs=[3], oovs=[2], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN anında geri takip yapıyorum xxX68', mentions=[], hashtags=[1], ivs=[2, 3, 4, 5], oovs=[6], deasciified=[]}
+Tweet{text='#Hüloooğğğğ kelimesini elimdeki cihaz ile yanlışlıkla seslendirdim . Makine bile fatal error verdi . Hale bak', mentions=[], hashtags=[1], ivs=[15, 9, 16, 10, 4, 3, 5, 2, 7, 13, 6], oovs=[12, 11], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN Geri takip için RT FAV veya sor x17', mentions=[], hashtags=[1], ivs=[2, 4, 8, 3, 7], oovs=[6, 5, 9], deasciified=[]}
+Tweet{text='#HayatımFilmOlsaİsmi Lad boy olurdu', mentions=[], hashtags=[1], ivs=[3, 4], oovs=[2], deasciified=[]}
+Tweet{text='#HayatımFilmOlsaİsmi CADI KIZ olurdu : )', mentions=[], hashtags=[1], ivs=[2, 3, 4], oovs=[], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN geri takip için sor veya FAV la yeter xx20', mentions=[], hashtags=[1], ivs=[2, 4, 8, 5, 3, 6, 9], oovs=[7, 10], deasciified=[]}
+Tweet{text='#KıskançlıktanÇatlayanlaraNOT Aklı olan , yalanlara maruz kalmaktansa yalnız kalmayı tercih eder .', mentions=[], hashtags=[1], ivs=[2, 11, 7, 9, 6, 3, 10, 5, 8], oovs=[], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN Geri takip için sor .', mentions=[], hashtags=[1], ivs=[2, 4, 5, 3], oovs=[], deasciified=[]}
+Tweet{text='#KıskançlıktanÇatlayanlaraNOT BENDE SIZDENIM', mentions=[], hashtags=[1], ivs=[2], oovs=[3], deasciified=[]}
+Tweet{text='#BilmemBiliyormusun senden ne kadar nefret ettigimi ?', mentions=[], hashtags=[1], ivs=[4, 3, 5, 2], oovs=[6], deasciified=[]}
+Tweet{text='mediterranean sea şimdi white sea mi oldu yani . yaranmak için böyle yazan kaynakları değiştirir bunlar şimdi . yapmadıkları şey değil .', mentions=[], hashtags=[], ivs=[16, 12, 21, 15, 11, 14, 6, 7, 8, 19, 10, 13, 20, 17], oovs=[1, 5, 4], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN un . suz takip x5', mentions=[], hashtags=[1], ivs=[5, 2], oovs=[4, 6], deasciified=[]}
+Tweet{text='#SözbiDaha ki sefere alacağm unutmusum asdfghjk', mentions=[], hashtags=[1], ivs=[2, 3], oovs=[4, 6, 5], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN bi hayran gurubuda ben kuracağım ama ayranimız yok içmeye ...', mentions=[], hashtags=[1], ivs=[7, 5, 3, 10, 6, 9], oovs=[8, 2, 4], deasciified=[]}
+Tweet{text='Müslümanlık bu Değil , biz yolumuzdan saptık , Tapacak bir putumuz yoktu , özendikte yaptık ! Mehmet Âkif ERSOY #BirazGülmekiçin', mentions=[], hashtags=[20], ivs=[3, 17, 1, 9, 10, 5, 2, 11, 7, 15, 12, 6, 14], oovs=[19, 18], deasciified=[]}
+Tweet{text='Danışmanı cemaat olanın burnu White Sea'den çıkmazmış . #WhiteSea #DirenMediterraneanSea', mentions=[], hashtags=[10, 9], ivs=[1, 4, 2, 3, 7], oovs=[6, 5], deasciified=[]}
+Tweet{text='#Güleoynayatakipleşelim anında geri takip var #GençlerTakipleşiyor #TÜMHAYRANGRUPLARITAKİPLEŞSİN', mentions=[], hashtags=[6, 1, 7], ivs=[2, 3, 4, 5], oovs=[], deasciified=[]}
+Tweet{text='Diyolarki şu çapulcu duran adam varya hükümet devrilmeyince operasyon korkusuyla kıvıran adam olarak eylem yapıyomuş . #BilmemBiliyormusun', mentions=[], hashtags=[17], ivs=[12, 8, 4, 14, 10, 11, 13, 9, 3, 2], oovs=[1, 7, 6, 15], deasciified=[]}
+Tweet{text='#GençlerTakipleşiyor #Güleoynayatakipleşelim #takipedenitakipederim #TÜMHAYRANGRUPLARITAKİPLEŞSİNBunlar bir takim uydurmaca laflar !!!', mentions=[], hashtags=[1, 2, 4, 3], ivs=[5, 8, 6, 7], oovs=[], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN Anında geri takip yapıyorum .', mentions=[], hashtags=[1], ivs=[2, 3, 4, 5], oovs=[], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİNBugün 1900 olmak istiyorum Anında Geri Takip Vardır Lütfen Yardım Edin xx', mentions=[], hashtags=[1], ivs=[5, 11, 6, 9, 7, 8, 10, 4, 3], oovs=[12], deasciified=[]}
+Tweet{text='#BirazGülmekiçin :) http://t.co/rWuiRrRynN', mentions=[], hashtags=[1], ivs=[], oovs=[], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN GERİ TAKİP İÇİN FAV 10', mentions=[], hashtags=[1], ivs=[2, 3, 4], oovs=[5], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN GERİ TAKİP İÇİN #FAV YAP YA DA SOR :))', mentions=[], hashtags=[5, 1], ivs=[8, 2, 9, 3, 7, 6, 4], oovs=[], deasciified=[]}
+Tweet{text='#1Düşünsene Alexinn Fenerbahçeye döndüğünü :', mentions=[], hashtags=[1], ivs=[4], oovs=[2, 3], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN Takip Edin geri takip ederim : D mixerler hariç _', mentions=[], hashtags=[1], ivs=[8, 3, 2, 6, 4, 10, 5], oovs=[9], deasciified=[]}
+Tweet{text='Sıkıntı için Dua http://t.co/OSw7v4IRxX TürkGençliği UyuşturucuyaHayırDiyor #HaydiTakipleşiyoruz #GençlerTakipleşiyor #BizAKPartiliyiz', mentions=[], hashtags=[9, 8, 7], ivs=[3, 1, 2], oovs=[5, 6], deasciified=[]}
+Tweet{text='#ÇapukÇapukTakipleşiyoruz Turk gençliğinin gönlünü alıp , onları ikna etmek yerine bağırıp çağırmak ancak haksızlara yakışır .... hts', mentions=[], hashtags=[1], ivs=[5, 13, 11, 9, 3, 4, 14, 8, 7, 15, 10, 12], oovs=[2, 17], deasciified=[]}
+Tweet{text='@semihsayginer #Hüloooğğğğ var mısın düelloya ? http://t.co/KgEb1iuCrn', mentions=[1], hashtags=[2], ivs=[5, 4, 3], oovs=[], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN dediler geldik :)', mentions=[], hashtags=[1], ivs=[2, 3], oovs=[], deasciified=[]}
+Tweet{text='#GençlerTakipleşiyor #TümHayranlarÇılgıncaTakipleşiyor #Güleoynayatakipleşelim #TÜMHAYRANGRUPLARITAKİPLEŞSİN HAYRAN GRUPLARINA GERİ TAKİP', mentions=[], hashtags=[1, 3, 4, 2], ivs=[7, 6, 5, 8], oovs=[], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN GERİ TAKİP YAPARIM SON 30 KİŞİYE İHTİYACIM VAR 1K OLUCAM TEŞEKKÜRLER : x7', mentions=[], hashtags=[1], ivs=[2, 7, 5, 3, 12, 9, 4, 8], oovs=[10, 11, 14], deasciified=[]}
+Tweet{text='#KıskançlıktanÇatlayanlaraNOT Ben 90 veriyorum agdjjsgasg', mentions=[], hashtags=[1], ivs=[2, 4], oovs=[5], deasciified=[]}
+Tweet{text='Ak partinin çekip medya kuruluslarına dağıttığı 28 dakikalık filmi nereden izleyebilirim ? #BilmemBiliyormusun', mentions=[], hashtags=[13], ivs=[1, 8, 6, 9, 11, 4, 10, 2, 3], oovs=[5], deasciified=[]}
+Tweet{text='#BilmemBiliyormusun seni hala unutamadım', mentions=[], hashtags=[1], ivs=[3, 2, 4], oovs=[], deasciified=[]}
+Tweet{text='Şimdi DahaYüksekSesle SonSözümüz FENERBAHÇE Kümeye', mentions=[], hashtags=[], ivs=[5, 1], oovs=[2, 4, 3], deasciified=[]}
+Tweet{text='#BirazGülmekiçin GÜLÜMSE : D', mentions=[], hashtags=[1], ivs=[4, 2], oovs=[], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN takip için geri sor x30 :)', mentions=[], hashtags=[1], ivs=[4, 3, 5, 2], oovs=[6], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN 4K olmak istiyorum takip edin anında geri takip ederim please x22', mentions=[], hashtags=[1], ivs=[7, 10, 6, 8, 4, 3, 9], oovs=[2, 11, 12], deasciified=[]}
+Tweet{text='#KıskançlıktanÇatlayanlaraNOT Dondurma', mentions=[], hashtags=[1], ivs=[2], oovs=[], deasciified=[]}
+Tweet{text='#SözbiDaha bılmedıgım sarkıları soluyomus gıbı yapmıcam :)', mentions=[], hashtags=[1], ivs=[], oovs=[2, 5, 3, 4, 6], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN 1 DAKİKA İÇİNDE GERİ TAKİP YAPARIM SORMANA GEREK YOK UNF YAPANI BANLYORM X SADECE HAYRAN GRUPLARI ÜÇ', mentions=[], hashtags=[1], ivs=[3, 9, 5, 17, 16, 15, 8, 6, 12, 7, 10, 18, 4], oovs=[13, 11, 14], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN Selena antisi olmayın profilinz hayran profili olsun yeter anında geri takip yaparım yapmazsam sor x43', mentions=[], hashtags=[1], ivs=[10, 11, 6, 4, 8, 7, 15, 12, 13, 14, 9], oovs=[2, 3, 5, 16], deasciified=[]}
+Tweet{text='#KıskançlıktanÇatlayanlaraNOT canim ya hadee insallah : D', mentions=[], hashtags=[1], ivs=[7, 2, 3], oovs=[4, 5], deasciified=[]}
+Tweet{text='#1Düşünsene Capulcuya Allah buyruğunu ve Resul emrini kalbinin ve kasanın kapısına kazımadıkça serbest nefes bile alamazsın ! Diyen br genclk', mentions=[], hashtags=[1], ivs=[3, 18, 6, 16, 15, 4, 7, 8, 11, 10, 12, 14, 13, 9], oovs=[2, 19, 20], deasciified=[]}
+Tweet{text='Doğu Türkistan'da şehit edilen 27 Türk'ün haberini Al Jazeera 4 saat önce geçti . ŞehitTürkmenlere GıyabiCenazeNamazı Kılınacak', mentions=[], hashtags=[], ivs=[8, 1, 17, 6, 2, 4, 13, 7, 11, 12, 3], oovs=[16, 9, 15], deasciified=[]}
+Tweet{text='Ömrü hayatımda takım tutmadım , sonunda tutturacak bu haylazlar ; çarşı canımsınız ! Diğer takımlara da anladığı dilden bir #Hüloooğğğğ', mentions=[], hashtags=[20], ivs=[14, 17, 19, 8, 12, 16, 18, 2, 9, 6, 3, 15, 4, 7, 1, 11], oovs=[], deasciified=[]}
+Tweet{text='#BirazGülmekiçin cokmu caba harcamak gerek', mentions=[], hashtags=[1], ivs=[3, 5, 4], oovs=[2], deasciified=[]}
+Tweet{text='#HayatımFilmOlsaİsmi bir düzenbazın oyunları olurdu asdjhasjkas', mentions=[], hashtags=[1], ivs=[2, 3, 5, 4], oovs=[6], deasciified=[]}
+Tweet{text='#BirazGülmekiçin http://t.co/L5SRAhy96N', mentions=[], hashtags=[1], ivs=[], oovs=[], deasciified=[]}
+Tweet{text='#ÇapukÇapukTakipleşiyoruz ışık hızında geri takip', mentions=[], hashtags=[1], ivs=[4, 3, 5, 2], oovs=[], deasciified=[]}
+Tweet{text='#Hüloooğğğğ #Hüloooğğğğ #Hüloooğğğğ #Hüloooğğğğ off tutamadım ak partili olduğum anlaşıldı :(', mentions=[], hashtags=[4], ivs=[7, 10, 9, 8, 6], oovs=[5], deasciified=[]}
+Tweet{text='#BirazGülmekiçin gülmek isteyenler fav', mentions=[], hashtags=[1], ivs=[2, 3], oovs=[4], deasciified=[]}
+Tweet{text='#KıskançlıktanÇatlayanlaraNOT #TÜMHAYRANGRUPLARITAKİPLEŞSİN #BirazGülmekiçin takibe takip :) x16', mentions=[], hashtags=[3, 1, 2], ivs=[4, 5], oovs=[7], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN Anında geri takip yaparım Hangi hayran grubundan olduğun önemli değil x28', mentions=[], hashtags=[1], ivs=[2, 6, 11, 3, 8, 7, 9, 4, 5, 10], oovs=[12], deasciified=[]}
+Tweet{text='#BilmemBiliyormusun sensiz de yaşayabiliyorum ..', mentions=[], hashtags=[1], ivs=[3, 2, 4], oovs=[], deasciified=[]}
+Tweet{text='RTE : biz 3 5 gavurun koyduğu ismi benimsemek zorundamıyız .. akdenize white sea derken onlardan izin almak zorunda değilim :)', mentions=[], hashtags=[], ivs=[18, 9, 3, 15, 20, 6, 8, 17, 7, 16, 19], oovs=[1, 12, 14, 13, 10], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN GERİ TAKİP İÇİN #FAV 10', mentions=[], hashtags=[5, 1], ivs=[2, 3, 4], oovs=[], deasciified=[]}
+Tweet{text='Gitmiyom mk tamam #TÜMHAYRANGRUPLARITAKİPLEŞSİN', mentions=[], hashtags=[4], ivs=[3], oovs=[1, 2], deasciified=[]}
+Tweet{text='#KıskançlıktanÇatlayanlaraNOT Ak Parti diyorum', mentions=[], hashtags=[1], ivs=[2, 3, 4], oovs=[], deasciified=[]}
+Tweet{text='#SözbiDaha Makyaj malzemelerimi kimseye kullandirtmiycam', mentions=[], hashtags=[1], ivs=[2, 4, 3], oovs=[5], deasciified=[]}
+Tweet{text='#BirazGülmekiçin yanında sevdiğin şeylerden bir kaç tane bulundurman yeterli . 404 Not Found .. !!', mentions=[], hashtags=[1], ivs=[12, 5, 8, 6, 3, 7, 2, 9, 4], oovs=[13], deasciified=[]}
+Tweet{text='Baba ben arkadaşma ders çalışmaya gdyorum Kzm yllar önce annen de bana ders çalşmaya gelmşti , otur yerne #AnlamıstımZaten #BirazGülmekiçin', mentions=[], hashtags=[19, 20], ivs=[1, 10, 12, 2, 11, 13, 17, 5, 9], oovs=[7, 3, 6, 15, 18, 8, 14], deasciified=[]}
+Tweet{text='#ÇapukÇapukTakipleşiyoruz ne kadar çabuk olabilir ki : D : D', mentions=[], hashtags=[1], ivs=[10, 3, 6, 2, 5, 4], oovs=[], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN sor rtle favla veya sadece takip et hemen geritakip yaparım kekeler : D x5', mentions=[], hashtags=[1], ivs=[14, 8, 9, 12, 6, 2, 7, 5, 11], oovs=[4, 10, 3, 15], deasciified=[]}
+Tweet{text='#ÇapukÇapukTakipleşiyoruz vur kaç a dikkat edelim . bam telimize dokunanlara dikkat edelim .', mentions=[], hashtags=[1], ivs=[8, 11, 10, 12, 3, 9, 2], oovs=[4], deasciified=[]}
+Tweet{text='#BirazGülmekiçin istediklerimin olması yeter .', mentions=[], hashtags=[1], ivs=[2, 3, 4], oovs=[], deasciified=[]}
+Tweet{text='#KıskançlıktanÇatlayanlaraNOT Bugün 1 , 5 ay oldu : D : D', mentions=[], hashtags=[1], ivs=[2, 11, 6, 7], oovs=[], deasciified=[]}
+Tweet{text='Sen belamısın CHP ?! http://t.co/UWoUvEmFN8 MuhsinYazıcıoğlunun KatilleriBulunsun', mentions=[], hashtags=[], ivs=[3, 1], oovs=[7, 6, 2], deasciified=[]}
+Tweet{text='#BirazGülmekiçin ÇAL KEKE ÇAL :) http://t.co/9sxGgmo5PS', mentions=[], hashtags=[1], ivs=[3, 4], oovs=[], deasciified=[]}
+Tweet{text='#1Düşünsene Beni takip ettigini , senin icin mukemmel olurdu :))', mentions=[], hashtags=[1], ivs=[2, 9, 6, 3], oovs=[4, 7, 8], deasciified=[]}
+Tweet{text='Karakter yüklemesi ruhunu yüzüne giydi ... ! #Hüloooğğğğ Adamlığı bitti ... ! http://t.co/TwM8lE7grR', mentions=[], hashtags=[8], ivs=[9, 1, 10, 5, 3, 2, 4], oovs=[], deasciified=[]}
+Tweet{text='#BilmemBiliyormusun hayat , yaşantı aramak değil , kendimizi aramaktır .', mentions=[], hashtags=[1], ivs=[5, 9, 6, 2, 8, 4], oovs=[], deasciified=[]}
+Tweet{text='#BirazGülmekiçin bile olsa kimse renci edilmemeli', mentions=[], hashtags=[1], ivs=[2, 6, 4, 3], oovs=[5], deasciified=[]}
+Tweet{text='ZincirlerKırılsın AYASOFYAMaçılsın biz de orada namaza duralım', mentions=[], hashtags=[], ivs=[3, 4, 7, 6, 5], oovs=[2, 1], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN #GençlerTakipleşiyor SADECE HAYRAN GRUPLARI GERİ TAKİP VAR FAV ya da RT TAKİP ETMEZSEM UNF . LA x3', mentions=[], hashtags=[2, 1], ivs=[14, 6, 5, 4, 17, 3, 13, 8, 11, 10], oovs=[9, 12, 15, 18], deasciified=[]}
+Tweet{text='#BirazGülmekiçin öncelikle zihnin fresh olması lazım , ha bir de kasların calışması', mentions=[], hashtags=[1], ivs=[9, 10, 8, 11, 6, 5, 3, 2], oovs=[12, 4], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN geri takip yapiyorum takip icin sor x4', mentions=[], hashtags=[1], ivs=[2, 7, 5], oovs=[6, 8, 4], deasciified=[]}
+Tweet{text='#BilmemBiliyormusun Neyi : D', mentions=[], hashtags=[1], ivs=[4, 2], oovs=[], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN Pragmatizm yanlısı olanlar , buyrun .', mentions=[], hashtags=[1], ivs=[2, 4, 3], oovs=[6], deasciified=[]}
+Tweet{text='TürkGençliği UyuşturucuyaHayırDiyor yoo sanane : S', mentions=[], hashtags=[], ivs=[], oovs=[6, 1, 2, 4, 3], deasciified=[]}
+Tweet{text='Başbakan parkta sıçıyorlar der , polis duran adama osurayım mı diye anons geçer , seçmen götünün kılından bahseder . #1Düşünsene #Hüloooğğğğ', mentions=[], hashtags=[20, 21], ivs=[1, 8, 12, 18, 4, 11, 7, 13, 16, 17, 10, 9, 2, 6, 15, 3], oovs=[], deasciified=[]}
+Tweet{text='geri takip yapıyorum yapmasam unf . layınnnnn . 1 dk içinde followlarım #TÜMHAYRANGRUPLARITAKİPLEŞSİN x45', mentions=[], hashtags=[13], ivs=[10, 1, 11, 2, 4, 3], oovs=[12, 7, 5, 14], deasciified=[]}
+Tweet{text='#BirazGülmekiçin ateş düşürücü fitil'i icat eden adamın neden bunu icat ettiğini düşünmek lazım Nasıl bir sapık düşüncesi varsa artık', mentions=[], hashtags=[1], ivs=[14, 7, 19, 2, 15, 9, 17, 12, 3, 6, 11, 4, 10, 13, 8, 16, 18], oovs=[], deasciified=[]}
+Tweet{text='#1Düşünsene white sea ye tatile gidiyoruz Offf hava binbeşyüz ; )))', mentions=[], hashtags=[1], ivs=[6, 8, 5, 4], oovs=[7, 9, 3, 2], deasciified=[]}
+Tweet{text='White Sea akşamları bir başka oluyorr hele birde aylardan tayyeap ise bambaşka :)) hazırlık ta mı okumadın ?', mentions=[], hashtags=[], ivs=[3, 9, 12, 5, 4, 8, 14, 7, 11, 16, 17, 15], oovs=[2, 1, 6, 10], deasciified=[]}
+Tweet{text='#BilmemBiliyormusun şu an kendimi herhangi bi suya atmak isterdim galba sıfır beden oldum diğer kısım buharlaştı', mentions=[], hashtags=[1], ivs=[3, 8, 12, 16, 14, 5, 9, 4, 15, 13, 7, 11, 2], oovs=[6, 10], deasciified=[]}
+Tweet{text='#KıskançlıktanÇatlayanlaraNOT VallahiZaferİslamındır', mentions=[], hashtags=[1], ivs=[], oovs=[2], deasciified=[]}
+Tweet{text='Ak partililer adının başına götünün kılıyım yazsın bilelim çapulcu kim götün kılı kim : D #BirazGülmekiçin', mentions=[], hashtags=[16], ivs=[1, 15, 3, 4, 8, 11, 5, 13, 12, 6, 2, 7, 9], oovs=[], deasciified=[]}
+Tweet{text='Party hard #Hüloooğğğğ', mentions=[], hashtags=[3], ivs=[], oovs=[1, 2], deasciified=[]}
+Tweet{text='#1Düşünsene kalbinin benim olduğunu ne kadar güzel olurdu ama hayat bu kadar kolay değilmiş . Kalbin hiç benim olmayacak ...', mentions=[], hashtags=[1], ivs=[16, 9, 18, 11, 14, 7, 10, 17, 12, 2, 13, 5, 4, 19, 8], oovs=[], deasciified=[]}
+Tweet{text='#BirazGülmekiçin Eda yeter 3', mentions=[], hashtags=[1], ivs=[2, 3], oovs=[], deasciified=[]}
+Tweet{text='#BilmemBiliyormusun Benim için çok degerlisin .', mentions=[], hashtags=[1], ivs=[2, 3, 4], oovs=[5], deasciified=[]}
+Tweet{text='Profiline bayan resmi koyanlarin daha cok takipcisi var haksizlik bu #ÇapukÇapukTakipleşiyoruz', mentions=[], hashtags=[11], ivs=[1, 2, 10, 5, 9, 3, 8], oovs=[6, 4, 7], deasciified=[]}
+Tweet{text='#KıskançlıktanÇatlayanlaraNOT en son ilkokulda kızları kıskandırmak için bir sürü şey yapardım şimdi ise hiç gerek kalmıyor ;)', mentions=[], hashtags=[1], ivs=[8, 2, 15, 14, 4, 13, 7, 16, 6, 5, 3, 9, 11, 10, 12], oovs=[], deasciified=[]}
+Tweet{text='White Sea demiş usta .. Sanırım usta gaz çıkardı . Durum vahim kıl olan 50 için : ) #Diren 50 #DirenIngilizce #DirenAkdeniz #Hüloooğğğğ', mentions=[], hashtags=[19, 22, 21, 23], ivs=[11, 6, 3, 8, 16, 13, 14, 7, 12, 9], oovs=[2, 1], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN GERİ TAKİP İÇİN #FAV YADA #SOR 13', mentions=[], hashtags=[5, 7, 1], ivs=[2, 3, 6, 4], oovs=[], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN GT için FAV RT SOR hemen yaparım x42', mentions=[], hashtags=[1], ivs=[6, 7, 3, 8], oovs=[4, 2, 5, 9], deasciified=[]}
+Tweet{text='#BilmemBiliyormusun burada akşam ezanı okunuyor .', mentions=[], hashtags=[1], ivs=[3, 2, 4, 5], oovs=[], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN Geri takip hızım ışık hızıyla yarışır arkadaşlar . d ( unf . yaparsan spam yersin ) x56', mentions=[], hashtags=[1], ivs=[2, 8, 4, 6, 3, 14, 7, 16, 5], oovs=[10, 15, 12, 18], deasciified=[]}
+Tweet{text='#KıskançlıktanÇatlayanlaraNOT önünüzden yiyin : D', mentions=[], hashtags=[1], ivs=[5, 3, 2], oovs=[], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN 2 . 600 OLMAK İSTİYORUM GERİ TAKİP İÇİN FAV xx6', mentions=[], hashtags=[1], ivs=[7, 5, 8, 6, 9], oovs=[10, 11], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN Sadece hayran grupları Fav . yapman yeterli anında geri dönerim :)', mentions=[], hashtags=[1], ivs=[2, 9, 11, 10, 4, 3, 7, 8], oovs=[5], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN Geri takip yapılır #FAV ekle yeter Kontrol var', mentions=[], hashtags=[5, 1], ivs=[2, 8, 6, 3, 9, 4, 7], oovs=[], deasciified=[]}
+Tweet{text='#BirazGülmekiçin #TÜMHAYRANGRUPLARITAKİPLEŞSİN BizGALATASARAYlılar KarşılıklıTakipleşiyoruz ANINDA GERİ TAKİP UNF . SUZ TAKİP ET YETER :) 13', mentions=[], hashtags=[1, 2], ivs=[5, 12, 6, 11, 13], oovs=[3, 4, 10, 8], deasciified=[]}
+Tweet{text='#BirazGülmekiçin K mal'e devam heryerde recep var :) http://t.co/kAcaJRamzt', mentions=[], hashtags=[1], ivs=[2, 4, 6, 7], oovs=[5, 3], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN GERİ TAKİP İÇİN RT BUGÜN 1 . 5KOLMAMLAZIM 20', mentions=[], hashtags=[1], ivs=[6, 2, 3, 4], oovs=[9, 5], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN 1 . 6K olabilir miyim :)))))))))))))))', mentions=[], hashtags=[1], ivs=[6, 5], oovs=[4], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN Navy , Lovatic veya Holigan olanlar takipleşelim : D', mentions=[], hashtags=[1], ivs=[10, 7, 8, 5], oovs=[6, 4, 2], deasciified=[]}
+Tweet{text='@can_atakli_ mediterranean sea oldu one minute şarlatını tarafından white sea .', mentions=[1], hashtags=[], ivs=[4, 8], oovs=[2, 6, 5, 10, 9, 7], deasciified=[]}
+Tweet{text='#GümbürGümbürTakipleşelim #GençlerTakipleşiyor #Güleoynayatakipleşelim #TÜMHAYRANGRUPLARITAKİPLEŞSİN Anında geri takip , Unf yok dedikkkkk', mentions=[], hashtags=[2, 3, 1, 4], ivs=[5, 6, 7, 10], oovs=[9, 11], deasciified=[]}
+Tweet{text='28 Haziran Cuma namazı sonrası ŞehitTürkmenlere GıyabiCenazeNamazı http://t.co/vLy4Ro1ov2', mentions=[], hashtags=[], ivs=[3, 2, 4, 5], oovs=[7, 6], deasciified=[]}
+Tweet{text='#BirazGülmekiçin yuz kaslarini hareket etirmen yeter', mentions=[], hashtags=[1], ivs=[4, 6], oovs=[5, 3, 2], deasciified=[]}
+Tweet{text='#HayatımFilmOlsaİsmi yokla hiç yok arası olurdu', mentions=[], hashtags=[1], ivs=[5, 3, 6, 4, 2], oovs=[], deasciified=[]}
+Tweet{text='#GençlerTakipleşiyor #Güleoynayatakipleşelim #TÜMHAYRANGRUPLARITAKİPLEŞSİN BizGALATASARAYlılar KarşılıklıTakipleşiyoruz FOOLLOOOW', mentions=[], hashtags=[1, 2, 3], ivs=[], oovs=[4, 6, 5], deasciified=[]}
+Tweet{text='#BilmemBiliyormusun sen benim gibi olamazsın ! Fazla zorlama . kendini', mentions=[], hashtags=[1], ivs=[7, 3, 4, 10, 5, 2, 8], oovs=[], deasciified=[]}
+Tweet{text='#BirazGülmekiçin gelin Amsterdam'a , çekin bir paf .. Bakin nasıl gülüyorsunuz ;) hashtagi #birazgülmekiçingeldikşimdiduramıyoruz olur', mentions=[], hashtags=[1, 14], ivs=[9, 6, 2, 11, 10, 15, 5], oovs=[3, 13, 7], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN geri takip için SOR yada #RT ( bak sadece hayran grupları diyoruz ) x2', mentions=[], hashtags=[7, 1], ivs=[5, 9, 13, 2, 12, 11, 4, 10, 3, 6], oovs=[15], deasciified=[]}
+Tweet{text='White sea akşamları #direnakdeniz', mentions=[], hashtags=[4], ivs=[3], oovs=[1, 2], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN DIRECTIONERSSSS BELIEBERSSSS SMILERSSS SELENATORSSSS LOVATICSSS sormana gerek yok anında geri takip var :) x32', mentions=[], hashtags=[1], ivs=[10, 8, 11, 7, 12, 13, 9], oovs=[3, 2, 6, 5, 4, 15], deasciified=[]}
+Tweet{text='TÜRK GENÇLİĞİ Çalışkan Zeki Dinamik Duyarlı Milliyetçi Olmak İstiyorsa Uyuşturcuya Savaş Açmalı !! TürkGençliği UyuşturucuyaHayırDiyor !!', mentions=[], hashtags=[], ivs=[12, 5, 6, 2, 7, 8, 11, 1, 4, 3, 9], oovs=[14, 10, 15], deasciified=[]}
+Tweet{text='EmaneteKarşıKemer UnutulmadınERDALBAŞER @inci01903', mentions=[3], hashtags=[], ivs=[], oovs=[1, 2], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN #GençlerTakipleşiyor UNFOLLOW'SUZ TAKİP Mİ İSTİYORSUN KAMOON ! 19', mentions=[], hashtags=[2, 1], ivs=[5, 4, 6], oovs=[7, 3], deasciified=[]}
+Tweet{text='Çarşi havasi başbakanı da sardı ... Black sea white sea :))', mentions=[], hashtags=[], ivs=[3, 4, 5], oovs=[7, 2, 10, 9, 1], deasciified=[]}
+Tweet{text='White sea liyiz hülooooğğğğğ', mentions=[], hashtags=[], ivs=[], oovs=[1, 4, 3, 2], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN sadece hayran gruplarına geri takip ediyorum geri takip için sorabilirsin x20', mentions=[], hashtags=[1], ivs=[7, 8, 4, 3, 10, 2, 11, 9], oovs=[12], deasciified=[]}
+Tweet{text='#BilmemBiliyormusun aslinda nefes almak degilmis yasamak ...', mentions=[], hashtags=[1], ivs=[4, 3, 6], oovs=[2, 5], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN TAKİP ET GERİ TAKİP YAPARIM GERİ TAKİP İÇİN #RT YADA #FAV YAPMAN YETERLİ X45', mentions=[], hashtags=[12, 10, 1], ivs=[3, 7, 8, 11, 6, 13, 14, 9], oovs=[15], deasciified=[]}
+Tweet{text='BU ADAMIN ÜLKE YÖNETTİĞİNİ DÜŞÜNÜN : DVARSAYIM OLSA BİLE KOMİK !! #BirazGülmekiçin http://t.co/DEE7MtHqyQ', mentions=[], hashtags=[12], ivs=[2, 1, 9, 5, 10, 8, 4, 3], oovs=[7], deasciified=[]}
+Tweet{text='@AykutBenli Kroliçe fanıyız Kroliçe #Hüloooğğğğ D@'in g tünün gılıyk skdhglsfdg : D : D : D ahahahah anladın sen onu', mentions=[1], hashtags=[5], ivs=[16, 6, 18, 7, 20, 19, 8], oovs=[4, 17, 3, 9, 10], deasciified=[]}
+Tweet{text='#Hüloooğğğğ Niçin aranızdan biri çıkıp , Bu ne Can Dündar ? Ne katliamı ? Ne hazırlığı ? Hiç Allah tan korkmuyor musun ? diye sormuyor ?', mentions=[], hashtags=[1], ivs=[19, 7, 9, 10, 18, 15, 2, 3, 4, 24, 16, 13, 21, 22, 8, 25, 20, 5], oovs=[], deasciified=[]}
+Tweet{text='#BilmemBiliyormusun sen tam bi gerizekalısın !', mentions=[], hashtags=[1], ivs=[2, 3], oovs=[4, 5], deasciified=[]}
+Tweet{text='#BilmemBiliyormusun Siyonizmin Amentüsü ve itikadı video : http://t.co/lDOLHYcufu', mentions=[], hashtags=[1], ivs=[3, 2, 5, 4, 6], oovs=[], deasciified=[]}
+Tweet{text='#KıskançlıktanÇatlayanlaraNOT bu daha başlangıç canımlarım', mentions=[], hashtags=[1], ivs=[4, 2, 3], oovs=[5], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN TAKİP ET GERİ TAKİP VAR AMA SADECE HAYRAN GRUPLARI İÇİN TAKİP'İ BIRAKMA X82', mentions=[], hashtags=[1], ivs=[7, 13, 3, 4, 10, 9, 8, 5, 6, 11], oovs=[12, 14], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN #TÜMHAYRANGRUPLARITAKİPLEŞSİN #TÜMHAYRANGRUPLARITAKİPLEŞSİN #TÜMHAYRANGRUPLARITAKİPLEŞSİN Anında Geri Takippp', mentions=[], hashtags=[4], ivs=[5, 6], oovs=[7], deasciified=[]}
+Tweet{text='ben mi öleyim yoksa ateş edecek misin ? TAVSİYEEEEEEE http://t.co/SywjfWjrPi #okadarsıcakki #BuSıralarRuhHalim Fenerbahçe #BilmemBiliyormusun', mentions=[], hashtags=[14, 12, 11], ivs=[5, 1, 6, 2, 7, 4, 3], oovs=[13, 9], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN hayran grupları takip etsin geri takip yapmazsam spam ama sadece hayran gruplarına :) x7', mentions=[], hashtags=[1], ivs=[10, 5, 6, 3, 13, 12, 11, 7, 8], oovs=[9, 15], deasciified=[]}
+Tweet{text='Muhsinyazıcıoğlunun katilleribulunsun 32 Muhsinyazıcıoğlunun katilleribulunsun 33', mentions=[], hashtags=[], ivs=[], oovs=[4, 5], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN geri takip var #FAV yapman yeterli vvv', mentions=[], hashtags=[5, 1], ivs=[2, 3, 4, 6, 7], oovs=[8], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN geri takip için sor veya FAV la yeter xx46', mentions=[], hashtags=[1], ivs=[2, 4, 8, 5, 3, 6, 9], oovs=[7, 10], deasciified=[]}
+Tweet{text='#TurkishHuntersWantSPN izlerken bi elimde tuz bi elimde gumuslukler bunları düşünmek gerekiyo tabi', mentions=[], hashtags=[1], ivs=[9, 10, 7, 2, 12, 5], oovs=[6, 11, 8], deasciified=[]}
+Tweet{text='#BirazGülmekiçin ÇABANI HARCA !!', mentions=[], hashtags=[1], ivs=[3, 2], oovs=[], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN geri takip istemene gerek yok #FAV veya #RT yeterli xxxxxxx', mentions=[], hashtags=[7, 9, 1], ivs=[5, 2, 4, 3, 8, 10, 6], oovs=[11], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN geri takip için RT veya FAV yapmanız yeterli 7', mentions=[], hashtags=[1], ivs=[2, 4, 3, 6, 8, 9], oovs=[7, 5], deasciified=[]}
+Tweet{text='Zehra Çilingiroğlu'nun maskeli fotoğrafı#BirazGülmekiçin http://t.co/9GiGG8nZs2', mentions=[], hashtags=[], ivs=[1, 3], oovs=[4, 2], deasciified=[]}
+Tweet{text='#GençlerTakipleşiyor #TümHayranlarÇılgıncaTakipleşiyor #Güleoynayatakipleşelim #TÜMHAYRANGRUPLARITAKİPLEŞSİN HAYRAN GRUPLARINA GERİ TAKİP 14', mentions=[], hashtags=[1, 3, 4, 2], ivs=[7, 6, 5, 8], oovs=[], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN GERİ TAKİP VAR GERİ TAKİP İçin FAV x41', mentions=[], hashtags=[1], ivs=[5, 6, 4, 7], oovs=[8, 9], deasciified=[]}
+Tweet{text='BELEDİYENİN ÖNÜNDEKİ FIŞKİYEYİ KİM KIRDI :))))) https://t.co/C56oe2fjq0 #birazgülmekiçin', mentions=[], hashtags=[8], ivs=[1, 5, 4, 2], oovs=[3], deasciified=[]}
+Tweet{text='#BirazGülmekiçin hadi herkes The big bang theory izlemeye Ah Shealdon :)', mentions=[], hashtags=[1], ivs=[9, 2, 3, 8], oovs=[10, 4, 6, 5, 7], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN geri takip yapmam icin fav yapmaniz yeterli xxx', mentions=[], hashtags=[1], ivs=[2, 3, 4, 8], oovs=[6, 5, 9, 7], deasciified=[]}
+Tweet{text='#BirazGülmekiçin tomaya hortum suyu sıkmak gerekli hahahhaha', mentions=[], hashtags=[1], ivs=[6, 3, 4, 5], oovs=[7, 2], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN GERİ TAKİP İÇİN SOR FAV 5 DK İÇİNDE TAKİP ETMEZSEM UNF YAPARSINIZ x23', mentions=[], hashtags=[1], ivs=[11, 2, 5, 10, 13, 4, 9], oovs=[8, 6, 12, 14], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN sarmana gerek yok anında takip ediyorum 7', mentions=[], hashtags=[1], ivs=[5, 7, 3, 2, 6, 4], oovs=[], deasciified=[]}
+Tweet{text='#BilmemBiliyormusun PLAY BASMAYI UNUTMAYIN ... http://t.co/J3y5sVuLX3', mentions=[], hashtags=[1], ivs=[3, 4], oovs=[2], deasciified=[]}
+Tweet{text='5 . 1K OLMAK İSTİYORUM LÜTFEN BANA YARDIM EDİN ? #TÜMHAYRANGRUPLARITAKİPLEŞSİN x38', mentions=[], hashtags=[11], ivs=[7, 9, 6, 4, 8, 5], oovs=[3, 12], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN GERİ TAKİP İÇİN FAV YAPIN YETER . X26', mentions=[], hashtags=[1], ivs=[2, 3, 6, 7, 4], oovs=[5, 9], deasciified=[]}
+Tweet{text='#KıskançlıktanÇatlayanlaraNOT çatlayın tam gaz devam :)', mentions=[], hashtags=[1], ivs=[5, 4, 3, 2], oovs=[], deasciified=[]}
+Tweet{text='ben burağı çok seviyorum #KıskançlıktanÇatlayanlaraNOT', mentions=[], hashtags=[5], ivs=[1, 4, 3], oovs=[2], deasciified=[]}
+Tweet{text='#ÇapukÇapukTakipleşiyoruz ANINDA GERİ TAKİP YAPIYORUM SORMANIZ VEYA FAV YAPMANIZ YETERLİ x67', mentions=[], hashtags=[1], ivs=[2, 3, 6, 4, 7, 5, 9, 10], oovs=[8, 11], deasciified=[]}
+Tweet{text='Asla unf yapmam eğer geri takip istiyosan FAVlaman yeter Hayran grubunundan değilsen g t yapmam xx xx #TÜMHAYRANGRUPLARITAKİPLEŞSİN', mentions=[], hashtags=[18], ivs=[1, 10, 12, 4, 13, 5, 11, 14, 6, 15, 9], oovs=[8, 7, 2, 17], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN Takip et , sormana gerek yok hemen takip ederim . x65', mentions=[], hashtags=[1], ivs=[2, 10, 3, 6, 8, 5, 9, 7], oovs=[12], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN anında geri takip var x40', mentions=[], hashtags=[1], ivs=[2, 3, 4, 5], oovs=[6], deasciified=[]}
+Tweet{text='Bi keZ bile uatmadan once justini veya directinlari dusunuisan ilk sen takip et demmekki ayni kani tasioruz #TÜMHAYRANGRUPLARITAKİPLEŞSİN', mentions=[], hashtags=[18], ivs=[15, 3, 13, 10, 16, 2, 11, 12, 7], oovs=[1, 14, 8, 9, 6, 5, 17, 4], deasciified=[]}
+Tweet{text='#ÇapukÇapukTakipleşiyoruz Takip Edeni Takip Ederim x15', mentions=[], hashtags=[1], ivs=[3, 5, 4], oovs=[6], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN GERİ TAKİP İÇİN #FAV 35', mentions=[], hashtags=[5, 1], ivs=[2, 3, 4], oovs=[], deasciified=[]}
+Tweet{text='En yeni ve güncel fimler burda ! http://t.co/eiGqEudfX3 :) #TÜMHAYRANGRUPLARITAKİPLEŞSİN #takipedenitakipederim #Gülmekİçin', mentions=[], hashtags=[12, 10, 11], ivs=[1, 4, 3, 2], oovs=[6, 5], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN TAKİP ET GERİ TAKİP İÇİN #RT YA DA #FAV E', mentions=[], hashtags=[10, 7, 1], ivs=[9, 3, 4, 5, 8, 6], oovs=[11], deasciified=[]}
+Tweet{text='#TurkeyNeedKidrauhlAndOneDirection #TÜMHAYRANGRUPLARITAKİPLEŞSİN sormana gerek yok geri takip varr 8', mentions=[], hashtags=[1, 2], ivs=[4, 6, 3, 7, 5], oovs=[8], deasciified=[]}
+Tweet{text='#HayatımFilmOlsaİsmi Beni tomanın yağmurlarında yıkasınlar olurdu #Hüloooğğğğ', mentions=[], hashtags=[1, 7], ivs=[2, 6, 4, 5], oovs=[3], deasciified=[]}
+Tweet{text='#BirazGülmekiçin SABRİ REYİZ ! http://t.co/Fay1tixpzJ', mentions=[], hashtags=[1], ivs=[3, 2], oovs=[], deasciified=[]}
+Tweet{text='#birazgülmekiçin çikolata yeter : D', mentions=[], hashtags=[1], ivs=[5, 3, 2], oovs=[], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN geri takip için fav yapman yeterli sadece hayran gruplarına geri takip yapıyorum :) 20', mentions=[], hashtags=[1], ivs=[11, 10, 9, 4, 8, 12, 6, 13, 7], oovs=[5], deasciified=[]}
+Tweet{text='Nolur biri tayyipin akdeniz olimpiyatlari acilisinda akdenize white sea dediginin yalan oldugunu soylesin suan', mentions=[], hashtags=[], ivs=[2, 11], oovs=[1, 6, 4, 7, 10, 12, 5, 9, 13, 14, 3, 8], deasciified=[]}
+Tweet{text='Geri takip için favla . #TÜMHAYRANGRUPLARITAKİPLEŞSİN x4', mentions=[], hashtags=[6], ivs=[1, 3, 2], oovs=[4, 7], deasciified=[]}
+Tweet{text='#KıskançlıktanÇatlayanlaraNOT ANCA UZAKTAN BAKAR DURURSUN : D', mentions=[], hashtags=[1], ivs=[2, 4, 7, 5, 3], oovs=[], deasciified=[]}
+Tweet{text='O değil de Akdeniz'in ingilizceside çok namussuz lan . Translate'e bakmadan yazmak zor . White Sea çok iyi oldu çok da güzel iyi oldu .', mentions=[], hashtags=[], ivs=[4, 1, 11, 21, 3, 2, 22, 23, 8, 7, 24, 12, 13, 20], oovs=[16, 10, 15, 5], deasciified=[]}
+Tweet{text='#SABAHLARAKADARTAKİPLEŞELİM #TÜMHAYRANGRUPLARITAKİPLEŞSİN #GençlerTakipleşiyor #Güleoynayatakipleşelim Anında Geri Takip Yapıyorum :)) x4', mentions=[], hashtags=[3, 4, 1, 2], ivs=[5, 6, 7, 8], oovs=[10], deasciified=[]}
+Tweet{text='#BirazGülmekiçin #doksanlar da cocuk olman yeterli', mentions=[], hashtags=[1, 2], ivs=[3, 5, 6], oovs=[4], deasciified=[]}
+Tweet{text='aynn öyle #Hüloooğğğğ #ÇapukÇapukTakipleşiyoruz #HayatımFilmOlsaİsmi #1Düşünsene #CiciCiciTakipleşelim http://t.co/BUx2YVnNV7', mentions=[], hashtags=[6, 7, 5, 3, 4], ivs=[2], oovs=[1], deasciified=[]}
+Tweet{text='#ÇapukÇapukTakipleşiyoruz TAKİP CANIM', mentions=[], hashtags=[1], ivs=[3, 2], oovs=[], deasciified=[]}
+Tweet{text='Canım ?? #TÜMHAYRANGRUPLARITAKİPLEŞSİN', mentions=[], hashtags=[3], ivs=[1], oovs=[], deasciified=[]}
+Tweet{text='#BirazGülmekiçin KuLLiyen Zarar .. ! Human ZararLısı .. ((: http://t.co/1lIv3Hm0Vu', mentions=[], hashtags=[1], ivs=[3, 7], oovs=[6, 2], deasciified=[]}
+Tweet{text='#BilmemBiliyormusun ilk önce takip edip sonradan unf yapman çok ilginçç', mentions=[], hashtags=[1], ivs=[5, 2, 6, 4, 8, 9, 3], oovs=[10, 7], deasciified=[]}
+Tweet{text='40'lardan beri Turkiye Afganistan'dan gelen uyusturucunun Avrupa'ya giris noktasi , kim hayir diyor ? TürkGençliği UyuşturucuyaHayırDiyor', mentions=[], hashtags=[], ivs=[4, 7, 2, 13, 5, 11], oovs=[1, 3, 15, 16, 8, 12, 9, 6], deasciified=[]}
+Tweet{text='Moralini ne bozarsa bozsun kardeş dediklerin yetiyor #BirazGülmekiçin', mentions=[], hashtags=[8], ivs=[1, 3, 4, 6, 5, 2, 7], oovs=[], deasciified=[]}
+Tweet{text='Kendi ülkemiz ''Türk''iye'yi sanki biz mi yönetiyoruz ki Irak'ta katledilen Türkmenlere faydamız olsun ?! ŞehitTürkmenlere GıyabiCenazeNamazı', mentions=[], hashtags=[], ivs=[3, 9, 1, 11, 5, 12, 10, 8, 6, 13, 4, 7, 2], oovs=[16, 15], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN hayranım sizeeee (:', mentions=[], hashtags=[1], ivs=[2], oovs=[3], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN geri takip ederiim : D takiip', mentions=[], hashtags=[1], ivs=[6, 2, 3], oovs=[4, 7], deasciified=[]}
+Tweet{text='@boldpilot47 Atatürk demekten çekinmeyin tabii . Şaşırdık vesselam . Genelde Gazi Mustafa Kemal diyip kalırdınız . #Hüloooğğğğ', mentions=[1], hashtags=[17], ivs=[2, 11, 10, 13, 12, 3, 15, 5, 8, 4, 7], oovs=[14], deasciified=[]}
+Tweet{text='#BirazGülmekiçin aynanın karşısına geçer kendime gülerim edghjyocs', mentions=[], hashtags=[1], ivs=[2, 4, 6, 3, 5], oovs=[7], deasciified=[]}
+Tweet{text='yok artık iniesta #Hüloooğğğğ', mentions=[], hashtags=[4], ivs=[2, 1], oovs=[3], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN TAKİP ET bu ydek hesabımm @LiAmKalpbenLove bu da gercegi GT İÇİN RT ŞART xx3', mentions=[7], hashtags=[1], ivs=[3, 2, 8, 9, 12, 14], oovs=[11, 13, 10, 6, 15, 5], deasciified=[]}
+Tweet{text='#HayatımFilmOlsaİsmi 20 haziran doğum günüm ama pastam yok hööyggghh ..', mentions=[], hashtags=[1], ivs=[6, 4, 5, 3, 7, 8], oovs=[9], deasciified=[]}
+Tweet{text='#BilmemBiliyormusun ...... http://t.co/yMvhCum3th', mentions=[], hashtags=[1], ivs=[], oovs=[], deasciified=[]}
+Tweet{text='@kbranckim adam gibi konuş lan benle tinkil :) aklıma geliyo gülüyorum hatta gülmeyi aşıp #hüloooğğğğ diye hönkürüyorum :)))', mentions=[1], hashtags=[15], ivs=[2, 9, 14, 6, 16, 3, 13, 11, 12, 4, 5], oovs=[10, 17, 7], deasciified=[]}
+Tweet{text='BizGALATASARAYlıyızDiyenler Takipleşiyoruz #Hüloooğğğğ ğğğğğğğ', mentions=[], hashtags=[3], ivs=[2], oovs=[1, 4], deasciified=[]}
+Tweet{text='Karadeniz de black sea simdiden bilginiz olsun : ) white sea #direnmersin http://t.co/eKVsMuAAMR', mentions=[], hashtags=[12], ivs=[1, 6, 2, 7], oovs=[3, 11, 5, 10], deasciified=[]}
+Tweet{text='#sözbidaha kimseyle dalga geçmicem .', mentions=[], hashtags=[1], ivs=[3, 2], oovs=[4], deasciified=[]}
+Tweet{text='@CigdemCorum Akdeniz Osmanlı gölü değil mi ? White sea is a lake in Osmanli .', mentions=[1], hashtags=[], ivs=[2, 3, 5, 4, 13, 10, 12, 6], oovs=[14, 8, 11, 9], deasciified=[]}
+Tweet{text='#BirazGülmekiçin bana takılmanız yeter . : )', mentions=[], hashtags=[1], ivs=[2, 3, 4], oovs=[], deasciified=[]}
+Tweet{text='No Tayyip No Cry : D #Hüloooğğğğ http://t.co/CDPt6tcWZ7', mentions=[], hashtags=[7], ivs=[6, 2], oovs=[4, 3], deasciified=[]}
+Tweet{text='#KıskançlıktanÇatlayanlaraNOT o enerjinizi kendi mutluluğunuz için harcasaniz ya siz mutlu biz rahat :)', mentions=[], hashtags=[1], ivs=[11, 3, 6, 4, 10, 5, 2, 12, 9, 8], oovs=[7], deasciified=[]}
+Tweet{text='Hayatımdan bir gereksiz daha çıktığına göre ozaman bunu kutlayalım #hüloooğğğğ', mentions=[], hashtags=[10], ivs=[1, 2, 8, 4, 3, 6, 9, 5], oovs=[7], deasciified=[]}
+Tweet{text='ZincirlerKırılsın AYASOFYAMaçılsınFetihin sembolü Ayasofya tekrar CAMİİ olsun', mentions=[], hashtags=[], ivs=[7, 3, 5], oovs=[2, 4, 6, 1], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN Geri takip hızım ışık hızıyla yarışır arkadaşlar . d ( unf . yaparsan spam yersin ) x51', mentions=[], hashtags=[1], ivs=[2, 8, 4, 6, 3, 14, 7, 16, 5], oovs=[10, 15, 12, 18], deasciified=[]}
+Tweet{text='Bazıları hala Musul Kerkük hayalinde , Ülke topraklarının bir kısmında kontrolü kaybetmek üzeresin #BilmemBiliyormusun', mentions=[], hashtags=[14], ivs=[1, 9, 2, 5, 12, 11, 10, 8, 7, 13], oovs=[4, 3], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN Takip et , anında geri takip yaparım . Unfollow etmeyecekler takip etsin ! x18', mentions=[], hashtags=[1], ivs=[2, 5, 3, 11, 13, 6, 12, 8], oovs=[10, 15], deasciified=[]}
+Tweet{text='Seni seviyorum #Hüloooğğğğ', mentions=[], hashtags=[3], ivs=[1, 2], oovs=[], deasciified=[]}
+Tweet{text='#KıskançlıktanÇatlayanlaraNOT http://t.co/H6aX0mxQF0', mentions=[], hashtags=[1], ivs=[], oovs=[], deasciified=[]}
+Tweet{text='#ÇapukÇapukTakipleşiyoruz Eros siktir git ! Bundan sonra kendi işimi kendim halledicem . Allahın cenabeti ! ..', mentions=[], hashtags=[1], ivs=[6, 2, 14, 4, 9, 8, 10, 3, 7], oovs=[13, 11], deasciified=[]}
+Tweet{text='#HayatımFilmOlsaİsmi Sussam olmuyor susmasam olmaz', mentions=[], hashtags=[1], ivs=[2, 5, 3, 4], oovs=[], deasciified=[]}
+Tweet{text='White sea aksamlari bir baska oluyor ...', mentions=[], hashtags=[], ivs=[4, 6], oovs=[1, 3, 5, 2], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN Anında Geri Takip Yapıyorum : D Yalnızca HAYRAN GRUPLARINA ! 17', mentions=[], hashtags=[1], ivs=[2, 7, 10, 3, 9, 4, 8, 5], oovs=[], deasciified=[]}
+Tweet{text='Akdeniz'e White Sea Diyen Başbakana Mersin'li Olarak Son of a bitch Diyoruz :) Üstüne Bir de Heyyeee Diye Katılıyoruz #direnmersin', mentions=[], hashtags=[20], ivs=[1, 5, 15, 18, 4, 12, 19, 6, 7, 8, 16, 9, 14], oovs=[17, 3, 2, 10, 11], deasciified=[]}
+Tweet{text='Tebessüm etmek için bile sebep yok . Kan , gözyaşı cevrelemis alem_ i islamı . #BirazGülmekiçin ne sebep var ?', mentions=[], hashtags=[16], ivs=[8, 1, 12, 4, 2, 10, 13, 3, 17, 18, 19, 6], oovs=[11, 14], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN Anında geri takip yapıyorum . Yapmazsam sorun ! ( YALNIZCA HAYRAN GRUPLARINA !) fdfsdf', mentions=[], hashtags=[1], ivs=[2, 13, 12, 11, 7, 3, 8, 4, 5], oovs=[15], deasciified=[]}
+Tweet{text='Mixer Hariç Tüm Hayran Grupları Takip Etsin Geri Takip Yaparım Sormana Gerek Yok #TÜMHAYRANGRUPLARITAKİPLEŞSİN x11', mentions=[], hashtags=[14], ivs=[7, 12, 8, 5, 2, 4, 11, 9, 3, 10, 13], oovs=[1, 15], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN GERİ TAKİP İÇİN #FAV 10', mentions=[], hashtags=[5, 1], ivs=[2, 3, 4], oovs=[], deasciified=[]}
+Tweet{text='#BirazGülmekiçin Ona , kokusuna , tenine , sıcaklığına , varlığına ihtiyacım var . Çok hemde .', mentions=[], hashtags=[1], ivs=[2, 15, 11, 4, 8, 6, 12, 10, 14], oovs=[], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN Geri takip için sorun ya da #RT leyin kankalar hemen geri takip yaparım . Unf . yapıcaklar takip etmesin !!! x44', mentions=[], hashtags=[8, 1], ivs=[2, 7, 20, 12, 11, 4, 9, 5, 19, 6, 14], oovs=[16, 10, 22, 18], deasciified=[]}
+Tweet{text='İngilizce bildiği için AB Bakanı yapılanların ülkesinde interest lobby faiz lobisi , Akdeniz White Sea olmuş , çok mu ?', mentions=[], hashtags=[], ivs=[4, 13, 5, 2, 10, 3, 11, 19, 16, 6, 18, 7, 1], oovs=[15, 14, 8, 9], deasciified=[]}
+Tweet{text='#HayatımFilmOlsaİsmi Barzonun Maceraları olurdu', mentions=[], hashtags=[1], ivs=[3, 4], oovs=[2], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN var dediler geldik', mentions=[], hashtags=[1], ivs=[3, 4, 2], oovs=[], deasciified=[]}
+Tweet{text='PES'te hep Barçayı alan ''ben'' #hüloooğğğğ', mentions=[], hashtags=[6], ivs=[5, 3, 1, 4, 2], oovs=[], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN takip eden takip edilir', mentions=[], hashtags=[1], ivs=[3, 5, 4], oovs=[], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN Favlamayana , rtlemeyene ya da sormayana geri takip yapmıyorum .', mentions=[], hashtags=[1], ivs=[6, 8, 7, 9, 5, 10], oovs=[2, 4], deasciified=[]}
+Tweet{text='Hayatımda en tiksindiğim insan modeli #hüloooğğğğ', mentions=[], hashtags=[6], ivs=[1, 2, 4, 5, 3], oovs=[], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN 4K olmak istiyorum takip edin anında geri takip ederim please x68', mentions=[], hashtags=[1], ivs=[7, 10, 6, 8, 4, 3, 9], oovs=[2, 11, 12], deasciified=[]}
+Tweet{text='#ÇapukÇapukTakipleşiyoruz Bizde burdayız , Takipleşmek isteyen gelsin , başlayalım bakalım takibe ....', mentions=[], hashtags=[1], ivs=[2, 5, 10, 9, 7, 6, 11], oovs=[3], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN düş peşimee', mentions=[], hashtags=[1], ivs=[2], oovs=[3], deasciified=[]}
+Tweet{text='#KıskançlıktanÇatlayanlaraNOT BizCİMBOMlular KenetledikAileceTakipteyiz', mentions=[], hashtags=[1], ivs=[], oovs=[2, 3], deasciified=[]}
+Tweet{text='Olum White Sea ile ucuz kurtardık TOMA'nın açılımını da çevirmeyi deneyebilirdi mesla : Pablik Okazyons Rispons Vehikıl diyebilirdi ...', mentions=[], hashtags=[], ivs=[1, 8, 9, 11, 18, 4, 6, 5, 10], oovs=[15, 14, 16, 3, 7, 17, 2, 12], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN anında geri takip yapıyorum xxX15', mentions=[], hashtags=[1], ivs=[2, 3, 4, 5], oovs=[6], deasciified=[]}
+Tweet{text='@cimenfatih basbakanin g . tünün kılıyık #Hüloooğğğğ :)))', mentions=[1], hashtags=[7], ivs=[3, 5], oovs=[2, 6], deasciified=[]}
+Tweet{text='Değerli Twitt ler rt yapılır #TÜMHAYRANGRUPLARITAKİPLEŞSİN', mentions=[], hashtags=[6], ivs=[1, 5], oovs=[2, 3, 4], deasciified=[]}
+Tweet{text='#CiciCiciTakipleşelim #ÇapukÇapukTakipleşiyoruz Tencere Tava Hep Aynı Hava . Takipee geeeeelll', mentions=[], hashtags=[1, 2], ivs=[6, 7, 5, 4, 3], oovs=[9, 10], deasciified=[]}
+Tweet{text='kuru duayı bırak . Ağaç isteyen tohum eker !. #TÜMHAYRANGRUPLARITAKİPLEŞSİN', mentions=[], hashtags=[10], ivs=[5, 3, 2, 8, 6, 1, 7], oovs=[], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN geri takip için favlaman yada sorman yeterli anında geri takip var UNFOLLOWLAYNLARI BENDE UNFOLLOWLARIM x3', mentions=[], hashtags=[1], ivs=[14, 9, 10, 4, 7, 11, 12, 6, 8], oovs=[15, 13, 5, 16], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN Sadece Hayran Grupları Fav . yapman yeterli hemen geri dönerim :) Nolorsoon', mentions=[], hashtags=[1], ivs=[4, 3, 2, 11, 10, 9, 7, 8], oovs=[5, 13], deasciified=[]}
+Tweet{text='( ŞehitTürkmenlere GıyabiCenazeNamazı ( DüşişleriBakanı Davutoğlu kendine gel ! http://t.co/qxWucJmIN2', mentions=[], hashtags=[], ivs=[8, 7], oovs=[6, 5, 3, 2], deasciified=[]}
+Tweet{text='adobe photoshop cs 6 indiricem yardım edin ? #BirazGülmekiçin .', mentions=[], hashtags=[9], ivs=[7, 6], oovs=[1, 3, 5, 2], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN TAKİP ET GERİ TAKİP VAR AMA SADECE HAYRAN GRUPLARI İÇİN TAKİP'İ BIRAKMA X78', mentions=[], hashtags=[1], ivs=[7, 13, 3, 4, 10, 9, 8, 5, 6, 11], oovs=[12, 14], deasciified=[]}
+Tweet{text='aynı gün iki bütünleme sınavına gireceğimi öğrenince #Hüloooğğğğ diye çığlık atasım geldii #Hüloooğğğğ : D', mentions=[], hashtags=[13], ivs=[15, 11, 1, 4, 9, 6, 2, 3, 5, 10, 7], oovs=[12], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN #GençlerTakipleşiyor #takipedenitakipederim #Güleoynayatakipleşelim #GümbürGümbürTakipleşelim 48', mentions=[], hashtags=[2, 4, 5, 1, 3], ivs=[], oovs=[], deasciified=[]}
+Tweet{text='#BirazGülmekiçin seni düşünürüm .', mentions=[], hashtags=[1], ivs=[3, 2], oovs=[], deasciified=[]}
+Tweet{text='White sea yani akdeniz orantısız zeka', mentions=[], hashtags=[], ivs=[5, 3, 6], oovs=[1, 4, 2], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİNdüşünen adama ihtiyaç var duyurulur ! http://t.co/bpDCBrnkB0', mentions=[], hashtags=[1], ivs=[2, 5, 3, 4], oovs=[], deasciified=[]}
+Tweet{text='#BilmemBiliyormusun Kanada'da insanların olduğu yerde horluyarak uyuması yasalara aykırıdır@dogaozsahin_99', mentions=[], hashtags=[1], ivs=[2, 3, 4, 7, 8, 5], oovs=[9, 6], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN GERİ TAKİP İÇİN #FAV YETERLİx21', mentions=[], hashtags=[5, 1], ivs=[2, 3, 4], oovs=[6], deasciified=[]}
+Tweet{text='#BirazGülmekiçin sanırım sana ihtiyacım var ..', mentions=[], hashtags=[1], ivs=[4, 3, 2, 5], oovs=[], deasciified=[]}
+Tweet{text='#BirazGülmekiçin doksanlar iidir . Biz sokaklarda oynayan son çocuklardik :)', mentions=[], hashtags=[1], ivs=[5, 2, 7, 6, 8], oovs=[3, 9], deasciified=[]}
+Tweet{text='#SözbiDaha ki sefere fışkiyeyi ben kırcam', mentions=[], hashtags=[1], ivs=[5, 2, 3], oovs=[4, 6], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN TAKİP ET bu ydek hesabımm @LiAmKalpbenLove bu da gercegi 100 olsam iyidi GT İÇN RT x6', mentions=[7], hashtags=[1], ivs=[3, 2, 8, 9, 12], oovs=[14, 16, 10, 6, 13, 17, 5, 15], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN Takip et , anında geri takip yaparım . Unfollow etmeyecekler takip etsin ! x17', mentions=[], hashtags=[1], ivs=[2, 5, 3, 11, 13, 6, 12, 8], oovs=[10, 15], deasciified=[]}
+Tweet{text='White Sea ne la . White Party diyelim bizde bundan sonra . Hüloğğğğğğ .', mentions=[], hashtags=[], ivs=[9, 10, 8, 4, 3, 11], oovs=[13, 7, 2, 6], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN çok iyi takip ederim . Eve kadar gelirim , o derece yani', mentions=[], hashtags=[1], ivs=[7, 12, 5, 9, 3, 8, 11, 4, 13, 2], oovs=[], deasciified=[]}
+Tweet{text='#BirazGülmekiçin Allah Bella nı versin asdf : D http://t.co/jLjACknRWN', mentions=[], hashtags=[1], ivs=[2, 8, 5], oovs=[3, 6, 4], deasciified=[]}
+Tweet{text='recebin götünün gıllarını cımbızla koparcaz #Hüloooğğğğ', mentions=[], hashtags=[6], ivs=[4, 2, 1], oovs=[3, 5], deasciified=[]}
+Tweet{text='#BilmemBiliyormusun filler parmak ucunda yürüyomuş', mentions=[], hashtags=[1], ivs=[2, 3, 4], oovs=[5], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN Geri takip için sorun ya da #RT leyin kankalar hemen geri takip yaparım . Unf . yapıcaklar takip etmesin !!! x10', mentions=[], hashtags=[8, 1], ivs=[2, 7, 20, 12, 11, 4, 9, 5, 19, 6, 14], oovs=[16, 10, 22, 18], deasciified=[]}
+Tweet{text='ŞehitTürkmenlere GıyabiCenazeNamazı Biz geç uyumuyoruz , diğerleri erken uyuyor .', mentions=[], hashtags=[], ivs=[3, 7, 8, 4, 5, 9], oovs=[2, 1], deasciified=[]}
+Tweet{text='#ÇapukÇapukTakipleşiyoruz anında GERİ TAKİP 3', mentions=[], hashtags=[1], ivs=[3, 4, 2], oovs=[], deasciified=[]}
+Tweet{text='Ayran boşbakanda kafa yapmis white sea ne amk :) #Hüloooğğğğ', mentions=[], hashtags=[10], ivs=[1, 3, 7], oovs=[8, 2, 6, 5, 4], deasciified=[]}
+Tweet{text='#1Düşünsene insanlar her sabah kalktiginda sadece yasadiklari icin birbirlerine sarildiklarini', mentions=[], hashtags=[1], ivs=[9, 3, 2, 4, 6], oovs=[8, 5, 10, 7], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN geri takip isteyen fav x 20', mentions=[], hashtags=[1], ivs=[2, 4, 3], oovs=[5, 6], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN unf yapmayacaksan geri takip anında yaparım 29', mentions=[], hashtags=[1], ivs=[6, 4, 5, 7, 3], oovs=[2], deasciified=[]}
+Tweet{text='#KıskançlıktanÇatlayanlaraNOT anlamiyorum bu kiskancliginizin sebebini ? Halbuki hepimiz kardesiz ...', mentions=[], hashtags=[1], ivs=[7, 3, 8, 5], oovs=[2, 9, 4], deasciified=[]}
+Tweet{text='@akiincibeyi : #1Düşünsene Akdeniz oyunlarını açarken osmanlıyı dunyanın gözüne sokuyorsun ....', mentions=[1], hashtags=[3], ivs=[4, 6, 9, 5, 10], oovs=[8, 7], deasciified=[]}
+Tweet{text='Şimdi DahaYüksekSesle SonSözümüz FENERBAHÇE evet haklısınız UEFA Çok acıttı dahada çok bağırın hatta götünüzü yırtın :))', mentions=[], hashtags=[], ivs=[7, 9, 12, 10, 5, 14, 6, 13, 15, 8, 11, 1], oovs=[2, 4, 3], deasciified=[]}
+Tweet{text='#birazgülmekiçin tekini bulamadığım çoraplarımla geçirdiğim savaşı hatırlarım : D', mentions=[], hashtags=[1], ivs=[9, 3, 5, 7, 6, 2, 4], oovs=[], deasciified=[]}
+Tweet{text='#takipedenitakipederim #TÜMHAYRANGRUPLARITAKİPLEŞSİN #ÇokSeriTakipBaşlıyor #GençlerTakipleşiyor #GümbürGümbürTakipleşelim geri dönüş hemen', mentions=[], hashtags=[4, 5, 2, 1, 3], ivs=[7, 6, 8], oovs=[], deasciified=[]}
+Tweet{text='#BirazGülmekiçin hoş http://t.co/sszNppzo7k', mentions=[], hashtags=[1], ivs=[2], oovs=[], deasciified=[]}
+Tweet{text='@BurakErek white sea olarak ayrı Akdeniz olarak birleşik ;)', mentions=[1], hashtags=[], ivs=[6, 5, 8, 7], oovs=[3, 2], deasciified=[]}
+Tweet{text='#SözbiDaha söz vermicem .', mentions=[], hashtags=[1], ivs=[2], oovs=[3], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN geri takip icin sor yada fav x85', mentions=[], hashtags=[1], ivs=[2, 5, 3, 6], oovs=[7, 4, 8], deasciified=[]}
+Tweet{text='#GençlerTakipleşiyor #TümHayranlarÇılgıncaTakipleşiyor #Güleoynayatakipleşelim #TÜMHAYRANGRUPLARITAKİPLEŞSİN GERİ TAKİP İSTEYENLER .', mentions=[], hashtags=[1, 3, 4, 2], ivs=[5, 6, 7], oovs=[], deasciified=[]}
+Tweet{text='#KıskançlıktanÇatlayanlaraNOT inanın değmez .', mentions=[], hashtags=[1], ivs=[3, 2], oovs=[], deasciified=[]}
+Tweet{text='#1Düşünsene bir ilişkinin son hali de banka ATM sinin son iki kelimesi gibi değil mi ? Kalan Tutar ..', mentions=[], hashtags=[1], ivs=[8, 17, 18, 7, 2, 6, 14, 13, 5, 11, 3, 12, 15, 9, 10], oovs=[], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN ANINDA GERİ TAKİP İÇİN TAKİP ETMEN YETERLİİİİİİ 26', mentions=[], hashtags=[1], ivs=[2, 7, 3, 6, 5], oovs=[8], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN GERİ TAKİP İÇİN FAV YETERLİ HEMEN YAPARIM :) X10', mentions=[], hashtags=[1], ivs=[2, 7, 3, 8, 6, 4], oovs=[5, 10], deasciified=[]}
+Tweet{text='Tayyip cennete sırat köprüsünden değil , oğlanın gemicikle White Sea'den geçecekmiş . Cennetin VIP kapısından direk giriş izni varmış ...', mentions=[], hashtags=[], ivs=[13, 1, 2, 5, 16, 8, 11, 17, 18, 15, 4, 7, 3, 19], oovs=[10, 14, 9], deasciified=[]}
+Tweet{text='CHP de Grup Başkanvekillikleri belli oldu http://t.co/XPOcMp1Q1h #TÜMHAYRANGRUPLARITAKİPLEŞSİN http://t.co/TMWeAJJ494', mentions=[], hashtags=[8], ivs=[1, 3, 5, 2, 6], oovs=[4], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN Elingavuru düzduvra trmanınca ÖrümcekAdam dye halk kahramanı ilanedilir . Bizde düzduvara tırmnınca abazadyorlar', mentions=[], hashtags=[1], ivs=[11, 7, 8], oovs=[2, 14, 6, 12, 3, 9, 4, 13, 5], deasciified=[]}
+Tweet{text='Ben asıl şu anda çakma tarihçi ve dil bilimcilerin türemesini bekliyorum . Efendim Mediterranean Sea'nin etimolocik adı White Sea'dir falan', mentions=[], hashtags=[], ivs=[1, 13, 17, 4, 2, 11, 9, 8, 20, 6, 10, 7, 5, 3], oovs=[14, 19, 15, 18, 16], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN geri takip ederimmm :)', mentions=[], hashtags=[1], ivs=[2, 3], oovs=[4], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN Mixer'ler hariç her hayran grubuna geri takip yapıyorum . x200 yapın', mentions=[], hashtags=[1], ivs=[7, 6, 3, 5, 4, 8, 12, 9], oovs=[2, 11], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN Önceki hesabım askıya alındı takip edin anında geri takip yaparım x5', mentions=[], hashtags=[1], ivs=[5, 8, 4, 7, 9, 3, 10, 11, 2], oovs=[12], deasciified=[]}
+Tweet{text='@TheRedHack White Sea'yi TT mi yapsak belki oy birliğiyle adını değiştirirz : D', mentions=[1], hashtags=[], ivs=[13, 10, 7, 9, 5, 8, 6], oovs=[3, 4, 2, 11], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN Geri Takip için sadece RT yeterli 15', mentions=[], hashtags=[1], ivs=[2, 3, 4, 5, 7], oovs=[6], deasciified=[]}
+Tweet{text='Duranadamların arasına girip ''kamet'' getirsem acaba kaç kişi icabet eder :)) #1Düşünsene #SenHiçMi#Hüloooğğğğ', mentions=[], hashtags=[12, 13], ivs=[4, 6, 2, 10, 5, 3, 9, 7, 8], oovs=[1], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN geri takip için SOR yada #RT ( sadece hayran gruplarıııı ) x10', mentions=[], hashtags=[7, 1], ivs=[5, 2, 10, 4, 9, 3, 6], oovs=[11, 13], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN geri takip yapıyorum canlarr', mentions=[], hashtags=[1], ivs=[2, 3, 4], oovs=[5], deasciified=[]}
+Tweet{text='#BirazGülmekiçin http://t.co/YPpMcXxjY1', mentions=[], hashtags=[1], ivs=[], oovs=[], deasciified=[]}
+Tweet{text='@Sevrauhl'a DM isteyen #RT yapsın geri takip isteyen #Fav lasın ( Justin Sevra'yı takip ediyor ) Takip Şart #TÜMHAYRANGRUPLARITAKİPLEŞSİN', mentions=[1], hashtags=[9, 4, 19], ivs=[17, 15, 6, 8, 10, 14, 5, 18], oovs=[2, 12, 13], deasciified=[]}
+Tweet{text='Beraber dondurma yediğimizi , müzik dinlediğimizi , sarılıp uyuduğumuzu , korku filmi izlerken korktuğumuzu #1Düşünsene', mentions=[], hashtags=[15], ivs=[1, 6, 2, 12, 13, 14, 11, 5, 8, 9, 3], oovs=[], deasciified=[]}
+Tweet{text='Aninda geri takip :) #ÇapukÇapukTakipleşiyoruz', mentions=[], hashtags=[5], ivs=[2, 3], oovs=[1], deasciified=[]}
+Tweet{text='#SözbiDaha akp hükümetine hiç güvenmicem , ne kadar yalancı ve ezik oldugunu ınsanlık degıl ALLAH'ım da gördü agızlarını g te çevrilmiyor ki !!', mentions=[], hashtags=[1], ivs=[15, 16, 11, 19, 17, 4, 8, 22, 7, 10, 9, 21], oovs=[18, 2, 14, 5, 3, 12, 20, 13], deasciified=[]}
+Tweet{text='TürkGençliği UyuşturucuyaHayırDiyor Allah ( c . c ) haram yollara sapmaktan herkesi korusun', mentions=[], hashtags=[], ivs=[3, 9, 12, 13, 11, 10], oovs=[1, 2, 7], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN yıldız savaşcilari :) : O', mentions=[], hashtags=[1], ivs=[6, 2], oovs=[3], deasciified=[]}
+Tweet{text='#BilmemBiliyormusun ama sana olan sevgim kadar ofkemde var suan !!', mentions=[], hashtags=[1], ivs=[2, 6, 4, 3, 5, 8], oovs=[7, 9], deasciified=[]}
+Tweet{text='#SözbiDaha aşağıdaki tweetlerden atmayacağım _', mentions=[], hashtags=[1], ivs=[4, 2], oovs=[3], deasciified=[]}
+Tweet{text='#Hüloooğğğğ asdasfas : D', mentions=[], hashtags=[1], ivs=[4], oovs=[2], deasciified=[]}
+Tweet{text='Fahiseler bile kabullenmezken pankart acip , bi sorum var nereden cikti bunca politikaci ? #BirazGülmekiçin', mentions=[], hashtags=[15], ivs=[2, 12, 3, 10, 4, 8, 9], oovs=[1, 5, 7, 11, 13], deasciified=[]}
+Tweet{text='Oğlunun gemisinin gezdiği yerleri bilmiyor . Bilal nereye oğlum Akdenize baba White Sea hmm severim ...', mentions=[], hashtags=[], ivs=[7, 1, 11, 5, 2, 3, 8, 9, 15, 4], oovs=[10, 13, 12, 14], deasciified=[]}
+Tweet{text='#BirazGülmekiçin çok şey yapmanıza gerek yok , etraf komedi , olaylar komedi zaten bu aralar :) yalnızca arkanıza uzanın , seyredin ;)', mentions=[], hashtags=[1], ivs=[15, 18, 14, 8, 5, 12, 11, 21, 19, 17, 4, 6, 13, 2, 3], oovs=[], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN GERİ TAKİP İÇİN FAV 7', mentions=[], hashtags=[1], ivs=[2, 3, 4], oovs=[5], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN anında geri takip yaparım : D sormanıza falan gerek yok xx1', mentions=[], hashtags=[1], ivs=[7, 2, 9, 10, 3, 8, 4, 5, 11], oovs=[12], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN GERİ TAKİP İSTEYEN #RT YADA SOR z', mentions=[], hashtags=[5, 1], ivs=[2, 7, 3, 6, 4], oovs=[8], deasciified=[]}
+Tweet{text='İspanya 8 0 taiti #Hüloooğğğğ', mentions=[], hashtags=[5], ivs=[1], oovs=[4], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN #GençlerTakipleşiyor #takipedenitakipederim #Güleoynayatakipleşelim #GümbürGümbürTakipleşelim 53', mentions=[], hashtags=[2, 4, 5, 1, 3], ivs=[], oovs=[], deasciified=[]}
+Tweet{text='#SözbiDaha insanım diyene güvenmiycem !:)', mentions=[], hashtags=[1], ivs=[3, 2], oovs=[4], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN 2200 olmak istiyorum . Geri takip yaparım . Mixerlar takip etmesin . Geri takip için sor yada fav yap x9', mentions=[], hashtags=[1], ivs=[14, 12, 4, 16, 3, 17, 15, 18, 20, 8], oovs=[10, 19, 21], deasciified=[]}
+Tweet{text='UNFOLLOW YAPAN İNSANIN DÜŞÜNCESİ ; Sen daha iyi followerlara layıksın . #TÜMHAYRANGRUPLARITAKİPLEŞSİN', mentions=[], hashtags=[12], ivs=[4, 6, 2, 7, 8, 10, 3], oovs=[1, 9], deasciified=[]}
+Tweet{text='#KıskançlıktanÇatlayanlaraNOT Daha çok çatlarsınız .', mentions=[], hashtags=[1], ivs=[2, 4, 3], oovs=[], deasciified=[]}
+Tweet{text='Akdeniz 'White Sea' ise Ak Parti 'White Party' mi olur sayın başbakan ?', mentions=[], hashtags=[], ivs=[5, 1, 6, 12, 4, 9, 10, 11], oovs=[7, 8, 3], deasciified=[]}
+Tweet{text='#ÇapukÇapukTakipleşiyoruz DM falan hep açık bak gel kaçırma !! 11 !', mentions=[], hashtags=[1], ivs=[5, 6, 3, 7, 4, 8], oovs=[2], deasciified=[]}
+Tweet{text='TürkGençliği UyuşturucuyaHayırDiyor lsd kullanıp ramazan bayramından kurban bayramına kafası iyi gezenlere hayır !', mentions=[], hashtags=[], ivs=[8, 6, 11, 12, 10, 9, 4, 7, 5], oovs=[1, 2, 3], deasciified=[]}
+Tweet{text='#KıskançlıktanÇatlayanlaraNOT aramızda asla bişey olamazdı ... çaktınmı ..', mentions=[], hashtags=[1], ivs=[2, 3, 5], oovs=[4, 7], deasciified=[]}
+Tweet{text='#BirazGülmekiçin http://t.co/PP3kndSRfg', mentions=[], hashtags=[1], ivs=[], oovs=[], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN takip için geri sor x91', mentions=[], hashtags=[1], ivs=[4, 3, 5, 2], oovs=[6], deasciified=[]}
+Tweet{text='@sedaakgul İngilizce de sizin de bildiğiniz gibi , Akdeniz e ''White Sea'' değil ''Mediterranean'' deniliyor ! :)', mentions=[1], hashtags=[], ivs=[9, 6, 5, 15, 13, 7, 4, 2], oovs=[14, 11, 12, 10], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN SADECE 30 KİŞİMİ 14 FARKLI HESAPTAN TAKİP EDİLMEK İSTİYOR ???? HMMM https://t.co/Aob6H70nYA 5', mentions=[], hashtags=[1], ivs=[9, 6, 7, 4, 2, 8, 10], oovs=[12], deasciified=[]}
+Tweet{text='#Hüloooğğğğ #ÇapukÇapukTakipleşiyoruz #HayatımFilmOlsaİsmi #1Düşünsene #CiciCiciTakipleşelim takippppp', mentions=[], hashtags=[4, 5, 3, 1, 2], ivs=[], oovs=[6], deasciified=[]}
+Tweet{text='SON 10 KİŞİ İÇİN RT YAPAR MISINIZ ? GERİ TAKİP İÇİN #FAV #RT VEYA SOR #TÜMHAYRANGRUPLARITAKİPLEŞSİN X18', mentions=[], hashtags=[12, 13, 16], ivs=[9, 3, 7, 1, 15, 10, 14, 6, 11], oovs=[5, 17], deasciified=[]}
+Tweet{text='MuhsinYazıcıoğlunun KatilleriBulunsun istiyoruz çünkü katillerine bu dünyayı da zindan etmek boynunun borcudur devletin ...', mentions=[], hashtags=[], ivs=[12, 11, 6, 8, 13, 7, 10, 3, 5, 9, 4], oovs=[2, 1], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN4K 7 kişi kaldıGeri takip için fav yap x12', mentions=[], hashtags=[1], ivs=[6, 3, 5, 8], oovs=[7, 4, 9], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN Anında geri takip yaparım Hangi hayran grubundan olduğun önemli değil x3', mentions=[], hashtags=[1], ivs=[2, 6, 11, 3, 8, 7, 9, 4, 5, 10], oovs=[12], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN #GençlerTakipleşiyor UNFOLLOW'SUZ TAKİP Mİ İSTİYORSUN KAMOON ! 45', mentions=[], hashtags=[2, 1], ivs=[5, 4, 6], oovs=[7, 3], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN Takip edeni takip ediyorum . #takipedenitakipederim', mentions=[], hashtags=[1, 7], ivs=[2, 3, 5, 4], oovs=[], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN 2200 olmak istiyorum . Geri takip yaparım . Mixerlar takip etmesin . Geri takip için sor yada fav yap x12', mentions=[], hashtags=[1], ivs=[14, 12, 4, 16, 3, 17, 15, 18, 20, 8], oovs=[10, 19, 21], deasciified=[]}
+Tweet{text='#BirazGülmekiçin Para Gibisin Nasıl Yani İki Yüzlü mü ! Hiç Yoksun Lan : O', mentions=[], hashtags=[1], ivs=[3, 10, 12, 4, 14, 2, 5, 11, 7, 8, 6], oovs=[], deasciified=[]}
+Tweet{text='#1Düşünsene akdeniz oyunlarında kıbrısı davet etmek resmi olarak güney kıbrısı tanımaktır iktidardakiler ne yapmaya çalışmaktadırlar ?', mentions=[], hashtags=[1], ivs=[5, 6, 9, 12, 13, 8, 3, 7, 11, 14, 15], oovs=[2, 10], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN anında geri takip yaparım : D sormanıza falan gerek yok xx7', mentions=[], hashtags=[1], ivs=[7, 2, 9, 10, 3, 8, 4, 5, 11], oovs=[12], deasciified=[]}
+Tweet{text='#BilmemBiliyormusun bundan 100 sene önce yoktun ve 100 sene sonrada olmayacaksın , vazifen iki yokluğun arasında seni var edeni bulacaksın ..', mentions=[], hashtags=[1], ivs=[16, 20, 2, 19, 14, 11, 9, 17, 10, 18, 13, 7, 15, 5], oovs=[6], deasciified=[]}
+Tweet{text='#ÇapukÇapukTakipleşiyoruz TAKİP YOKSA BYBY', mentions=[], hashtags=[1], ivs=[2, 3], oovs=[4], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN #GençlerTakipleşiyor gerçek hesabımı @BerkAydogn1D ve beni takip edin #FAV layın ikisindende geri t . var x23', mentions=[5], hashtags=[10, 2, 1], ivs=[7, 9, 13, 3, 4, 14, 8, 16, 6], oovs=[12, 11, 17], deasciified=[]}
+Tweet{text='#KıskançlıktanÇatlayanlaraNOT tam gaz devam : d : D : d : D', mentions=[], hashtags=[1], ivs=[12, 4, 3, 2], oovs=[10], deasciified=[]}
+Tweet{text='#BirazGülmekiçin Türk soluna baksan yeter', mentions=[], hashtags=[1], ivs=[2, 4, 3, 5], oovs=[], deasciified=[]}
+Tweet{text='White Sea olayina son noktayi kim koyacak ? Ingilizler , Romalilar , Araplar , Turkler , mal sahibi mulk sahibi hani bunun ilk sahibi ?', mentions=[], hashtags=[], ivs=[13, 22, 21, 23, 6, 7, 17, 24, 4], oovs=[9, 11, 2, 15, 1, 19, 5, 3], deasciified=[]}
+Tweet{text='Sadun seni çok sevdiğimi #BilmemBiliyormusun :) @SadunSenem', mentions=[7], hashtags=[5], ivs=[1, 2, 4, 3], oovs=[], deasciified=[]}
+Tweet{text='MuhsinYazıcıoğlunun KatilleriBulunsun MuhsinYazıcıoğlunun KatilleriBulunsun MuhsinYazıcıoğlunun KatilleriBulunsun 23', mentions=[], hashtags=[], ivs=[], oovs=[6, 5], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN Geri takip hızım ışık hızıyla yarışır arkadaşlar . d ( unf . yaparsan spam yersin ) x43', mentions=[], hashtags=[1], ivs=[2, 8, 4, 6, 3, 14, 7, 16, 5], oovs=[10, 15, 12, 18], deasciified=[]}
+Tweet{text='Şimdi DahaYüksekSesle SonSözümüz FENERBAHÇE 3 ..', mentions=[], hashtags=[], ivs=[1], oovs=[2, 4, 3], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN #TümHayranlarÇılgıncaTakipleşiyor ANINDA GERİ TAKİP UNFOLLOWSUZ X75', mentions=[], hashtags=[1, 2], ivs=[3, 4, 5], oovs=[6, 7], deasciified=[]}
+Tweet{text='Yok amk white sea değil ak sea #1Düşünsene mantıklı geliyor mu ?', mentions=[], hashtags=[8], ivs=[1, 6, 5, 10, 9, 11], oovs=[2, 7, 3], deasciified=[]}
+Tweet{text='#ÇapukÇapukTakipleşiyoruz 30sn icinde geri takip unf . yapmiycksan gel !', mentions=[], hashtags=[1], ivs=[9, 4, 5], oovs=[2, 3, 6, 8], deasciified=[]}
+Tweet{text='#SözbiDaha olsa bir daha yapıcammm', mentions=[], hashtags=[1], ivs=[3, 4, 2], oovs=[5], deasciified=[]}
+Tweet{text='M . ali alobora'nın polis koruması istiyorum . açıklamasına emniyet teşkilatı cevap verdi #BirazGülmekiçin onu koruyacağız', mentions=[], hashtags=[14], ivs=[3, 9, 12, 10, 7, 6, 16, 15, 5, 11, 13], oovs=[1, 4], deasciified=[]}
+Tweet{text='#TÜMHAYRANGRUPLARITAKİPLEŞSİN #TümHayranlarÇılgıncaTakipleşiyor ANINDA GERİ TAKİP UNFOLLOWSUZ X80', mentions=[], hashtags=[1, 2], ivs=[3, 4, 5], oovs=[6, 7], deasciified=[]}
+Tweet{text='White sea ne ki la ? Diyenler için : http://t.co/Y4lCLkIBJa', mentions=[], hashtags=[], ivs=[7, 8, 4, 5, 3], oovs=[1, 2], deasciified=[]}
