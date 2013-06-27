@@ -14,11 +14,6 @@ import java.util.*;
  * Time: 8:07 PM
  * To change this template use File | Settings | File Templates.
  */
-public class Parser {
-    static TreeMap<String, String> oovlist = new TreeMap<String,String>();
-    // PRIVATE
-    private final String fFileName;
-    private final String outFileName = "resources/output/parsed.txt";
     private final String needToNorm = "resources/output/parsed_oov_words.txt";
     private final String fEncoding = "utf-8";
     private final String INPUT_TEXT = "";

@@ -75,9 +75,7 @@ public class soundex {
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-//		sound("ÇEKOSLOVAKYALILAŞTIRAMADIKLARIMIZDANMISINIZ");
-		sound("mrb");
-
+        System.out.print(sound("merhaba"));
 	}
 
 }
