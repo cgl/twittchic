@@ -25,7 +25,6 @@ public class Parser {
 
     private final String fEncoding = "utf-8";
     private final String INPUT_TEXT = "";
-    private String FIXED_TEXT = "But soft! what code in yonder program breaks?";
     private  List<Tweet> tweets;
 
     public Parser(String fileName) {
@@ -166,15 +165,26 @@ public class Parser {
         if (args.length > 1)
             l = args[1];
         Parser deasc = new Parser(l);
+
+            //ovv_statistics();
+            try {
+                deasc.process(1000);
+            } catch (IOException e) {
+                e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+            }
+            deasc.write();
+        }
+
+    public static void statistics(){
+        String l = "resources/input/tokenized.txt";
+        Parser deasc = new Parser(l);
         for (int limit : new int[]{500,700, 1000, 1500, 2000}){
             try {
                 deasc.process(limit);
             } catch (IOException e) {
                 e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
             }
-            deasc.log("Tweets: "+ deasc.tweets.size() + deasc.ovv_statistics());
-            //ovv_statistics();
-            deasc.write();
+            deasc.log("Tweets: " + deasc.tweets.size() + deasc.ovv_statistics());
         }
 
     }
