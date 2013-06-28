@@ -1,6 +1,5 @@
 package net.twittchic;
 
-import com.sun.deploy.util.StringUtils;
 import net.zemberek.erisim.Zemberek;
 import net.zemberek.tr.yapi.TurkiyeTurkcesi;
 import turkish.Deasciifier;

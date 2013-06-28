@@ -1,5 +1,8 @@
 package net.twittchic;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -28,6 +31,37 @@ public class denZemb2 {
 	public static String turkChLower = "çöşığüâûî";
 	public static String turkChUpper = "ÇÖŞİĞÜÂÛÎ";
 	
+	public static ArrayList<String> soundDict(String str)
+	{
+		ArrayList<String> words = new ArrayList<String>();
+		
+		ArrayList<String> cand = new ArrayList<String>();
+		
+		try
+		
+		{
+			BufferedReader br = new BufferedReader(new FileReader("resources/output/parsed_iv_words.txt"));
+
+			String word = "";
+			while((word = br.readLine()) != null)
+			{
+				words.add(word);
+			}
+			br.close();
+			for(int i = 0; i < words.size(); i++)
+			{
+				String dictWord = words.get(i);
+				if(soundex.sound(dictWord).equals(soundex.sound(str)))
+					cand.add(dictWord);
+			}
+
+		}
+		catch(IOException ioe)
+		{
+			ioe.printStackTrace();
+		}
+		return cand;
+	}
 	public static ArrayList<String> compAnalyzerLower(String str)
 	{
 		ArrayList<String> al = new ArrayList<String>();
@@ -135,6 +169,11 @@ public class denZemb2 {
 		compAnalyzer("HayatımFilmOlsaİsmi");
 		compAnalyzer("TurkishHuntersWantSPN");
 		compAnalyzer("");
+		
+		
+		System.out.println(soundDict("ağğlama"));
+		System.out.println(soundDict("mrb"));
+		System.out.println(soundDict("slm"));
 		
 //		z.kelimeAyristir("degilabdestle");
 //		System.out.println(Arrays.toString(z.oner("salk")));

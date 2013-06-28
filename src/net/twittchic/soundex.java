@@ -6,14 +6,16 @@ public class soundex {
 	/**
 	 * @param args
 	 */
-	public static String vow = "AEIOUHWY";
+	//asagisi once AEIOUHWY idi
+	public static String vow = "AEIOUHW";
 	public static String str1 = "BFPV";
 	public static String str2 = "CGJKQSXZ";
 	public static String str3 = "DT";
 	public static String str4 = "L";
 	public static String str5 = "MN";
 	public static String str6 = "R";
-
+	public static String str7 = "Y";
+	
 	public static String sound(String word)
 	{
 
@@ -49,7 +51,9 @@ public class soundex {
 				temp1 += "5";
 			else if(str6.contains(Character.toString(ch)))
 				temp1 += "6";
-
+			else if(str7.contains(Character.toString(ch)))
+				temp1 += "7";
+			
 		}
 		String temp2 = "";
 		temp2 += Character.toString(temp1.charAt(0));
