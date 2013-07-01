@@ -1,9 +1,8 @@
 package net.twittchic;
 
-import com.sun.deploy.util.StringUtils;
+import net.twittchic.constants.Constants;
 import net.zemberek.erisim.Zemberek;
 import net.zemberek.tr.yapi.TurkiyeTurkcesi;
-import turkish.Deasciifier;
 
 import java.io.*;
 import java.util.*;
@@ -18,19 +17,13 @@ import java.util.*;
 public class Parser {
     static TreeMap<String, String> oovlist = new TreeMap<String,String>();
     static TreeMap<String, String> ivlist = new TreeMap<String,String>();
-    // PRIVATE
-    private final String fFileName;
-    private final String outFileName = "resources/output/parsed.txt";
-    private final String needToNorm = "resources/output/parsed_oov_words.txt";
-    private final String normed = "resources/output/parsed_iv_words.txt";
 
     private final String fEncoding = "utf-8";
     private final String INPUT_TEXT = "";
-    private  List<Tweet> tweets;
+    private List<Tweet> tweets;
 
-    public Parser(String fileName) {
+    public Parser() {
         tweets = new ArrayList<Tweet>();
-        fFileName = fileName;
     }
 
     public String ovv_statistics(){
@@ -44,35 +37,28 @@ public class Parser {
         return " Unique Ovv size " + oovlist.size() + " Unique Iv size " + ivlist.size() + " Ovvs " + sum + " Ivs " + iv;
     }
     public void write(){
-        String NL = System.getProperty("line.separator");
         try {
-            Writer out = new OutputStreamWriter(new FileOutputStream(outFileName), fEncoding);
+            Writer out = new OutputStreamWriter(new FileOutputStream(Constants.outFileName), fEncoding);
             for (Tweet tweet : this.tweets){
                 //tweet.deasciify();
-                out.write(tweet.toString()+ NL);
+                out.write(tweet.toString()+ Constants.NL);
             }
             out.close();
         }
         catch (IOException e) {
             e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
         }
-
-
     }
 
     void process(int limit) throws IOException {
-        Scanner scanner = new Scanner(new FileInputStream(fFileName), fEncoding);
-        Writer out2 = new OutputStreamWriter(new FileOutputStream(needToNorm), fEncoding);
+        Scanner scanner = new Scanner(new FileInputStream(Constants.fFileName), fEncoding);
         Zemberek z = new Zemberek(new TurkiyeTurkcesi());
-        int i = 0;
+        int i;
         Tweet tweet;
-        List<Tweet> tweets;
-        int sum = 0;
-
         try {
             while (scanner.hasNextLine()){
                 String s = scanner.nextLine().trim();
-                tweet = new Tweet(s);
+                tweet = new Tweet(s, false);
                 this.tweets.add(tweet);
                 i = 0;
                 for (String token : s.split(" ")) {
@@ -105,15 +91,12 @@ public class Parser {
                         tweet.addOov(token,i);
                         oovlist.put(token.toLowerCase(Locale.forLanguageTag("tr-TR")), "");
                     }
-
                 }
-                ;
                 if(oovlist.size() > limit)
                     break;
-
             }
-            save(oovlist,needToNorm);
-            save(ivlist,normed);
+            save(oovlist,Constants.needToNorm);
+            save(ivlist,Constants.normed);
         }
         finally{
             scanner.close();
@@ -162,10 +145,9 @@ public class Parser {
             l = v.next();
         }*/
 
-        l = "resources/input/tokenized.txt";
         if (args.length > 1)
             l = args[1];
-        Parser deasc = new Parser(l);
+        Parser deasc = new Parser();
 
             //ovv_statistics();
             try {
@@ -178,7 +160,7 @@ public class Parser {
 
     public static void statistics(){
         String l = "resources/input/tokenized.txt";
-        Parser deasc = new Parser(l);
+        Parser deasc = new Parser();
         for (int limit : new int[]{500,700, 1000, 1500, 2000}){
             try {
                 deasc.process(limit);
