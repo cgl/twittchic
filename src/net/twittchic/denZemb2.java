@@ -40,7 +40,7 @@ public class denZemb2 {
 		try
 		
 		{
-			BufferedReader br = new BufferedReader(new FileReader("resources/output/parsed_iv_words.txt"));
+			BufferedReader br = new BufferedReader(new FileReader("resources/input/vocab"));
 
 			String word = "";
 			while((word = br.readLine()) != null)
@@ -51,8 +51,10 @@ public class denZemb2 {
 			for(int i = 0; i < words.size(); i++)
 			{
 				String dictWord = words.get(i);
-				if(soundex.sound(dictWord).equals(soundex.sound(str)))
-					cand.add(dictWord);
+			
+				if(dictWord.length() > 0 && str.length() > 0)
+					if(soundex.sound(dictWord).equals(soundex.sound(str)))
+						cand.add(dictWord);
 			}
 
 		}
@@ -62,12 +64,31 @@ public class denZemb2 {
 		}
 		return cand;
 	}
-	public static ArrayList<String> compAnalyzerLower(String str)
+	public static ArrayList<String> analyzerRepeat(String str)
 	{
 		ArrayList<String> al = new ArrayList<String>();
 		
 		
+		Pattern p = Pattern.compile("(.)\\1");
+		Matcher m = p.matcher("meerhabaa buguuuun nasilsssinizz");
+		ArrayList<String> rep = new ArrayList<String>();
+		while(m.find())
+		{
+			rep.add(m.group());
+			System.out.println(m.group());
+		}
+	
 		
+		System.out.println(Integer.toBinaryString(5));
+		System.out.println(Integer.toBinaryString(4));
+		System.out.println(Math.pow(2, 3));
+		int dec = rep.size();
+
+		int no = (int) Math.pow(2, 3);
+		System.out.println("*************");
+		System.out.println(String.format("%" + dec + "s", "foo").replace(' ', '0'));  
+		for(int i = 0; i < no; i++)
+			System.out.println(String.format("%" + dec + "s", Integer.toBinaryString(i)).replace(' ', '0'));
 		
 		
 		return al;
@@ -171,14 +192,17 @@ public class denZemb2 {
 		compAnalyzer("");
 		
 		
-		System.out.println(soundDict("ağğlama"));
+		System.out.println(soundDict("ağğğlama"));
 		System.out.println(soundDict("mrb"));
 		System.out.println(soundDict("slm"));
+		System.out.println(soundDict("arkdş"));
 		
 //		z.kelimeAyristir("degilabdestle");
 //		System.out.println(Arrays.toString(z.oner("salk")));
 //		System.out.println(Arrays.toString(z.oner("Calistik")));
 		
+
 	}
+	
 
 }
