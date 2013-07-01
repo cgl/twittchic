@@ -18,8 +18,16 @@ public class Parser {
     static TreeMap<String, String> oovlist = new TreeMap<String,String>();
     static TreeMap<String, String> ivlist = new TreeMap<String,String>();
 
-    private final String fEncoding = "utf-8";
     private final String INPUT_TEXT = "";
+
+    public List<Tweet> getTweets() {
+        return tweets;
+    }
+
+    public void setTweets(List<Tweet> tweets) {
+        this.tweets = tweets;
+    }
+
     private List<Tweet> tweets;
 
     public Parser() {
@@ -38,7 +46,7 @@ public class Parser {
     }
     public void write(){
         try {
-            Writer out = new OutputStreamWriter(new FileOutputStream(Constants.outFileName), fEncoding);
+            Writer out = new OutputStreamWriter(new FileOutputStream(Constants.outFileName), Constants.fEncoding);
             for (Tweet tweet : this.tweets){
                 //tweet.deasciify();
                 out.write(tweet.toString()+ Constants.NL);
@@ -50,8 +58,8 @@ public class Parser {
         }
     }
 
-    void process(int limit) throws IOException {
-        Scanner scanner = new Scanner(new FileInputStream(Constants.fFileName), fEncoding);
+    public void process(int limit) throws IOException {
+        Scanner scanner = new Scanner(new FileInputStream(Constants.fFileName), Constants.fEncoding);
         Zemberek z = new Zemberek(new TurkiyeTurkcesi());
         int i;
         Tweet tweet;

@@ -8,6 +8,5 @@ public class Constants {
     public static String normed = "resources/output/parsed_iv_words.txt";
 
     public static String NL = System.getProperty("line.separator");
-
-
+    public static final String fEncoding = "utf-8";
 }
