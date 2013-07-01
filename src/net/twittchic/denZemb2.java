@@ -1,5 +1,8 @@
 package net.twittchic;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -28,12 +31,64 @@ public class denZemb2 {
 	public static String turkChLower = "çöşığüâûî";
 	public static String turkChUpper = "ÇÖŞİĞÜÂÛÎ";
 	
-	public static ArrayList<String> compAnalyzerLower(String str)
+	public static ArrayList<String> soundDict(String str)
+	{
+		ArrayList<String> words = new ArrayList<String>();
+		
+		ArrayList<String> cand = new ArrayList<String>();
+		
+		try
+		
+		{
+			BufferedReader br = new BufferedReader(new FileReader("resources/input/vocab"));
+
+			String word = "";
+			while((word = br.readLine()) != null)
+			{
+				words.add(word);
+			}
+			br.close();
+			for(int i = 0; i < words.size(); i++)
+			{
+				String dictWord = words.get(i);
+			
+				if(dictWord.length() > 0 && str.length() > 0)
+					if(soundex.sound(dictWord).equals(soundex.sound(str)))
+						cand.add(dictWord);
+			}
+
+		}
+		catch(IOException ioe)
+		{
+			ioe.printStackTrace();
+		}
+		return cand;
+	}
+	public static ArrayList<String> analyzerRepeat(String str)
 	{
 		ArrayList<String> al = new ArrayList<String>();
 		
 		
+		Pattern p = Pattern.compile("(.)\\1");
+		Matcher m = p.matcher("meerhabaa buguuuun nasilsssinizz");
+		ArrayList<String> rep = new ArrayList<String>();
+		while(m.find())
+		{
+			rep.add(m.group());
+			System.out.println(m.group());
+		}
+	
 		
+		System.out.println(Integer.toBinaryString(5));
+		System.out.println(Integer.toBinaryString(4));
+		System.out.println(Math.pow(2, 3));
+		int dec = rep.size();
+
+		int no = (int) Math.pow(2, 3);
+		System.out.println("*************");
+		System.out.println(String.format("%" + dec + "s", "foo").replace(' ', '0'));  
+		for(int i = 0; i < no; i++)
+			System.out.println(String.format("%" + dec + "s", Integer.toBinaryString(i)).replace(' ', '0'));
 		
 		
 		return al;
@@ -136,10 +191,18 @@ public class denZemb2 {
 		compAnalyzer("TurkishHuntersWantSPN");
 		compAnalyzer("");
 		
+		
+		System.out.println(soundDict("ağğğlama"));
+		System.out.println(soundDict("mrb"));
+		System.out.println(soundDict("slm"));
+		System.out.println(soundDict("arkdş"));
+		
 //		z.kelimeAyristir("degilabdestle");
 //		System.out.println(Arrays.toString(z.oner("salk")));
 //		System.out.println(Arrays.toString(z.oner("Calistik")));
 		
+
 	}
+	
 
 }

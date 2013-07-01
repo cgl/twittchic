@@ -3,6 +3,7 @@ package net.twittchic.constants;
 import net.twittchic.Deasciifier;
 import net.twittchic.Parser;
 import net.twittchic.Tweet;
+import net.twittchic.soundLevDict;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -39,9 +40,11 @@ public class Baseline {
         List<Tweet> tweets = parser.getTweets();
         Deasciifier d = new Deasciifier(tweets);
         d.process();
+
         //parser.setTweets(tweets);
-        write(tweets);
+        write(soundLevDict.process(tweets));
     }
+
 
     public static void write(List<Tweet> tweets){
         try {
