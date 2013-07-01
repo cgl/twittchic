@@ -2,6 +2,8 @@ package net.twittchic.constants;
 
 public class Constants {
     // Files
+	
+	//asli tokenized.txt olacak
     public static String fFileName = "resources/input/tokenized.txt";
     public static String outFileName = "resources/output/parsed.txt";
     public static String b1 = "resources/output/baseline/b1.txt";
