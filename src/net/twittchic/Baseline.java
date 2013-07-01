@@ -1,8 +1,9 @@
-package net.twittchic.constants;
+package net.twittchic;
 
 import net.twittchic.Deasciifier;
 import net.twittchic.Parser;
 import net.twittchic.Tweet;
+import net.twittchic.constants.Constants;
 import net.twittchic.soundLevDict;
 
 import java.io.FileOutputStream;
