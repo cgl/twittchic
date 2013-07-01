@@ -32,18 +32,22 @@ public class Baseline {
             l = args[1];
         Parser parser = new Parser();
 
-        try {
-            parser.process(999999999);
+        /*try {
+            //parser.process(999999999);
         } catch (IOException e) {
             e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
-        }
+        }    */
         //deasc.write();
         List<Tweet> tweets = parser.getTweets();
         Deasciifier d = new Deasciifier(tweets);
         d.process();
 
         //parser.setTweets(tweets);
-        write(soundLevDict.process(tweets));
+        //
+        // write(soundLevDict.process(tweets));
+        //write(tweets);
+        Control control = new Control();
+        control.process();
     }
 
 
