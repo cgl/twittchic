@@ -17,31 +17,28 @@ import static net.twittchic.Recommendations.zemberekrandom;
  */
 public class Baseline {
     public static void main(String[] args) {
-        String l;
+        baseline1234();
 
-        /*if (args.length < 1){
+    }
 
-            Scanner v = new Scanner(System.in);
-            l = v.next();
-        }*/
-        if (args.length > 1)
-            l = args[1];
-
+    public static void baseline1234(){
         List<Tweet> tweets = deserializeTweets();
+        Control control = new Control();
+        System.out.println("B0 ------------------------------------------------");
+        control.process_old(tweets);
+        System.out.println("B1 ------------------------------------------------");
         Deasciifier d = new Deasciifier(tweets);
         d.process();
-        List<Tweet> b2 = zemberekDegreeOne(tweets);
-        List<Tweet> b3 = zemberekrandom(b2);
-        Control control = new Control();
+        control.process_old(tweets);
+        System.out.println("B2 ------------------------------------------------");
+        zemberekDegreeOne(tweets);
+        control.process_old(tweets);
+        System.out.println("B3 ------------------------------------------------");
+        zemberekrandom(tweets);
+        control.process_old(tweets);
+        System.out.println("B4 ------------------------------------------------");
+        soundLevDict.process(tweets);
         control.process(tweets);
-
-        System.out.println("Cem asagidaki 2 satiri ekledi");
-        List<Tweet> b4 = soundLevDict.process(tweets);
-        control.process(b4);
-
-        //control.processB1B2B3(tweets);
-        //control.processB1B2B3(b3);
-        System.out.println("------------------------------------------------");
     }
 
     public static List<Tweet> deserializeTweets()

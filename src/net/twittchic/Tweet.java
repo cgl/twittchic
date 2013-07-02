@@ -22,6 +22,11 @@ public class Tweet implements Serializable{
     private TreeMap <Integer, String> oovs;
     private TreeMap <Integer, String> numbers;
     private TreeMap <Integer, ArrayList<String>> confusionSet;
+
+    public String getText() {
+        return text;
+    }
+
     private String text;
     boolean deasciified;
 
