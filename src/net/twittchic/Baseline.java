@@ -47,10 +47,11 @@ public class Baseline {
         //write(tweets);
         Control control = new Control();
         control.process(tweets);
-
+        System.out.println("------------------------------------------------");
         write(tweets,Constants.b1);
         List<Tweet> b2 = zemberekDegreeOne(tweets);
         control.process(b2);
+        System.out.println("------------------------------------------------");
         write(b2,Constants.b2);
         List<Tweet> b3 = zemberekrandom(tweets);
         //write(b3,Constants.b3);
