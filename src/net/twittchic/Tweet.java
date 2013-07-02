@@ -39,6 +39,7 @@ public class Tweet implements Serializable{
         this.oovs = new TreeMap <Integer, String> ();
         this.mentions = new TreeMap <Integer, String> ();
         this.hashtags =  new TreeMap <Integer, String> ();
+        this.numbers =  new TreeMap <Integer, String> ();
         this.deasciified = False;
         this.confusionSet = new TreeMap <Integer, ArrayList<String>>();
 
