@@ -34,6 +34,11 @@ public class Baseline {
         List<Tweet> b3 = zemberekrandom(b2);
         Control control = new Control();
         control.process(tweets);
+
+        System.out.println("Cem asagidaki 2 satiri ekledi");
+        List<Tweet> b4 = soundLevDict.process(tweets);
+        control.process(b4);
+
         //control.processB1B2B3(tweets);
         //control.processB1B2B3(b3);
         System.out.println("------------------------------------------------");
