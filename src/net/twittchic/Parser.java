@@ -98,6 +98,13 @@ public class Parser {
 
                         tweet.addOov(token,i);
                         oovlist.put(token.toLowerCase(Locale.forLanguageTag("tr-TR")), "");
+                        /*  // iv_words.txt dosyasına deasciify edilmiş kelimleri ekler
+                        turkish.Deasciifier d = new turkish.Deasciifier();
+                        d.setAsciiString(z.asciiyeDonustur(token));
+                        token = d.convertToTurkish();
+                        if(z.kelimeDenetle(token))
+                            ivlist.put(token.toLowerCase(Locale.forLanguageTag("tr-TR")), "");
+                            */
                     }
                 }
                 if(oovlist.size() > limit)
@@ -159,11 +166,11 @@ public class Parser {
 
             //ovv_statistics();
             try {
-                deasc.process(1000);
+                deasc.process(9999999);
             } catch (IOException e) {
                 e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
             }
-            deasc.write();
+            //deasc.write();
         }
 
     public static void statistics(){
