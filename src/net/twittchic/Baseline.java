@@ -1,10 +1,6 @@
 package net.twittchic;
 
-import net.twittchic.Deasciifier;
-import net.twittchic.Parser;
-import net.twittchic.Tweet;
 import net.twittchic.constants.Constants;
-import net.twittchic.soundLevDict;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -80,4 +76,26 @@ public class Baseline {
         }
     }
 
+             /*
+    public static void evaluation(List<Tweet> tweets,String filename){
+            Scanner scanner = new Scanner(new FileInputStream(Constants.ann1), Constants.fEncoding);
+            int i;
+            Tweet tweet;
+            try {
+                while (scanner.hasNextLine()){
+                    String s = scanner.nextLine().trim();
+                    String [] words = s.split(" ");
+        }
+        try {
+            Writer out = new OutputStreamWriter(new FileOutputStream(filename), Constants.fEncoding);
+            for (Tweet tweet : tweets){
+                //tweet.deasciify();
+                out.write(tweet.ovvsToString()+ Constants.NL);
+            }
+            out.close();
+        }
+        catch (IOException e) {
+            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+        }
+    }    */
 }

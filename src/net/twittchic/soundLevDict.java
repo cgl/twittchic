@@ -21,6 +21,10 @@ public class soundLevDict {
 	/**
 	 * @param args
 	 */
+	
+	public static String[] suffixesNoise = {"yom", "yon", "yoz", "acam", "acan", "acaz", "ecem", "ecen", "ecez"};
+	public static String[] suffixesCorr = {"yorum", "yorsun", "yoruz", "acağım", "acaksın", "acağız", "eceğim", "eceksin", "eceğiz"};
+	
 	public static Zemberek z = new Zemberek(new TurkiyeTurkcesi());
 
 
@@ -56,24 +60,102 @@ public class soundLevDict {
 		Matcher m = p.matcher(str);
 		ArrayList<String> rep = new ArrayList<String>();
 		if(!m.find())
+		{
+			String suff = "";
+			
+			
+			
+			for(int w = 0; w < suffixesNoise.length; w++)
+			{
+				if(str.contains(suffixesNoise[w]))
+				{
+					
+					
+					String yourString = str;
+					StringBuilder b = new StringBuilder(yourString);
+					b.replace(yourString.lastIndexOf(suffixesNoise[w]), yourString.lastIndexOf(suffixesNoise[w]) + suffixesNoise[w].length(), suffixesCorr[w] );
+					suff = b.toString();
+					
+					
+//					suff = str.replace(suffixesNoise[w], suffixesCorr[w]);
+					String[] prop = z.oner(suff);
+					if(z.kelimeDenetle(suff))
+					{
+						System.out.println(suff);
+						return suff;
+					}
+					else
+					{
+						
+						for(int j = 0; j < prop.length; j++)
+						{
+							if(computeLevenshteinDistance(prop[j], suff) == 1)
+							{
+								
+								System.out.println(prop[j]);
+								return prop[j];
+							}
+						}
+					}
+					//üzmiycem denemesi - vocab'da üzmeyeceğim olmadığı için doğru çalışamaz, yani vocab'ın hatası
+//					try
+//					{
+//						System.out.println("sakjhdkjsahdahdkashksashkjadhs");
+//						BufferedReader br = new BufferedReader(new FileReader("vocab"));
+//						String line = "";
+//						//asagidakini kullanabilirsin
+//						ArrayList<String> candSound = new ArrayList<String>();
+//						String vowEl = soundex.vowElimY(suff);
+//						while((line = br.readLine()) != null)
+//						{
+//							
+//							if(vowEl.equals(soundex.vowElimY(line)))
+//							{
+//								System.out.println(line);
+//								return line;
+//							}
+//						}
+//						br.close();
+//					}
+//					catch(IOException ioe)
+//					{
+//						ioe.printStackTrace();
+//					}
+					
+//					for(int j = 0; j < prop.length; j++)
+//					{
+//						if(soundex.vowElimY(prop[j]).equals(suff))
+//						{
+//							
+//							System.out.println(prop[j]);
+//							return prop[j];
+//						}
+//					}
+					
+					//buraya koyacaksin
+				}
+			}
+			
+			
 			return sRet;
+		}
 		m = p.matcher(str);
 		while(m.find())
 		{
 			rep.add(m.group());
-
+			
 		}
-
-
+	
+		
 		int dec = rep.size();
 		ArrayList<String> cand = new ArrayList<String>();
 		int no = (int) Math.pow(2, dec);
 		for(int i = 0; i < no; i++)
 		{
-
+			
 			String res = str;
 			String tmp = String.format("%" + dec + "s", Integer.toBinaryString(i)).replace(' ', '0');
-
+			
 			int ind = 0;
 			String subs = "";
 			for(int k = 0; k < tmp.length(); k++)
@@ -81,7 +163,7 @@ public class soundLevDict {
 				ind = res.indexOf(rep.get(k));
 				if(tmp.charAt(k) == '0')
 				{
-
+					
 					String s = res.replaceFirst(rep.get(k), rep.get(k).substring(0, 1));
 					if(k == tmp.length() - 1)
 						subs += s.substring(0, s.length());
@@ -98,16 +180,85 @@ public class soundLevDict {
 						subs += s.substring(0, ind + 2);
 				}
 				res = res.substring(ind + rep.get(k).length(), res.length());
-
+				
 			}
-
+			
 //			System.out.println(subs);
 			if(z.kelimeDenetle(subs))
 			{
 //				System.out.println(subs);
 				sRet = subs;
 				cand.add(subs);
+				
 //				break;
+			}
+			//asagisi eklendi
+			else
+			{
+				String suff = "";
+				
+				
+				for(int w = 0; w < suffixesNoise.length; w++)
+				{
+					if(subs.contains(suffixesNoise[w]))
+					{
+						
+						String yourString = subs;
+						StringBuilder b = new StringBuilder(yourString);
+						b.replace(yourString.lastIndexOf(suffixesNoise[w]), yourString.lastIndexOf(suffixesNoise[w]) + suffixesNoise[w].length(), suffixesCorr[w] );
+						suff = b.toString();
+//						System.out.println("kelimmeeeeeeeeee: 1- " + str + ", 2- " + suff);
+						
+//						suff.replace(suffixesNoise[w], suffixesCorr[w]);
+						
+						if(z.kelimeDenetle(suff))
+						{
+							System.out.println(suff);
+							return suff;
+						}
+						else
+						{
+							String[] prop = z.oner(suff);
+							for(int j = 0; j < prop.length; j++)
+							{
+								if(computeLevenshteinDistance(prop[j], suff) == 1)
+								{
+									System.out.println(prop[j]);
+									return prop[j];
+								}
+							}
+						}
+						
+//						try
+//						{
+//							System.out.println("sakdgadjskgdasjkshskajagdsasdkg: " + suff);
+//							BufferedReader br = new BufferedReader(new FileReader("vocab"));
+//							String line = "";
+//							//asagidakini kullanabilirsin
+//							ArrayList<String> candSound = new ArrayList<String>();
+//							String vowEl = soundex.vowElimY(suff);
+//							while((line = br.readLine()) != null)
+//							{
+//								
+//								if(vowEl.equals(soundex.vowElimY(line)))
+//								{
+//									
+//									System.out.println(line);
+//									return line;
+//								}
+//							}
+//							br.close();
+//						}
+//						catch(IOException ioe)
+//						{
+//							ioe.printStackTrace();
+//						}
+						
+					}
+				}
+				
+				
+				
 			}
 		}
 		int min = 100;
@@ -230,9 +381,18 @@ public class soundLevDict {
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		
 		//asagidakiler eger zemberek oneri propose edemiyorsa calistirilmali
 		//asagidakiler istemedigimiz kelimeler return ediyorsa context analysis yapmaliyiz
+
+		elSound("üzmicemmmm");
+		
+		elSound("yapacammmmmmmm"); //sozlukte var, o yuzden yapacagim'i donduremez
+		elSound("yapacan");
+		elSound("yapacazz");
 		elSound("ettiimm"); //etim olarak da dondurebiliyor, levensh. bunu duzeltiyor
+		elSound("edicem");
 		elSound("yapyrsnnnn"); //context analysis gerekiyor -> yapıyorsun || yapıyorsan ?
 		elSound("nslsn");
 		elSound("mrbbbbbbbbbbbbbbb");
@@ -242,7 +402,6 @@ public class soundLevDict {
 		elSound("hşçaaaaakl");
 		elSound("a");
 		elSound("sçmalamaaaaa");
-		elSound("yapacam"); //sozlukte var, o yuzden yapacagim'i donduremez
 		elSound("yapçam"); //soundex ile yapcan mi olur, yapcam mi?
 		elSound("edeceim"); // edecem, edecegim - her ikisinin de dist.'i 1
 		elSound("yapıyom"); //yapiyorum'u donduremez, cunku yapiyom da zaten sozlukte
@@ -251,16 +410,18 @@ public class soundLevDict {
 		elSound("isstmiiiiiiiiiiiiyoooooruuuummmmm");
 		elSound("nbrrrrrrrrrrrrrrr");
 		//aslinda sozlugun bu kadar comprehensive olmasi yanlis
-		System.out.println(Arrays.toString(z.oner("hoşçakal"))); //zemb bunu donduremiyor
-		//yapacan - yapacaksın, bunu bulamayız
-		System.out.println(Arrays.toString(z.oner("yapacan")));
-		System.out.println(Arrays.toString(z.oner("herkez")));
+//		System.out.println(Arrays.toString(z.oner("hoşçakal"))); //zemb bunu donduremiyor
+//		//yapacan - yapacaksın, bunu bulamayız
+//		System.out.println(Arrays.toString(z.oner("yapacan")));
+//		System.out.println(Arrays.toString(z.oner("herkez")));
+		
 		//yapacam yapacağım   cam
-		//blduum -> bulduğum || buldum ?
+		//blduum -> bulduğum || buldum ? 
 		// [herken, herkes, merkez, herke, herkiz, Çerkez, her kez, herk ez] -> herkes
 		//Yukarisi icin kelimelerin frekansini goz onunde tutmak zorundayiz
 		//biliyomusun vs. biyometrik && myom
 		//alacaz vs. cazibe
+		//yapacan vs. afacan
 	}
 }
 //zemberek'in onerdikleri
