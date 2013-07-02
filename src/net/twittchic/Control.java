@@ -85,10 +85,11 @@ public class Control {
                     else{
                         String line[] = inputline.split(" ");
                         for (Integer ind : oovs.keySet()) {
-                            if(line[ind-1].equals(oovs.get(ind)))
+                            String corrected = line[ind-1].replace("_"," ");
+                            if(corrected.equals(oovs.get(ind)))
                                 pozitive++;
                             else{
-                                System.out.println("Negatif : "+oovs.get(ind)+" - "+line[ind-1]+" - "+count);
+                                System.out.println("Negatif : "+oovs.get(ind)+" - "+corrected+" - "+count);
                                 negative++;
                             }
                         }

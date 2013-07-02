@@ -54,11 +54,12 @@ public class Baseline {
 
         write(tweets,Constants.b1);
         List<Tweet> b2 = zemberekDegreeOne(tweets);
+        control.process(b2);
         write(b2,Constants.b2);
         List<Tweet> b3 = zemberekrandom(tweets);
-        write(b3,Constants.b3);
+        //write(b3,Constants.b3);
         List<Tweet> b4 = soundLevDict.process(tweets);
-        write(b4,Constants.b4);
+        //write(b4,Constants.b4);
 
     }
 
