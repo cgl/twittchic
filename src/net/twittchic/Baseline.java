@@ -1,10 +1,6 @@
 package net.twittchic;
 
-import net.twittchic.Deasciifier;
-import net.twittchic.Parser;
-import net.twittchic.Tweet;
 import net.twittchic.constants.Constants;
-import net.twittchic.soundLevDict;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -44,11 +40,11 @@ public class Baseline {
         List<Tweet> tweets = parser.getTweets();
         Deasciifier d = new Deasciifier(tweets);
         d.process();
-        write(tweets,Constants.b1);
+        //write(tweets,Constants.b1);
         List<Tweet> b2 = zemberekDegreeOne(tweets);
-        write(b2,Constants.b2);
+        //write(b2,Constants.b2);
         List<Tweet> b3 = zemberekrandom(tweets);
-        write(b3,Constants.b3);
+        //write(b3,Constants.b3);
         List<Tweet> b4 = soundLevDict.process(tweets);
         write(b4,Constants.b4);
     }
@@ -68,4 +64,26 @@ public class Baseline {
         }
     }
 
+             /*
+    public static void evaluation(List<Tweet> tweets,String filename){
+            Scanner scanner = new Scanner(new FileInputStream(Constants.ann1), Constants.fEncoding);
+            int i;
+            Tweet tweet;
+            try {
+                while (scanner.hasNextLine()){
+                    String s = scanner.nextLine().trim();
+                    String [] words = s.split(" ");
+        }
+        try {
+            Writer out = new OutputStreamWriter(new FileOutputStream(filename), Constants.fEncoding);
+            for (Tweet tweet : tweets){
+                //tweet.deasciify();
+                out.write(tweet.ovvsToString()+ Constants.NL);
+            }
+            out.close();
+        }
+        catch (IOException e) {
+            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+        }
+    }    */
 }
