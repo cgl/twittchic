@@ -24,6 +24,14 @@ public class Tweet implements Serializable{
     private String text;
     boolean deasciified;
 
+    public TreeMap<Integer, ArrayList<String>> getConfusionSet() {
+        return confusionSet;
+    }
+
+    public void setConfusionSet(TreeMap<Integer, ArrayList<String>> confusionSet) {
+        this.confusionSet = confusionSet;
+    }
+
     public Tweet(String text, boolean False) {
         this.text = text;
         this.ivs = new TreeMap <Integer, String> ();
@@ -31,6 +39,7 @@ public class Tweet implements Serializable{
         this.mentions = new TreeMap <Integer, String> ();
         this.hashtags =  new TreeMap <Integer, String> ();
         this.deasciified = False;
+        this.confusionSet = new TreeMap <Integer, ArrayList<String>>();
 
     }
 
@@ -96,12 +105,17 @@ public class Tweet implements Serializable{
     }
     public void addToConfusionSet(Integer ind, String oov) {
         ArrayList<String> strings = this.confusionSet.get(ind);
+        if(strings == null)
+            strings = new ArrayList<String>();
         strings.add(oov);
         this.confusionSet.put(ind, strings);
+
     }
 
     public void updateConfusionSet(Integer ind, String oov) {
         ArrayList<String> strings = this.confusionSet.get(ind);
+        if(strings == null)
+            strings = new ArrayList<String>();
         strings.add(oov);
         this.confusionSet.put(ind,strings);
     }

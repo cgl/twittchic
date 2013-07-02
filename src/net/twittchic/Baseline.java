@@ -6,6 +6,7 @@ import java.io.*;
 import java.util.List;
 
 import static net.twittchic.Recommendations.zemberekDegreeOne;
+import static net.twittchic.Recommendations.zemberekrandom;
 
 /**
  * Created with IntelliJ IDEA.
@@ -29,25 +30,12 @@ public class Baseline {
         List<Tweet> tweets = deserializeTweets();
         Deasciifier d = new Deasciifier(tweets);
         d.process();
-
-        //parser.setTweets(tweets);
-        //
-        // write(soundLevDict.process(tweets));
-        //write(tweets);
-        Control control = new Control();
-        control.process(tweets);
-        System.out.println("------------------------------------------------");
-        write(tweets,Constants.b1);
         List<Tweet> b2 = zemberekDegreeOne(tweets);
-        control.process(b2);
-        //write(b2,Constants.b2);
-        //List<Tweet> b3 = zemberekrandom(tweets);
-        //write(b3,Constants.b3);
-        //control.process(b3);
-        //List<Tweet> b4 = soundLevDict.process(tweets);
-        //write(b4,Constants.b4)
-        //control.process(b4);
-
+        List<Tweet> b3 = zemberekrandom(b2);
+        Control control = new Control();
+        //control.process(tweets, false);
+        control.processB1B2B3(b3);
+        System.out.println("------------------------------------------------");
     }
 
     public static List<Tweet> deserializeTweets()
