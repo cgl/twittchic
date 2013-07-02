@@ -4,6 +4,7 @@ import net.zemberek.erisim.Zemberek;
 import net.zemberek.tr.yapi.TurkiyeTurkcesi;
 import turkish.Deasciifier;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.TreeMap;
 
@@ -14,7 +15,7 @@ import java.util.TreeMap;
  * Time: 2:31 AM
  * To change this template use File | Settings | File Templates.
  */
-public class Tweet {
+public class Tweet implements Serializable{
     private TreeMap <Integer, String> mentions;
     private TreeMap <Integer, String> hashtags;
     private TreeMap <Integer, String> ivs;
