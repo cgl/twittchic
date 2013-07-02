@@ -151,6 +151,33 @@ public class Parser {
         file.close();
     }
 
+
+    public void serializeTweet(){
+        if(this.tweets.size()>0){
+            OutputStream file = null;
+            OutputStream buffer = null;
+            ObjectOutput output = null;
+            try
+            {
+                file = new FileOutputStream( Constants.tweetsFile );
+                buffer = new BufferedOutputStream( file );
+                output = new ObjectOutputStream( buffer );
+                try{
+                    output.writeObject(tweets);
+                }catch (IOException ex)
+                {
+                    System.out.println("Serialize edilirken hata gerçekleşti 1 !!! : "+ex.getMessage());
+                }
+                finally{
+                    output.close();
+                }
+            }catch (IOException ex)
+            {
+                System.out.println("Serialize edilirken hata gerçekleşti 2 !!! : "+ex.getMessage());
+            }
+        }
+
+    }
     public static void main(String[] args) {
         String l;
         /*
@@ -166,11 +193,12 @@ public class Parser {
 
             //ovv_statistics();
             try {
-                deasc.process(9999999);
+                deasc.process(999999);
             } catch (IOException e) {
                 e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
             }
             //deasc.write();
+            deasc.serializeTweet();
         }
 
     public static void statistics(){
