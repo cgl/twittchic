@@ -12,6 +12,9 @@ import java.io.OutputStreamWriter;
 import java.io.Writer;
 import java.util.List;
 
+import static net.twittchic.Recommendations.zemberekDegreeOne;
+import static net.twittchic.Recommendations.zemberekrandom;
+
 /**
  * Created with IntelliJ IDEA.
  * User: cagilulusahin
@@ -48,12 +51,21 @@ public class Baseline {
         //write(tweets);
         Control control = new Control();
         control.process(tweets);
+
+        write(tweets,Constants.b1);
+        List<Tweet> b2 = zemberekDegreeOne(tweets);
+        write(b2,Constants.b2);
+        List<Tweet> b3 = zemberekrandom(tweets);
+        write(b3,Constants.b3);
+        List<Tweet> b4 = soundLevDict.process(tweets);
+        write(b4,Constants.b4);
+
     }
 
 
-    public static void write(List<Tweet> tweets){
+    public static void write(List<Tweet> tweets,String filename){
         try {
-            Writer out = new OutputStreamWriter(new FileOutputStream(Constants.outFileName), Constants.fEncoding);
+            Writer out = new OutputStreamWriter(new FileOutputStream(filename), Constants.fEncoding);
             for (Tweet tweet : tweets){
                 //tweet.deasciify();
                 out.write(tweet.ovvsToString()+ Constants.NL);

@@ -85,7 +85,6 @@ public class soundex {
 	{
 	
 		String uppWord = word.toUpperCase();
-		
 		String temp1 = Character.toString(uppWord.charAt(0));
 		for(int i = 1; i < uppWord.length(); i++)
 		{

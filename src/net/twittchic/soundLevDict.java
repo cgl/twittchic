@@ -139,7 +139,6 @@ public class soundLevDict {
                     iv = oovs.get(ind);
                     if(iv.length() > 0)   {
                         //System.out.println(22222);
-                        System.out.println(iv);
                         //System.out.println(44444);
                         oovs.put(ind,elSound(iv));
                     }
@@ -168,8 +167,8 @@ public class soundLevDict {
 				while((line = br.readLine()) != null)
 				{
 					//asagidakileri de
-					String soundDict = soundex.sound(line);
-					String soundWord = soundex.sound(word);
+//					String soundDict = soundex.sound(line);
+//					String soundWord = soundex.sound(word);
 					String tmp = soundex.vowElim(line);
 					String mainWord = soundex.vowElim(word);
 					if(mainWord.equals(tmp) && !mainWord.equals(line))
