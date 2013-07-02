@@ -19,7 +19,7 @@ import java.util.TreeMap;
 
 public class Control {
 
-    public void process(List<Tweet> tweets, boolean False)
+    public void process(List<Tweet> tweets)
     {
         try {
             Scanner scannerInput = new Scanner(new FileInputStream(Constants.trainingFileName), Constants.fEncoding);
@@ -49,13 +49,13 @@ public class Control {
                                     if(corrected.equalsIgnoreCase(word))   {
                                         pozitive++;
                                         found = true;
+                                        System.out.println("Pozitif : "+confusions.toString()+" - "+corrected+" - "+count);
                                         break;
                                     }
                                 }
                                 if(!found){
                                     negative++;
-                                    System.out.println("Negatif : "+oovs.get(ind)+" - "+corrected+" - "+count);
-
+                                    //System.out.println("Negatif : "+confusions.toString()+" - "+corrected+" - "+count);
                                 }
                             }
                         }

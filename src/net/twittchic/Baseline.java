@@ -33,8 +33,9 @@ public class Baseline {
         List<Tweet> b2 = zemberekDegreeOne(tweets);
         List<Tweet> b3 = zemberekrandom(b2);
         Control control = new Control();
-        //control.process(tweets, false);
-        control.processB1B2B3(b3);
+        control.process(tweets);
+        //control.processB1B2B3(tweets);
+        //control.processB1B2B3(b3);
         System.out.println("------------------------------------------------");
     }
 
