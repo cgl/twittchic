@@ -8,9 +8,6 @@ import java.io.OutputStreamWriter;
 import java.io.Writer;
 import java.util.List;
 
-import static net.twittchic.Recommendations.zemberekDegreeOne;
-import static net.twittchic.Recommendations.zemberekrandom;
-
 /**
  * Created with IntelliJ IDEA.
  * User: cagilulusahin
@@ -49,12 +46,12 @@ public class Baseline {
         control.process(tweets);
 
         write(tweets,Constants.b1);
-        List<Tweet> b2 = zemberekDegreeOne(tweets);
-        control.process(b2);
-        write(b2,Constants.b2);
-        List<Tweet> b3 = zemberekrandom(tweets);
+        //List<Tweet> b2 = zemberekDegreeOne(tweets);
+        //control.process(b2);
+        //write(b2,Constants.b2);
+        //List<Tweet> b3 = zemberekrandom(tweets);
         //write(b3,Constants.b3);
-        control.process(b3);
+        //control.process(b3);
         List<Tweet> b4 = soundLevDict.process(tweets);
         //write(b4,Constants.b4)
         control.process(b4);

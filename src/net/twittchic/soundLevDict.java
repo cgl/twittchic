@@ -1,17 +1,16 @@
 package net.twittchic;
+import net.twittchic.constants.Constants;
+import net.zemberek.erisim.Zemberek;
+import net.zemberek.tr.yapi.TurkiyeTurkcesi;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.TreeMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
-import net.twittchic.constants.Constants;
-import net.zemberek.erisim.Zemberek;
-import net.zemberek.tr.yapi.TurkiyeTurkcesi;
 
 
 public class soundLevDict {
@@ -291,7 +290,9 @@ public class soundLevDict {
                     if(iv.length() > 0)   {
                         //System.out.println(22222);
                         //System.out.println(44444);
-                        oovs.put(ind,elSound(iv));
+                        String corrected = elSound(iv);
+                        if(!corrected.equals(""))
+                            oovs.put(ind,corrected);
                     }
                 }
             }
