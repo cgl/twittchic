@@ -8,6 +8,8 @@ import java.io.OutputStreamWriter;
 import java.io.Writer;
 import java.util.List;
 
+import static net.twittchic.Recommendations.zemberekDegreeOne;
+
 /**
  * Created with IntelliJ IDEA.
  * User: cagilulusahin

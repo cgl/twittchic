@@ -19,6 +19,7 @@ public class Tweet {
     private TreeMap <Integer, String> hashtags;
     private TreeMap <Integer, String> ivs;
     private TreeMap <Integer, String> oovs;
+    private TreeMap <Integer, ArrayList<String>> confusionSet;
     private String text;
     boolean deasciified;
 
@@ -92,6 +93,16 @@ public class Tweet {
     public void addMention(String mention, int ind){
         this.mentions.put(ind, mention);
     }
+    public void addToConfusionSet(Integer ind, String oov) {
+        ArrayList<String> strings = this.confusionSet.get(ind);
+        strings.add(oov);
+        this.confusionSet.put(ind, strings);
+    }
 
+    public void updateConfusionSet(Integer ind, String oov) {
+        ArrayList<String> strings = this.confusionSet.get(ind);
+        strings.add(oov);
+        this.confusionSet.put(ind,strings);
+    }
 
 }

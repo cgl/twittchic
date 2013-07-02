@@ -39,9 +39,27 @@ public class Deasciifier {
                 d.setAsciiString(z.asciiyeDonustur(iv));
                 iv = d.convertToTurkish();
                 if(z.kelimeDenetle(iv)){
-                    oovs.put(ind,iv);
+                    tweet.addToConfusionSet(ind,iv);
                 }
             }
         }
+    }
+
+    public static String asciifyAndCheck(String word){
+        turkish.Deasciifier d = new turkish.Deasciifier();
+        Zemberek z = new Zemberek(new TurkiyeTurkcesi());
+        d.setAsciiString(z.asciiyeDonustur(word));
+        word = d.convertToTurkish();
+        if(z.kelimeDenetle(word))
+            return word;
+        return "";
+    }
+
+    public static String asciify(String word){
+        turkish.Deasciifier d = new turkish.Deasciifier();
+        Zemberek z = new Zemberek(new TurkiyeTurkcesi());
+        d.setAsciiString(z.asciiyeDonustur(word));
+        word = d.convertToTurkish();
+        return word  ;
     }
 }

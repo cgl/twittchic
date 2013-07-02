@@ -31,7 +31,7 @@ public class Recommendations {
                 iv = oovs.get(ind);
                 recs = z.oner(iv);
                 if(recs.length > 0 & recs.length < 2){
-                    oovs.put(ind,recs[0]);
+                    tweet.addToConfusionSet(ind,recs[0]);
                 }
             }
         }

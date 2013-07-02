@@ -88,11 +88,13 @@ public class Control {
                         String line[] = inputline.split(" ");
                         for (Integer ind : oovs.keySet()) {
                             String corrected = line[ind-1].replace("_"," ");
-                            if(corrected.equals(oovs.get(ind)))
-                                pozitive++;
-                            else{
-                                System.out.println("Negatif : "+oovs.get(ind)+" - "+corrected+" - "+count);
-                                negative++;
+                            if(!corrected.startsWith("#")){
+                                if(corrected.equalsIgnoreCase(oovs.get(ind)))
+                                    pozitive++;
+                                else{
+                                    System.out.println("Negatif : "+oovs.get(ind)+" - "+corrected+" - "+count);
+                                    negative++;
+                                }
                             }
                         }
                     }
