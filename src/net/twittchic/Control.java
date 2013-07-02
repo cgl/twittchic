@@ -1,11 +1,13 @@
 package net.twittchic;
 
 import net.twittchic.constants.Constants;
-import net.zemberek.erisim.Zemberek;
-import net.zemberek.tr.yapi.TurkiyeTurkcesi;
 
-import java.io.*;
-import java.util.*;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+import java.util.TreeMap;
 
 /**
  * Created with IntelliJ IDEA.
