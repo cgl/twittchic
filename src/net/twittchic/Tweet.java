@@ -4,7 +4,9 @@ import net.zemberek.erisim.Zemberek;
 import net.zemberek.tr.yapi.TurkiyeTurkcesi;
 import turkish.Deasciifier;
 
+import java.io.Serializable;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.TreeMap;
 
 /**
@@ -14,13 +16,39 @@ import java.util.TreeMap;
  * Time: 2:31 AM
  * To change this template use File | Settings | File Templates.
  */
-public class Tweet {
+public class Tweet implements Serializable{
     private TreeMap <Integer, String> mentions;
     private TreeMap <Integer, String> hashtags;
     private TreeMap <Integer, String> ivs;
-    private TreeMap <Integer, String> oovs;
+    private final TreeMap <Integer, String> oovs;
+    private TreeMap <Integer, String> numbers;
+    private TreeMap <Integer, ArrayList<String>> confusionSet_SND;
+    private TreeMap <Integer, ArrayList<String>> confusionSet_G;
+    private TreeMap <Integer, ArrayList<String>> confusionSet_LM;
+    private TreeMap <Integer, ArrayList<String>> confusionSet;
+    private HashMap <Integer, String> results;
+    private HashMap <Integer, Integer> scores;
+
+    public HashMap<Integer, String> getResults() {
+        return results;
+    }
+
+
+
+    public String getText() {
+        return text;
+    }
+
     private String text;
     boolean deasciified;
+
+    public TreeMap<Integer, ArrayList<String>> getConfusionSet() {
+        return confusionSet;
+    }
+
+    public void setConfusionSet(TreeMap<Integer, ArrayList<String>> confusionSet) {
+        this.confusionSet = confusionSet;
+    }
 
     public Tweet(String text, boolean False) {
         this.text = text;
@@ -28,7 +56,10 @@ public class Tweet {
         this.oovs = new TreeMap <Integer, String> ();
         this.mentions = new TreeMap <Integer, String> ();
         this.hashtags =  new TreeMap <Integer, String> ();
+        this.numbers =  new TreeMap <Integer, String> ();
+        this.results = new HashMap<Integer, String>();
         this.deasciified = False;
+        this.confusionSet = new TreeMap <Integer, ArrayList<String>>();
 
     }
 
@@ -41,7 +72,7 @@ public class Tweet {
             d.setAsciiString(z.asciiyeDonustur(iv));
             iv = d.convertToTurkish();
             if(z.kelimeDenetle(iv)){
-                this.updateOvv(iv, ind);
+                this.putResult(iv, ind);
             }
         }
         this.deasciified = True;
@@ -85,13 +116,36 @@ public class Tweet {
         this.oovs.put(ind, oov);
     }
 
-    public void updateOvv(String oov, Integer ind) {
-        this.oovs.put(ind, oov);
+    public void putResult(String oov, Integer ind) {
+        this.results.put(ind, oov);
+    }
+
+    public void addNumbers(Integer ind, String oov) {
+        this.numbers.put(ind, oov);
+    }
+
+    public TreeMap<Integer, String> getNumbers() {
+        return numbers;
     }
 
     public void addMention(String mention, int ind){
         this.mentions.put(ind, mention);
     }
+    public void addToConfusionSet(Integer ind, String oov) {
+        ArrayList<String> strings = this.confusionSet.get(ind);
+        if(strings == null)
+            strings = new ArrayList<String>();
+        strings.add(oov);
+        this.confusionSet.put(ind, strings);
 
+    }
+
+    public void updateConfusionSet(Integer ind, String oov) {
+        ArrayList<String> strings = this.confusionSet.get(ind);
+        if(strings == null)
+            strings = new ArrayList<String>();
+        strings.add(oov);
+        this.confusionSet.put(ind,strings);
+    }
 
 }

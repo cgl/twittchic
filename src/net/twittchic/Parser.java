@@ -73,8 +73,10 @@ public class Parser {
                     i++;
                     if(token.length() == 0)
                         continue;
-                    if(isNumeric(token)|
-                        token.startsWith("http") | token.matches("(\\p{Punct})+|(\\.)+")){
+                    if(isNumeric(token)){
+                        tweet.addNumbers(i,token);
+                    }
+                    else if(token.startsWith("http") | token.matches("(\\p{Punct})+|(\\.)+")){
                         continue;
                     }
                     else if(isNumeric(token.substring(0,1))){
@@ -88,7 +90,7 @@ public class Parser {
                         tweet.addMention(token, i);
                     }
                     else if(z.kelimeDenetle(token)) {
-                        ivlist.put(token.toLowerCase(Locale.forLanguageTag("tr-TR")), "");
+                        ivlist.put(token.toLowerCase(Constants.locale), "");
 
 
                         tweet.addIv(token, i);
@@ -98,6 +100,13 @@ public class Parser {
 
                         tweet.addOov(token,i);
                         oovlist.put(token.toLowerCase(Locale.forLanguageTag("tr-TR")), "");
+                        /*  // iv_words.txt dosyasına deasciify edilmiş kelimleri ekler
+                        turkish.Deasciifier d = new turkish.Deasciifier();
+                        d.setAsciiString(z.asciiyeDonustur(token));
+                        token = d.convertToTurkish();
+                        if(z.kelimeDenetle(token))
+                            ivlist.put(token.toLowerCase(Locale.forLanguageTag("tr-TR")), "");
+                            */
                     }
                 }
                 if(oovlist.size() > limit)
@@ -144,6 +153,33 @@ public class Parser {
         file.close();
     }
 
+
+    public void serializeTweet(){
+        if(this.tweets.size()>0){
+            OutputStream file = null;
+            OutputStream buffer = null;
+            ObjectOutput output = null;
+            try
+            {
+                file = new FileOutputStream( Constants.tweetsFile );
+                buffer = new BufferedOutputStream( file );
+                output = new ObjectOutputStream( buffer );
+                try{
+                    output.writeObject(tweets);
+                }catch (IOException ex)
+                {
+                    System.out.println("Serialize edilirken hata gerçekleşti 1 !!! : "+ex.getMessage());
+                }
+                finally{
+                    output.close();
+                }
+            }catch (IOException ex)
+            {
+                System.out.println("Serialize edilirken hata gerçekleşti 2 !!! : "+ex.getMessage());
+            }
+        }
+
+    }
     public static void main(String[] args) {
         String l;
         /*
@@ -159,11 +195,12 @@ public class Parser {
 
             //ovv_statistics();
             try {
-                deasc.process(1000);
+                deasc.process(999999);
             } catch (IOException e) {
                 e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
             }
-            deasc.write();
+            //deasc.write();
+            deasc.serializeTweet();
         }
 
     public static void statistics(){

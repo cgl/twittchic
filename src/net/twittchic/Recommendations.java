@@ -19,7 +19,11 @@ public class Recommendations {
 
     public Recommendations() {
     }
-
+    /*
+    zemberekDegreeOne: is B2 method, that adds zemberek recommendation to confusion set if
+    the number of returned recommendations are one. It also updates the candidate if recommendation
+    passes the spell checking.
+     */
     public static List<Tweet>  zemberekDegreeOne(List<Tweet> tweets){
         TreeMap<Integer, String> oovs;
         Zemberek z = new Zemberek(new TurkiyeTurkcesi());
@@ -31,13 +35,20 @@ public class Recommendations {
                 iv = oovs.get(ind);
                 recs = z.oner(iv);
                 if(recs.length > 0 & recs.length < 2){
-                    oovs.put(ind,recs[0]);
+                    tweet.addToConfusionSet(ind,recs[0]);
+                    if(!recs[0].trim().contains(" ") & z.kelimeDenetle(recs[0]))
+                        tweet.putResult(recs[0],ind);
                 }
+                else
+                    tweet.addToConfusionSet(ind,"");
             }
         }
         return tweets;
     }
-
+    /*
+    zemberekDegreeOne: is B3 method, that adds random selected zemberek recommendation to confusion set.
+    It also updates the candidate if recommendation passes the spell checking.
+    */
     public static List<Tweet>  zemberekrandom(List<Tweet> tweets){
         Random randomGenerator = new Random();
         Zemberek z = new Zemberek(new TurkiyeTurkcesi());
@@ -51,7 +62,9 @@ public class Recommendations {
                 recs = z.oner(iv);
                 if(recs.length > 0){
                     int randomInt = randomGenerator.nextInt(recs.length);
-                    oovs.put(ind,recs[randomInt]);
+                    tweet.addToConfusionSet(ind,recs[randomInt]);
+                    if(!recs[randomInt].trim().contains(" ") & z.kelimeDenetle(recs[randomInt]))
+                        tweet.putResult(recs[0],ind);
                 }
             }
         }
