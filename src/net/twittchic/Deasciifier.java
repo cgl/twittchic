@@ -28,6 +28,10 @@ public class Deasciifier {
         this.tweets = tweets;
     }
 
+    /*
+    process add deasciified oovs to confusion set. It also updates candidates
+    if deasciified version passes the spellcheck.
+     */
     public  void process(){
         for (Tweet tweet : this.tweets) {
             TreeMap <Integer, String> oovs = tweet.getOovs();
@@ -38,11 +42,18 @@ public class Deasciifier {
                 iv = oovs.get(ind);
                 d.setAsciiString(z.asciiyeDonustur(iv));
                 iv = d.convertToTurkish();
+<<<<<<< HEAD
                 if(z.kelimeDenetle(iv))
                     tweet.addToConfusionSet(ind,iv);
                 else
                     tweet.addToConfusionSet(ind,"");
 
+=======
+                if(z.kelimeDenetle(iv)){
+                    tweet.updateOvv(iv,ind);
+                }
+                tweet.addToConfusionSet(ind,iv);
+>>>>>>> origin/cagil
             }
         }
     }

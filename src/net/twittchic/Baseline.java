@@ -17,6 +17,7 @@ import static net.twittchic.Recommendations.zemberekrandom;
  */
 public class Baseline {
     public static void main(String[] args) {
+<<<<<<< HEAD
         String l;
 
         /*if (args.length < 1){
@@ -42,6 +43,30 @@ public class Baseline {
         //control.processB1B2B3(tweets);
         //control.processB1B2B3(b3);
         System.out.println("------------------------------------------------");
+=======
+        baseline1234();
+
+    }
+
+    public static void baseline1234(){
+        List<Tweet> tweets = deserializeTweets();
+        Control control = new Control();
+        System.out.println("B0 ------------------------------------------------");
+        control.process_old(tweets);
+        System.out.println("B1 ------------------------------------------------");
+        Deasciifier d = new Deasciifier(tweets);
+        d.process();
+        control.process_old(tweets);
+        System.out.println("B2 ------------------------------------------------");
+        zemberekDegreeOne(tweets);
+        control.process_old(tweets);
+        System.out.println("B3 ------------------------------------------------");
+        zemberekrandom(tweets);
+        control.process_old(tweets);
+        System.out.println("B4 ------------------------------------------------");
+        soundLevDict.process(tweets);
+        control.process(tweets);
+>>>>>>> origin/cagil
     }
 
     public static List<Tweet> deserializeTweets()
