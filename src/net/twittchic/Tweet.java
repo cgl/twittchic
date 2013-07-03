@@ -4,6 +4,7 @@ import net.zemberek.erisim.Zemberek;
 import net.zemberek.tr.yapi.TurkiyeTurkcesi;
 import turkish.Deasciifier;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.TreeMap;
 
@@ -14,13 +15,22 @@ import java.util.TreeMap;
  * Time: 2:31 AM
  * To change this template use File | Settings | File Templates.
  */
-public class Tweet {
+public class Tweet implements Serializable{
     private TreeMap <Integer, String> mentions;
     private TreeMap <Integer, String> hashtags;
     private TreeMap <Integer, String> ivs;
     private TreeMap <Integer, String> oovs;
+    private TreeMap <Integer, ArrayList<String>> confusionSet;
     private String text;
     boolean deasciified;
+
+    public TreeMap<Integer, ArrayList<String>> getConfusionSet() {
+        return confusionSet;
+    }
+
+    public void setConfusionSet(TreeMap<Integer, ArrayList<String>> confusionSet) {
+        this.confusionSet = confusionSet;
+    }
 
     public Tweet(String text, boolean False) {
         this.text = text;
@@ -29,6 +39,7 @@ public class Tweet {
         this.mentions = new TreeMap <Integer, String> ();
         this.hashtags =  new TreeMap <Integer, String> ();
         this.deasciified = False;
+        this.confusionSet = new TreeMap <Integer, ArrayList<String>>();
 
     }
 
@@ -92,6 +103,21 @@ public class Tweet {
     public void addMention(String mention, int ind){
         this.mentions.put(ind, mention);
     }
+    public void addToConfusionSet(Integer ind, String oov) {
+        ArrayList<String> strings = this.confusionSet.get(ind);
+        if(strings == null)
+            strings = new ArrayList<String>();
+        strings.add(oov);
+        this.confusionSet.put(ind, strings);
 
+    }
+
+    public void updateConfusionSet(Integer ind, String oov) {
+        ArrayList<String> strings = this.confusionSet.get(ind);
+        if(strings == null)
+            strings = new ArrayList<String>();
+        strings.add(oov);
+        this.confusionSet.put(ind,strings);
+    }
 
 }

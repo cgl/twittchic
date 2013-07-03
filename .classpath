@@ -4,7 +4,7 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="resources/lib" sourcepath="resources/lib"/>
 	<classpathentry kind="lib" path="resources/lib/turkish-deasciifier-1.0.jar"/>
-	<classpathentry kind="lib" path="lib/zemberek-cekirdek-2.1.jar"/>
-	<classpathentry kind="lib" path="lib/zemberek-tr-2.1.jar"/>
+	<classpathentry kind="lib" path="resources/lib/zemberek-cekirdek-2.1.jar"/>
+	<classpathentry kind="lib" path="resources/lib/zemberek-tr-2.1.jar"/>
 	<classpathentry kind="output" path="out/production/twittchic"/>
 </classpath>

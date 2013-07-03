@@ -31,8 +31,10 @@ public class Recommendations {
                 iv = oovs.get(ind);
                 recs = z.oner(iv);
                 if(recs.length > 0 & recs.length < 2){
-                    oovs.put(ind,recs[0]);
+                    tweet.addToConfusionSet(ind,recs[0]);
                 }
+                else
+                    tweet.addToConfusionSet(ind,"");
             }
         }
         return tweets;
@@ -51,8 +53,10 @@ public class Recommendations {
                 recs = z.oner(iv);
                 if(recs.length > 0){
                     int randomInt = randomGenerator.nextInt(recs.length);
-                    oovs.put(ind,recs[randomInt]);
+                    tweet.addToConfusionSet(ind,recs[randomInt]);
                 }
+                else
+                    tweet.addToConfusionSet(ind,"");
             }
         }
         return tweets;
