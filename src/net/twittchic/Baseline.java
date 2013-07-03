@@ -16,16 +16,15 @@ import static net.twittchic.Recommendations.zemberekrandom;
  * To change this template use File | Settings | File Templates.
  */
 public class Baseline {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         baseline1234();
-
     }
 
     public static void baseline1234(){
         List<Tweet> tweets = deserializeTweets();
         Control control = new Control();
-        System.out.println("B0 ------------------------------------------------");
-        control.process_old(tweets);
+        //System.out.println("B0 ------------------------------------------------");
+        //control.process_old(tweets);
         System.out.println("B1 ------------------------------------------------");
         Deasciifier d = new Deasciifier(tweets);
         d.process();
@@ -38,7 +37,7 @@ public class Baseline {
         control.process_old(tweets);
         System.out.println("B4 ------------------------------------------------");
         soundLevDict.process(tweets);
-        control.process(tweets);
+        control.process_old(tweets);
     }
 
     public static List<Tweet> deserializeTweets()
@@ -76,6 +75,8 @@ public class Baseline {
             e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
         }
     }
+
+
 
              /*
     public static void evaluation(List<Tweet> tweets,String filename){

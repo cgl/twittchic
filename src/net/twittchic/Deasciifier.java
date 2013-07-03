@@ -43,7 +43,7 @@ public class Deasciifier {
                 d.setAsciiString(z.asciiyeDonustur(iv));
                 iv = d.convertToTurkish();
                 if(z.kelimeDenetle(iv)){
-                    tweet.updateOvv(iv,ind);
+                    tweet.putResult(iv,ind);
                 }
                 tweet.addToConfusionSet(ind,iv);
             }

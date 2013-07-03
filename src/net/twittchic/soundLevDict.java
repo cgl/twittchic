@@ -1,19 +1,14 @@
 package net.twittchic;
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
-import java.util.TreeMap;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
-import net.twittchic.Tweet;
 import net.twittchic.constants.Constants;
 import net.zemberek.erisim.Zemberek;
 import net.zemberek.tr.yapi.TurkiyeTurkcesi;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 
 
@@ -823,7 +818,7 @@ public class soundLevDict {
                         //System.out.println(44444);
                         String str = baselineC2(iv);
                         if(!str.equals(""))
-                            oovs.put(ind,baselineC2(iv));
+                            tweet.putResult(baselineC2(iv),ind);
                     }
                 }
             }
