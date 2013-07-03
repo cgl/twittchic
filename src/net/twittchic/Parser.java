@@ -73,8 +73,10 @@ public class Parser {
                     i++;
                     if(token.length() == 0)
                         continue;
-                    if(isNumeric(token)|
-                        token.startsWith("http") | token.matches("(\\p{Punct})+|(\\.)+")){
+                    if(isNumeric(token)){
+                        tweet.addNumbers(i,token);
+                    }
+                    else if(token.startsWith("http") | token.matches("(\\p{Punct})+|(\\.)+")){
                         continue;
                     }
                     else if(isNumeric(token.substring(0,1))){
