@@ -31,11 +31,7 @@ public class soundex {
 			else if(lowWord.charAt(i) == 'ü')
 				ch = 'u';
 			if(!vowEl.contains(Character.toString(ch)))
-			{
 				temp1 += Character.toString(ch);
-			}
-			else if(vowEl.contains(Character.toString(ch)))
-				temp1 += "0";
 			
 		}
 		
@@ -49,7 +45,6 @@ public class soundex {
 				temp2 += Character.toString(temp1.charAt(i));
 			
 		}
-		temp2 = temp2.replaceAll("0", "");
 
 		return temp2;
 	}
