@@ -35,6 +35,11 @@ public class Assembler {
                     buffer = ind;
                     words[ind-1] = t.getNumberResults().get(ind);
                 }
+                for(int ind : t.getAbbrvResults().keySet())
+                {
+                    buffer = ind;
+                    words[ind-1] = t.getAbbrvResults().get(ind);
+                }
                 resultList.add(concatWords(words));
                 System.out.println(i+" "+concatWords(words) +" - "+line);
             }

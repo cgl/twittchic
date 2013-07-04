@@ -22,7 +22,9 @@ public class Tweet implements Serializable{
     private TreeMap <Integer, String> ivs;
     private final TreeMap <Integer, String> oovs;
     private TreeMap <Integer, String> numbers;
+    private TreeMap <Integer, String> abbrvs;
     private TreeMap <Integer,String>  numResult;
+    private TreeMap <Integer,String>  abbrvResult;
 
     private TreeMap <Integer, HashSet<String>> confusionSet;
 
@@ -72,8 +74,8 @@ public class Tweet implements Serializable{
         this.deasciified = False;
         this.numResult = new TreeMap<Integer, String>();
         this.confusionSet = new TreeMap<Integer, HashSet<String>>();
-
-
+        this.abbrvs  =new TreeMap <Integer, String>();
+        this.abbrvResult = new TreeMap <Integer, String>();
     }
 
     public void deasciify(boolean True){
@@ -136,13 +138,28 @@ public class Tweet implements Serializable{
     public void addNumbers(Integer ind, String oov) {
         this.numbers.put(ind, oov);
     }
+    public void addAbbrvs(Integer ind, String oov) {
+        this.abbrvs.put(ind, oov);
+    }
     public void addNumberResults(Integer ind,String num)
     {
         this.numResult.put(ind,num);
     }
+    public void addAbbrvResults(Integer ind,String num)
+    {
+        this.abbrvResult.put(ind,num);
+    }
     public TreeMap<Integer,String> getNumberResults()
     {
         return  numResult;
+    }
+    public TreeMap<Integer,String> getAbbrvResults()
+    {
+        return  abbrvResult;
+    }
+    public TreeMap<Integer,String> getAbbreviations()
+    {
+        return  abbrvs;
     }
     public TreeMap<Integer, String> getNumbers() {
         return numbers;
