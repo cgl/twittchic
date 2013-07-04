@@ -19,75 +19,24 @@ import java.util.TreeMap;
 
 public class Control {
 
-    public void process(List<Tweet> tweets)
-    {
-        try {
-            Scanner scannerInput = new Scanner(new FileInputStream(Constants.trainingFileName), Constants.fEncoding);
-            int total = 0;
-            int pozitive = 0;
-            int negative = 0;
-            int count = 0;
-            boolean found;
-            for (Tweet tweet : tweets)
-            {
-                count++;
-                if(scannerInput.hasNextLine()){
-                    String inputline = scannerInput.nextLine();
-                    TreeMap <Integer, String> oovs = tweet.getOovs();
-                    TreeMap<Integer,ArrayList<String>> confusionSet = tweet.getConfusionSet();
-                    if(oovs.size()<1){
-                        continue;
-                    }
-                    else{
-                        String line[] = inputline.split(" ");
-                        for (Integer ind : confusionSet.keySet()) {
-                            String corrected = line[ind-1].replace("_"," ");
-                            if(!corrected.startsWith("#")){
-                                ArrayList<String> confusions = confusionSet.get(ind);
-                                found = false;
-                                for (String word : confusions) {
-                                    if(corrected.equalsIgnoreCase(word))   {
-                                        pozitive++;
-                                        found = true;
-                                        System.out.println("Pozitif : "+confusions.toString()+" - "+corrected+" - "+count);
-                                        break;
-                                    }
-                                }
-                                if(!found){
-                                    negative++;
-                                    //System.out.println("Negatif : "+confusions.toString()+" - "+corrected+" - "+count);
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-            System.out.println("Toplam  : "+(pozitive+negative));
-            System.out.println("Pozitif : "+pozitive);
-            System.out.println("Negatif : "+negative);
-            System.out.println("Yuzde   : "+calculataPercentage(pozitive,negative)+" %");
-            scannerInput.close();
-        }
-        catch (IOException ex)
-        {
-            System.out.println("Control.process hata : "+ex.getMessage());
-        }
-    }
-
+    private List<String> AnnotatedTweets = null;
     public void process_old(List<Tweet> tweets)
     {
         try {
-            Scanner scannerInput = new Scanner(new FileInputStream(Constants.trainingFileName), Constants.fEncoding);
+            if(AnnotatedTweets == null)
+                AnnotatedTweets = readAnnotatedFile();
             int total = 0;
             int pozitive = 0;
             int negative = 0;
             int count = 0;
+            String inputline = "";
             for (Tweet tweet : tweets)
             {
+                inputline = AnnotatedTweets.get(count);
                 count++;
-                if(scannerInput.hasNextLine())
+                if(count-1<AnnotatedTweets.size())
                 {
-                    String inputline = scannerInput.nextLine();
+
                     TreeMap <Integer, String> oovs = tweet.getOovs();
                     if(oovs.size()<1){
                         continue;
@@ -113,92 +62,35 @@ public class Control {
             System.out.println("Pozitif : "+pozitive);
             System.out.println("Negatif : "+negative);
             System.out.println("Yuzde   : "+calculataPercentage(pozitive,negative)+" %");
-            scannerInput.close();
         }
-        catch (IOException ex)
+        catch (Exception ex)
         {
             System.out.println("Control.process hata : "+ex.getMessage());
         }
     }
-
-    public void processB1B2B3(List<Tweet> tweets)
+    private List<String> readAnnotatedFile()
     {
-        try {
-            Scanner scannerInput = new Scanner(new FileInputStream(Constants.trainingFileName), Constants.fEncoding);
-            int total = 0;
-            int pozitiveB1 = 0;
-            int negativeB1 = 0;
-            int pozitiveB2 = 0;
-            int negativeB2 = 0;
-            int pozitiveB3 = 0;
-            int negativeB3 = 0;
-            int count = 0;
-            boolean found;
-            for (Tweet tweet : tweets)
+        List<String> annotatedTweets = new ArrayList<String>();
+        Scanner scannerInput = null;
+        try
+        {
+            scannerInput = new Scanner(new FileInputStream(Constants.trainingFileName), Constants.fEncoding);
+            String line = "";
+            while(scannerInput.hasNextLine())
             {
-                count++;
-                if(scannerInput.hasNextLine()){
-                    String inputline = scannerInput.nextLine();
-                    TreeMap <Integer, String> oovs = tweet.getOovs();
-                    TreeMap<Integer,ArrayList<String>> confusionSet = tweet.getConfusionSet();
-                    if(oovs.size()<1){
-                        continue;
-                    }
-                    else{
-                        String line[] = inputline.split(" ");
-                        for (Integer ind : confusionSet.keySet()) {
-                            String corrected = line[ind-1].replace("_"," ");
-                            String neg = "";
-                            if(!corrected.startsWith("#")){
-                                ArrayList<String> confusions = confusionSet.get(ind);
-                                neg += oovs.get(ind) +" : ";
-                                if(!confusions.get(0).equals("") & corrected.equalsIgnoreCase(confusions.get(0)))   {
-                                    pozitiveB1++;
-                                    }
-                                else{
-                                    negativeB1++;
-                                    neg += " [B1] "+confusions.get(0)+" || ";
-                                }
-                                if(!confusions.get(1).equals("") & corrected.equalsIgnoreCase(confusions.get(1)))   {
-                                    pozitiveB2++;
-                                }
-                                else{
-                                    negativeB2++;
-                                    neg += " [B2] "+confusions.get(1)+" || ";
-                                }
-                                if(!confusions.get(2).equals("") & corrected.equalsIgnoreCase(confusions.get(2)))   {
-                                    pozitiveB3++;
-                                }
-                                else{
-                                    negativeB3++;
-                                    neg += " [B3] "+confusions.get(2)+" || ";
-                                }
-                            }
-                            System.out.println("Negatif : "+neg+" - "+count);
-                        }
-
-
-
-                    }
-                }
-
+                line = scannerInput.nextLine();
+                annotatedTweets.add(line);
             }
-            System.out.println("Toplam  : "+(pozitiveB1+negativeB1+pozitiveB2+negativeB2+pozitiveB3+negativeB3));
-            System.out.println("Pozitif 1 : "+pozitiveB1);
-            System.out.println("Negatif 1 : "+negativeB1);
-            System.out.println("Pozitif 2 : "+pozitiveB2);
-            System.out.println("Negatif 2 : "+negativeB2);
-            System.out.println("Pozitif 3 : "+pozitiveB3);
-            System.out.println("Negatif 3 : "+negativeB3);
-            System.out.println("Yuzde  1  : "+calculataPercentage(pozitiveB1, negativeB1)+" %");
-            System.out.println("Yuzde  2  : "+calculataPercentage(pozitiveB2, negativeB2)+" %");
-            System.out.println("Yuzde  2  : "+calculataPercentage(pozitiveB3, negativeB3)+" %");
-            scannerInput.close();
+
         }
         catch (IOException ex)
         {
-            System.out.println("Control.process hata : "+ex.getMessage());
+            System.out.println("Control.readFİle hata : "+ex.getMessage());
         }
+        finally {
+            scannerInput.close();
+        }
+        return annotatedTweets;
     }
 
     private double calculataPercentage(int pozitive,int negative)

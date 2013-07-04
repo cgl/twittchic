@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result Comparison</title>
+    <meta charset="utf-8"/>
+    <link href="design.css" type="text/css" rel="STYLESHEET" />
+    <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script language="javascript">
+        var deger = new Array();       // refined data
+        var annotated = new Array();   // annotated data
+        var degerLength  = 0;
+        var annotatedLength = 0;
+
+        function readFile()
+        {
+        if (window.File && window.FileReader && window.FileList && window.Blob) {
+
+        } else {
+            alert('The File APIs are not fully supported by your browser.');
+        }
+            /*fh = fopen('train1Annotated.txt', 0);
+            if(fh!=-1)
+            {
+                length = flength(fh);
+                str = fread(fh, length);
+                fclose(fh); // Close the file.
+                write(str);
+            }*/
+        }
+
+        function readTextFile()
+        {
+            document.getElementById("loading").style.display = "inline";
+            var rawFile = new XMLHttpRequest();
+            rawFile.open("GET", "train1Annotated.txt", true);
+            rawFile.onreadystatechange = function ()
+            {
+                if(rawFile.readyState === 4)
+                {
+                    var allText = rawFile.responseText;
+                    //annotated[0] = "olmadi";
+                    annotated = allText.split("\n");
+                    var leng = annotated.length;
+                    annotatedLength = leng;
+                    /*document.getElementById("textSection").innerHTML = "";
+                    for(var i=0;i<leng;i++){
+                        document.getElementById("textSection").innerHTML += annotated[i]+"<br />";
+                    }*/
+                    document.getElementById("loading").innerHTML += ", Annotated File Loaded";
+                }
+            }
+            rawFile.send();
+        }
+        function test()
+        {
+            $.get("resultNum.txt", function(data) {
+                var text = data.xml ? data.xml : (new XMLSerializer()).serializeToString(data);
+                document.getElementById('textSection').innerHTML = text;
+            });
+        }
+        function deneme()
+        {
+            //document.getElementById("loading").style.display = "inline";
+            $.ajax({
+                url: 'resultNum.txt',
+                type: 'GET',
+                dataType: 'text',
+                timeout: 1000,
+                error: function(){
+                    alert('Error loading XML document');
+                },
+                success: function(xml){
+                    var allText = xml;
+
+                    //deger[0] = "olmadi";
+                    deger = allText.split("\n");
+                    var leng = deger.length;
+                    degerLength = leng;
+                    /*
+                        document.getElementById("textSection").innerHTML = "";
+                        for(var i=0;i<leng;i++){
+                            document.getElementById("textSection").innerHTML += deger[i]+"<br /><div class='divider'></div>";
+                        }
+
+                    */
+                    document.getElementById("loading").innerHTML = "Result File Loaded";
+                }
+            });
+            readTextFile();
+        }
+
+        function listele()
+        {
+            for(var i = 0; i< degerLength;i++)
+            {
+                controlText(annotated[i],deger[i]);
+            }
+        }
+        function controlText(tText,fText)
+        {
+              var trueText = tText.split(" ");
+              var falseText = fText.split(" ");
+              var len1 = trueText.length;
+              var len2 = falseText.length;
+              var trueResult = "";
+              var falseResult = "";
+              for(var i = 0;i < len1; i++ )
+              {
+                    if(trueText[i] != falseText[i])  // eşit ise
+                    {
+                         trueResult+='<b class="btn-success">'+trueText[i]+'</b> ';
+                         falseResult+='<b class="btn-danger">'+falseText[i]+'</b> ';
+                    }
+                    else
+                    {
+                        trueResult +=  trueText[i]+' ';
+                        falseResult +=  falseText[i]+' ';
+                    }
+              }
+              document.getElementById("textSection").innerHTML += trueResult+"<br />";
+              document.getElementById("textSection").innerHTML += falseResult+"<br /><div class='divider'></div>";
+        }
+    </script>
+</head>
+<body style="padding:20px;">
+<div id="topMenu">
+    <input style="float:left;" class="btn" type="button" onclick="deneme();" value="Dosyaları Oku" />&nbsp;&nbsp;&nbsp;
+    <input type="button" style="float:left; margin-left:10px;" class="btn btn-info"  value="Tweet Listele" onclick="listele();" />
+
+    &nbsp;&nbsp;<div style="float:left; padding:8px;" id="loading"></div>
+    <div style="clear:both;"/>
+</div>
+    <br /><br />
+<div id="textSection" class="breadcrumb">
+
+
+</div>
+</body>
+</html>
