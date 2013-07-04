@@ -6,6 +6,7 @@ import turkish.Deasciifier;
 
 import java.io.Serializable;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.TreeMap;
 
 /**
@@ -19,18 +20,25 @@ public class Tweet implements Serializable{
     private TreeMap <Integer, String> mentions;
     private TreeMap <Integer, String> hashtags;
     private TreeMap <Integer, String> ivs;
-    private TreeMap <Integer, String> oovs;
-<<<<<<< HEAD
-    private TreeMap <Integer, ArrayList<String>> confusionSet;
-=======
+    private final TreeMap <Integer, String> oovs;
     private TreeMap <Integer, String> numbers;
+    private TreeMap <Integer, ArrayList<String>> confusionSet_SND;
+    private TreeMap <Integer, ArrayList<String>> confusionSet_G;
+    private TreeMap <Integer, ArrayList<String>> confusionSet_LM;
     private TreeMap <Integer, ArrayList<String>> confusionSet;
+    private HashMap <Integer, String> results;
+    private HashMap <Integer, Integer> scores;
+
+    public HashMap<Integer, String> getResults() {
+        return results;
+    }
+
+
 
     public String getText() {
         return text;
     }
 
->>>>>>> origin/cagil
     private String text;
     boolean deasciified;
 
@@ -49,6 +57,7 @@ public class Tweet implements Serializable{
         this.mentions = new TreeMap <Integer, String> ();
         this.hashtags =  new TreeMap <Integer, String> ();
         this.numbers =  new TreeMap <Integer, String> ();
+        this.results = new HashMap<Integer, String>();
         this.deasciified = False;
         this.confusionSet = new TreeMap <Integer, ArrayList<String>>();
 
@@ -63,7 +72,7 @@ public class Tweet implements Serializable{
             d.setAsciiString(z.asciiyeDonustur(iv));
             iv = d.convertToTurkish();
             if(z.kelimeDenetle(iv)){
-                this.updateOvv(iv, ind);
+                this.putResult(iv, ind);
             }
         }
         this.deasciified = True;
@@ -107,8 +116,8 @@ public class Tweet implements Serializable{
         this.oovs.put(ind, oov);
     }
 
-    public void updateOvv(String oov, Integer ind) {
-        this.oovs.put(ind, oov);
+    public void putResult(String oov, Integer ind) {
+        this.results.put(ind, oov);
     }
 
     public void addNumbers(Integer ind, String oov) {

@@ -42,18 +42,10 @@ public class Deasciifier {
                 iv = oovs.get(ind);
                 d.setAsciiString(z.asciiyeDonustur(iv));
                 iv = d.convertToTurkish();
-<<<<<<< HEAD
-                if(z.kelimeDenetle(iv))
-                    tweet.addToConfusionSet(ind,iv);
-                else
-                    tweet.addToConfusionSet(ind,"");
-
-=======
                 if(z.kelimeDenetle(iv)){
-                    tweet.updateOvv(iv,ind);
+                    tweet.putResult(iv,ind);
                 }
                 tweet.addToConfusionSet(ind,iv);
->>>>>>> origin/cagil
             }
         }
     }

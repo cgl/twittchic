@@ -36,11 +36,8 @@ public class Recommendations {
                 recs = z.oner(iv);
                 if(recs.length > 0 & recs.length < 2){
                     tweet.addToConfusionSet(ind,recs[0]);
-<<<<<<< HEAD
-=======
                     if(!recs[0].trim().contains(" ") & z.kelimeDenetle(recs[0]))
-                        tweet.updateOvv(recs[0],ind);
->>>>>>> origin/cagil
+                        tweet.putResult(recs[0],ind);
                 }
                 else
                     tweet.addToConfusionSet(ind,"");
@@ -66,14 +63,9 @@ public class Recommendations {
                 if(recs.length > 0){
                     int randomInt = randomGenerator.nextInt(recs.length);
                     tweet.addToConfusionSet(ind,recs[randomInt]);
-<<<<<<< HEAD
-=======
                     if(!recs[randomInt].trim().contains(" ") & z.kelimeDenetle(recs[randomInt]))
-                        tweet.updateOvv(recs[0],ind);
->>>>>>> origin/cagil
+                        tweet.putResult(recs[0],ind);
                 }
-                else
-                    tweet.addToConfusionSet(ind,"");
             }
         }
         return tweets;

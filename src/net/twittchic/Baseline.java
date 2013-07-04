@@ -16,43 +16,15 @@ import static net.twittchic.Recommendations.zemberekrandom;
  * To change this template use File | Settings | File Templates.
  */
 public class Baseline {
-    public static void main(String[] args) {
-<<<<<<< HEAD
-        String l;
-
-        /*if (args.length < 1){
-
-            Scanner v = new Scanner(System.in);
-            l = v.next();
-        }*/
-        if (args.length > 1)
-            l = args[1];
-
-        List<Tweet> tweets = deserializeTweets();
-        Deasciifier d = new Deasciifier(tweets);
-        d.process();
-        List<Tweet> b2 = zemberekDegreeOne(tweets);
-        List<Tweet> b3 = zemberekrandom(b2);
-        Control control = new Control();
-        control.process(tweets);
-
-        System.out.println("Cem asagidaki 2 satiri ekledi");
-        List<Tweet> b4 = soundLevDict.process(tweets);
-        control.process(b4);
-
-        //control.processB1B2B3(tweets);
-        //control.processB1B2B3(b3);
-        System.out.println("------------------------------------------------");
-=======
+    public static void main(String[] args) throws IOException {
         baseline1234();
-
     }
 
     public static void baseline1234(){
         List<Tweet> tweets = deserializeTweets();
         Control control = new Control();
-        System.out.println("B0 ------------------------------------------------");
-        control.process_old(tweets);
+        //System.out.println("B0 ------------------------------------------------");
+        //control.process_old(tweets);
         System.out.println("B1 ------------------------------------------------");
         Deasciifier d = new Deasciifier(tweets);
         d.process();
@@ -65,8 +37,7 @@ public class Baseline {
         control.process_old(tweets);
         System.out.println("B4 ------------------------------------------------");
         soundLevDict.process(tweets);
-        control.process(tweets);
->>>>>>> origin/cagil
+        control.process_old(tweets);
     }
 
     public static List<Tweet> deserializeTweets()
@@ -104,6 +75,8 @@ public class Baseline {
             e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
         }
     }
+
+
 
              /*
     public static void evaluation(List<Tweet> tweets,String filename){
