@@ -21,6 +21,9 @@ public class Constants {
     public static String vocabulary = "resources/input/vocab";
     public static String trainingFileName = "resources/output/train1Annotated.txt";
 
+    public static String substituteFileName = "resources/input/substitutes.txt";
+
+
     public static String NL = System.getProperty("line.separator");
     public static final String fEncoding = "utf-8";
 
