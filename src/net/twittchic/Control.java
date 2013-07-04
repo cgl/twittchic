@@ -61,7 +61,53 @@ public class Control {
                         }
                     }
                 }
+            }
+            System.out.println("Toplam  : "+(pozitive+negative));
+            System.out.println("Pozitif : "+pozitive);
+            System.out.println("Negatif : "+negative);
+            System.out.println("Yuzde   : "+calculataPercentage(pozitive,negative)+" %");
+            scannerInput.close();
+        }
+        catch (IOException ex)
+        {
+            System.out.println("Control.process hata : "+ex.getMessage());
+        }
+    }
 
+    public void process_old(List<Tweet> tweets)
+    {
+        try {
+            Scanner scannerInput = new Scanner(new FileInputStream(Constants.trainingFileName), Constants.fEncoding);
+            int total = 0;
+            int pozitive = 0;
+            int negative = 0;
+            int count = 0;
+            for (Tweet tweet : tweets)
+            {
+                count++;
+                if(scannerInput.hasNextLine())
+                {
+                    String inputline = scannerInput.nextLine();
+                    TreeMap <Integer, String> oovs = tweet.getOovs();
+                    if(oovs.size()<1){
+                        continue;
+                    }
+                    else{
+                        String line[] = inputline.split(" ");
+                        String original_text[] = tweet.getText().split(" ");
+                        for (Integer ind : oovs.keySet()) {
+                            String corrected = line[ind-1].replace("_"," ");
+                            if(!original_text[ind-1].equalsIgnoreCase(corrected) & !corrected.startsWith("#")){
+                                if(corrected.equalsIgnoreCase(tweet.getResults().get(ind)))
+                                    pozitive++;
+                                else{
+                                    System.out.println("Negatif : "+tweet.getResults().get(ind)+" - "+corrected+" - "+count);
+                                    negative++;
+                                }
+                            }
+                        }
+                    }
+                }
             }
             System.out.println("Toplam  : "+(pozitive+negative));
             System.out.println("Pozitif : "+pozitive);

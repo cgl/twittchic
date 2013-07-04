@@ -90,7 +90,7 @@ public class Parser {
                         tweet.addMention(token, i);
                     }
                     else if(z.kelimeDenetle(token)) {
-                        ivlist.put(token.toLowerCase(Locale.forLanguageTag("tr-TR")), "");
+                        ivlist.put(token.toLowerCase(Constants.locale), "");
 
 
                         tweet.addIv(token, i);
