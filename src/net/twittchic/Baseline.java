@@ -23,6 +23,11 @@ public class Baseline {
     public static void baseline1234() {
         List<Tweet> tweets = deserializeTweets();
         Control control = new Control();
+        Numbers.process(tweets);
+        Abbreviations.process(tweets);
+        Assembler assembler = new Assembler();
+        assembler.process(tweets);
+        /*
         //System.out.println("B0 ------------------------------------------------");
         //control.process_old(tweets);
         System.out.println("B1 ------------------------------------------------");
@@ -37,7 +42,7 @@ public class Baseline {
         control.process_old(tweets);
         System.out.println("B4 ------------------------------------------------");
         soundLevDict.process(tweets);
-        control.process_old(tweets);
+        control.process_old(tweets);*/
     }
 
     public static void numbers(){

@@ -22,23 +22,37 @@ public class Abbreviations {
 		"oğlum", "bakınız", "bir", "beşiktaş jimnastik kulübü", "Cumhuriyet Halk Partisi", "Adalet ve Kalkınma Partisi", "değil",
 		"Fenerbahçe", "kendine iyi bak"};
 	
-	
-	public static void main(String[] args) {
-		List<String> tokenizedList = readTokenizedFile();
-		String[] words;
-		int i = 0;
-		for (String s : tokenizedList) {
-			words = s.split(" ");
-			i++;
-			for (String w : words) {
-				if(w.trim().length()<=3)
-				{
-					System.out.println(w);
-				}
+	public static void process(List<Tweet> tweets)
+	{
+		for(Tweet t : tweets)
+		{
+			for(int ind : t.getAbbreviations().keySet())
+			{
+				//System.out.println(t.getAbbreviations().get(ind)+" - "+expand(t.getAbbreviations().get(ind)));
+				t.addAbbrvResults(ind, expand(t.getAbbreviations().get(ind)));
 			}
 		}
+	}
+	public static String expand(String token)
+	{
+		String result = token;
+		int i = 0;
+		for(String s : abbr)
+		{
+			if(s.equalsIgnoreCase(token.trim()))
+			{
+				result = abbrCnter[i];
+				break;
+			}
+			i++;
+		}
+		return result;
+	}
+	public static void main(String[] args) {
+		List<Tweet> tweets = Baseline.deserializeTweets();
+		process(tweets);
 		
-
+		
 	}
 
 	public static List<String> readTokenizedFile() {
