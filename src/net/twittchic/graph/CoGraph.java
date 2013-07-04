@@ -47,8 +47,8 @@ public class CoGraph {
                         all.put(edgeTarget,edgeWeight);
                     }
                 }
-                else
-                    System.out.println(iv+" No such Vertex");
+                //else
+                    //System.out.println(iv+" No such Vertex");
             }
             TreeMap<Integer, HashSet<String>> confusionSet = tweet.getConfusionSet();
 

@@ -30,6 +30,8 @@ public class Score {
 
     public void create(double a, double b, double c){
         List<Tweet> tweets = deserializeTweets(Constants.tweetsFile);
+        Deasciifier d = new Deasciifier(tweets);
+        d.process();
         feedConfusionSetL(tweets);
         feedConfusionSetG(tweets);
         feedConfusionSetLM(tweets);
@@ -55,6 +57,8 @@ public class Score {
                 results.put(ind, (String) confWords.toArray()[chosenInd]);
             }
         }
+        Control control = new Control();
+        control.process_old(tweets);
     }
 
     private static Integer keyOfMax(HashMap<Integer, Double> scores) {
@@ -70,7 +74,8 @@ public class Score {
     }
 
     private static double scoreL(Integer ind, String confWord, Tweet tweet) {
-        return 0.00001;  //To change body of created methods use File | Settings | File Templates.
+        return 1/(soundLevDict.computeLevenshteinDistance(tweet.getOovs().get(ind),confWord)+0.000001);
+
     }
 
     private static void identifyIllFormedWords(List<Tweet> tweets) {
