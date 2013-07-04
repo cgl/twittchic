@@ -22,8 +22,10 @@ public class Tweet implements Serializable{
     private TreeMap <Integer, String> ivs;
     private final TreeMap <Integer, String> oovs;
     private TreeMap <Integer, String> numbers;
+    private TreeMap <Integer,String>  numResult;
 
     private TreeMap <Integer, HashSet<String>> confusionSet;
+
     private HashMap <Integer, String> results;
     private HashMap <Integer, Integer> scores;
 
@@ -57,7 +59,9 @@ public class Tweet implements Serializable{
         this.numbers =  new TreeMap <Integer, String> ();
         this.results = new HashMap<Integer, String>();
         this.deasciified = False;
+        this.numResult = new TreeMap<Integer, String>();
         this.confusionSet = new TreeMap<Integer, HashSet<String>>();
+
 
     }
 
@@ -121,7 +125,14 @@ public class Tweet implements Serializable{
     public void addNumbers(Integer ind, String oov) {
         this.numbers.put(ind, oov);
     }
-
+    public void addNumberResults(Integer ind,String num)
+    {
+        this.numResult.put(ind,num);
+    }
+    public TreeMap<Integer,String> getNumberResults()
+    {
+        return  numResult;
+    }
     public TreeMap<Integer, String> getNumbers() {
         return numbers;
     }

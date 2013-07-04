@@ -1,11 +1,13 @@
 package net.twittchic;
 
+import com.sun.org.apache.regexp.internal.RE;
 import net.twittchic.constants.Constants;
 import net.zemberek.erisim.Zemberek;
 import net.zemberek.tr.yapi.TurkiyeTurkcesi;
 
 import java.io.*;
 import java.util.*;
+import java.util.regex.Pattern;
 
 /**
  * Created with IntelliJ IDEA.
@@ -79,15 +81,15 @@ public class Parser {
                     else if(token.startsWith("http") | token.matches("(\\p{Punct})+|(\\.)+")){
                         continue;
                     }
-                    else if(isNumeric(token.substring(0,1))){
-                        tweet.addOov(token, i);
-                        oovlist.put(token.toLowerCase(new Locale("utf-8")), "");
-                    }
                     else if(token.startsWith("#"))  {
                         tweet.addHashtag(token, i);
                     }
                     else if(token.startsWith("@"))  {
                         tweet.addMention(token, i);
+                    }
+                    else if(isNumeric(token)){
+                        tweet.addOov(token, i);
+                        oovlist.put(token.toLowerCase(new Locale("utf-8")), "");
                     }
                     else if(z.kelimeDenetle(token)) {
                         ivlist.put(token.toLowerCase(Constants.locale), "");
@@ -128,19 +130,21 @@ public class Parser {
     {
         try
         {
-            double d = Double.parseDouble(str);
-
+            if(str.matches("[A-Za-z]*[0-9]+[A-Za-z]*\'?[A-Za-z]*"))
+            {
+                if(!str.matches("[xX].*"))
+                    return  true;
+            }
+            return  false;
         }
         catch(NumberFormatException nfe)
         {
             return false;
         }
-        return true;
     }
     private static void save(TreeMap<String,String> dictionary, String wordlist) throws IOException {
         FileWriter file = new FileWriter(wordlist);
         BufferedWriter writer = new BufferedWriter(file);
-
         for (Map.Entry<String, String> entry : dictionary.entrySet()) {
             if(entry.getValue().isEmpty())
                 writer.append(entry.getKey());
@@ -148,7 +152,6 @@ public class Parser {
                 writer.append(entry.getKey() + ";" + entry.getValue());    //TO DO space required in between
             writer.newLine();
         }
-
         writer.close();
         file.close();
     }

@@ -20,7 +20,7 @@ public class Baseline {
         baseline1234();
     }
 
-    public static void baseline1234(){
+    public static void baseline1234() {
         List<Tweet> tweets = deserializeTweets();
         Control control = new Control();
         //System.out.println("B0 ------------------------------------------------");
@@ -40,38 +40,44 @@ public class Baseline {
         control.process_old(tweets);
     }
 
-    public static List<Tweet> deserializeTweets()
-    {
+    public static void numbers(){
+        List<Tweet> tweets = deserializeTweets();
+        Control control = new Control();
+        Numbers.process(tweets);
+        Assembler assembler = new Assembler();
+        assembler.process(tweets);
+        System.out.println("B0 ------------------------------------------------");
+        control.process_old(tweets);
+    }
+
+    public static List<Tweet> deserializeTweets() {
         List<Tweet> tweets = null;
-        try{
-            InputStream file = new FileInputStream( Constants.tweetsFile);
-            InputStream buffer = new BufferedInputStream( file );
-            ObjectInput input = new ObjectInputStream ( buffer );
-            try{
-                tweets = (List<Tweet>)input.readObject();
-            }
-            finally{
+        try {
+            InputStream file = new FileInputStream(Constants.tweetsFile);
+            InputStream buffer = new BufferedInputStream(file);
+            ObjectInput input = new ObjectInputStream(buffer);
+            try {
+                tweets = (List<Tweet>) input.readObject();
+            } finally {
                 input.close();
             }
+        } catch (ClassNotFoundException ex) {
+            System.out.println("DESerialize edilirken hata gerçekleşti 1 !!! : " + ex.getMessage());
+        } catch (IOException ex) {
+            System.out.println("DESerialize edilirken hata gerçekleşti 1 !!! : " + ex.getMessage());
         }
-        catch(ClassNotFoundException ex){
-            System.out.println("DESerialize edilirken hata gerçekleşti 1 !!! : "+ex.getMessage());
-        }
-        catch(IOException ex){
-            System.out.println("DESerialize edilirken hata gerçekleşti 1 !!! : "+ex.getMessage());
-        }
-        return  tweets;
+        return tweets;
     }
-    public static void write(List<Tweet> tweets,String filename){
+
+    public static void write(List<Tweet> tweets, String filename) {
         try {
             Writer out = new OutputStreamWriter(new FileOutputStream(filename), Constants.fEncoding);
-            for (Tweet tweet : tweets){
+            for (Tweet tweet : tweets) {
                 //tweet.deasciify();
-                out.write(tweet.ovvsToString()+ Constants.NL);
+                out.write(tweet.ovvsToString() + Constants.NL);
             }
             out.close();
-        }
-        catch (IOException e) {
+        } catch (IOException e) {
             e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
         }
     }
