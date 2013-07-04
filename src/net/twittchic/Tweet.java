@@ -128,6 +128,7 @@ public class Tweet implements Serializable{
     }
 
     public void addOov(String oov, Integer ind) {
+        this.confusionSet.put(ind,new HashSet<String>());
         this.oovs.put(ind, oov);
     }
 

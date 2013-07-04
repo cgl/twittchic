@@ -6,10 +6,7 @@ import org.jgrapht.graph.DefaultWeightedEdge;
 import org.jgrapht.graph.SimpleWeightedGraph;
 
 import java.io.*;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Set;
-import java.util.TreeMap;
+import java.util.*;
 
 import static net.twittchic.Baseline.deserializeTweets;
 
@@ -28,7 +25,7 @@ public class CoGraph {
         List<Tweet> tweets = deserializeTweets(Constants.tweetsFile);
         populateConfusionSet(tweets);
     }
-    public static void populateConfusionSet(List<Tweet> tweets){
+    public static SimpleWeightedGraph<String, DefaultWeightedEdge> populateConfusionSet(List<Tweet> tweets){
         SimpleWeightedGraph<String, DefaultWeightedEdge> graph = deserialize(Constants.graphFile);
         HashMap<String,Double> all;
         //Set<DefaultWeightedEdge> intersection;
@@ -44,20 +41,58 @@ public class CoGraph {
                     String edgeTarget = graph.getEdgeTarget(edge);
                     edgeWeight = graph.getEdgeWeight(edge);
                     if(all.containsKey(edgeTarget)){
-                        all.put(edgeTarget,all.get(edgeTarget)+edgeWeight);
+                        all.put(edgeTarget, all.get(edgeTarget) + edgeWeight);
                     }
                     else
                         all.put(edgeTarget,edgeWeight);
-                }
-
-                System.out.println(iv+" : ");
+                    }
                 }
                 else
                     System.out.println(iv+" No such Vertex");
             }
-            System.out.println(all.toString());
+            TreeMap<Integer, HashSet<String>> confusionSet = tweet.getConfusionSet();
 
+            for (Integer ind : confusionSet.keySet()) {
+                HashSet<String> values =  addMaxofAll(all,confusionSet.get(ind));
+                confusionSet.put(ind,values);
+                //System.out.println("Size of words : "+values.size());
+            }
+        }
+        return graph;
+    }
 
+    private static HashSet<String> addMaxofAll(HashMap<String, Double> all,HashSet<String> values) {
+        int max = 10;
+        int i = 0;
+        ValueComparator bvc =  new ValueComparator(all);
+        TreeMap<String,Double> sorted_map = new TreeMap<String,Double>(bvc);
+        sorted_map.putAll(all);
+        for (String s : sorted_map.keySet()) {
+            if(i++ > max)
+                break;
+            values.add(s);
+        }
+        return values;
+    }
+    static int max(int a,int b){
+        if (a > b)
+            return a;
+        return b;
+    }
+    static class ValueComparator implements Comparator<String> {
+
+        Map<String, Double> base;
+        public ValueComparator(Map<String, Double> base) {
+            this.base = base;
+        }
+
+        // Note: this comparator imposes orderings that are inconsistent with equals.
+        public int compare(String a, String b) {
+            if (base.get(a) >= base.get(b)) {
+                return -1;
+            } else {
+                return 1;
+            } // returning 0 would merge keys
         }
     }
 

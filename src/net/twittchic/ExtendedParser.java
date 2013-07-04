@@ -37,7 +37,7 @@ public class ExtendedParser extends Parser{
         deasc.process();
         //deasc.write();
         //deasc.serializeTweet(Constants.allTweetsFile);
-        //deasc.serializeTweet(Constants.tweetsFile);
+        deasc.serializeTweet(Constants.tweetsFile);
     }
 
     @Override
