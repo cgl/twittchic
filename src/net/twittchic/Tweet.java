@@ -5,8 +5,8 @@ import net.zemberek.tr.yapi.TurkiyeTurkcesi;
 import turkish.Deasciifier;
 
 import java.io.Serializable;
-import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.TreeMap;
 
 /**
@@ -22,10 +22,8 @@ public class Tweet implements Serializable{
     private TreeMap <Integer, String> ivs;
     private final TreeMap <Integer, String> oovs;
     private TreeMap <Integer, String> numbers;
-    private TreeMap <Integer, ArrayList<String>> confusionSet_SND;
-    private TreeMap <Integer, ArrayList<String>> confusionSet_G;
-    private TreeMap <Integer, ArrayList<String>> confusionSet_LM;
-    private TreeMap <Integer, ArrayList<String>> confusionSet;
+
+    private TreeMap <Integer, HashSet<String>> confusionSet;
     private HashMap <Integer, String> results;
     private HashMap <Integer, Integer> scores;
 
@@ -42,11 +40,11 @@ public class Tweet implements Serializable{
     private String text;
     boolean deasciified;
 
-    public TreeMap<Integer, ArrayList<String>> getConfusionSet() {
+    public TreeMap<Integer, HashSet<String>> getConfusionSet() {
         return confusionSet;
     }
 
-    public void setConfusionSet(TreeMap<Integer, ArrayList<String>> confusionSet) {
+    public void setConfusionSet(TreeMap<Integer, HashSet<String>> confusionSet) {
         this.confusionSet = confusionSet;
     }
 
@@ -59,7 +57,7 @@ public class Tweet implements Serializable{
         this.numbers =  new TreeMap <Integer, String> ();
         this.results = new HashMap<Integer, String>();
         this.deasciified = False;
-        this.confusionSet = new TreeMap <Integer, ArrayList<String>>();
+        this.confusionSet = new TreeMap<Integer, HashSet<String>>();
 
     }
 
@@ -132,18 +130,18 @@ public class Tweet implements Serializable{
         this.mentions.put(ind, mention);
     }
     public void addToConfusionSet(Integer ind, String oov) {
-        ArrayList<String> strings = this.confusionSet.get(ind);
+        HashSet<String> strings = this.confusionSet.get(ind);
         if(strings == null)
-            strings = new ArrayList<String>();
+            strings = new HashSet<String>();
         strings.add(oov);
         this.confusionSet.put(ind, strings);
 
     }
 
     public void updateConfusionSet(Integer ind, String oov) {
-        ArrayList<String> strings = this.confusionSet.get(ind);
+        HashSet<String> strings = this.confusionSet.get(ind);
         if(strings == null)
-            strings = new ArrayList<String>();
+            strings = new HashSet<String>();
         strings.add(oov);
         this.confusionSet.put(ind,strings);
     }
