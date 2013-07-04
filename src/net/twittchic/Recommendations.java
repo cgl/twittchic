@@ -37,7 +37,7 @@ public class Recommendations {
                 if(recs.length > 0 & recs.length < 2){
                     tweet.addToConfusionSet(ind,recs[0]);
                     if(!recs[0].trim().contains(" ") & z.kelimeDenetle(recs[0]))
-                        tweet.updateOvv(recs[0],ind);
+                        tweet.putResult(recs[0],ind);
                 }
                 else
                     tweet.addToConfusionSet(ind,"");
@@ -64,7 +64,7 @@ public class Recommendations {
                     int randomInt = randomGenerator.nextInt(recs.length);
                     tweet.addToConfusionSet(ind,recs[randomInt]);
                     if(!recs[randomInt].trim().contains(" ") & z.kelimeDenetle(recs[randomInt]))
-                        tweet.updateOvv(recs[0],ind);
+                        tweet.putResult(recs[0],ind);
                 }
             }
         }

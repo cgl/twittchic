@@ -92,7 +92,7 @@ public class Parser {
                         oovlist.put(token.toLowerCase(new Locale("utf-8")), "");
                     }
                     else if(z.kelimeDenetle(token)) {
-                        ivlist.put(token.toLowerCase(Locale.forLanguageTag("tr-TR")), "");
+                        ivlist.put(token.toLowerCase(Constants.locale), "");
 
 
                         tweet.addIv(token, i);

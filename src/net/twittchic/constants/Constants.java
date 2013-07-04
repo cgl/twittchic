@@ -1,5 +1,7 @@
 package net.twittchic.constants;
 
+import java.util.Locale;
+
 public class Constants {
     // Files
 //asli tokenized.txt olacak
@@ -21,4 +23,6 @@ public class Constants {
 
     public static String NL = System.getProperty("line.separator");
     public static final String fEncoding = "utf-8";
+
+    public static final Locale locale = Locale.forLanguageTag("tr-TR");
 }

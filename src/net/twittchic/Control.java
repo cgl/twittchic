@@ -101,10 +101,10 @@ public class Control {
                         for (Integer ind : oovs.keySet()) {
                             String corrected = line[ind-1].replace("_"," ");
                             if(!original_text[ind-1].equalsIgnoreCase(corrected) & !corrected.startsWith("#")){
-                                if(corrected.equalsIgnoreCase(oovs.get(ind)))
+                                if(corrected.equalsIgnoreCase(tweet.getResults().get(ind)))
                                     pozitive++;
                                 else{
-                                    //System.out.println("Negatif : "+oovs.get(ind)+" - "+corrected+" - "+count);
+                                    System.out.println("Negatif : "+tweet.getResults().get(ind)+" - "+corrected+" - "+count);
                                     negative++;
                                 }
                             }
