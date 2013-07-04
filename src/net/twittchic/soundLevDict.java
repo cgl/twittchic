@@ -841,8 +841,8 @@ public class soundLevDict {
         //asagidakiler eger zemberek oneri propose edemiyorsa calistirilmali
         //asagidakiler istemedigimiz kelimeler return ediyorsa context analysis yapmaliyiz
 
-        System.out.println(baselineC2("yapıyooom"));
-
+        //System.out.println(baselineC2("yapıyooom"));
+        elSound("Aaaaaaraaaaaaaaabaaaamddddaaa");
         elSound("ediyomuşum");
         elSound("kooooonnnnuşşşyoooooooooooooozzzz");
 

@@ -49,7 +49,7 @@ public class Control {
                                     if(corrected.equalsIgnoreCase(word))   {
                                         pozitive++;
                                         found = true;
-                                        System.out.println("Pozitif : "+confusions.toString()+" - "+corrected+" - "+count);
+                                        //System.out.println("Pozitif : "+confusions.toString()+" - "+corrected+" - "+count);
                                         break;
                                     }
                                 }
@@ -73,21 +73,24 @@ public class Control {
             System.out.println("Control.process hata : "+ex.getMessage());
         }
     }
-
+    private List<String> AnnotatedTweets = null;
     public void process_old(List<Tweet> tweets)
     {
         try {
-            Scanner scannerInput = new Scanner(new FileInputStream(Constants.trainingFileName), Constants.fEncoding);
+            if(AnnotatedTweets == null)
+                AnnotatedTweets = readAnnotatedFile();
             int total = 0;
             int pozitive = 0;
             int negative = 0;
             int count = 0;
+            String inputline = "";
             for (Tweet tweet : tweets)
             {
+                inputline = AnnotatedTweets.get(count);
                 count++;
-                if(scannerInput.hasNextLine())
+                if(count-1<AnnotatedTweets.size())
                 {
-                    String inputline = scannerInput.nextLine();
+
                     TreeMap <Integer, String> oovs = tweet.getOovs();
                     if(oovs.size()<1){
                         continue;
@@ -101,7 +104,7 @@ public class Control {
                                 if(corrected.equalsIgnoreCase(oovs.get(ind)))
                                     pozitive++;
                                 else{
-                                    System.out.println("Negatif : "+oovs.get(ind)+" - "+corrected+" - "+count);
+                                    //System.out.println("Negatif : "+oovs.get(ind)+" - "+corrected+" - "+count);
                                     negative++;
                                 }
                             }
@@ -113,14 +116,36 @@ public class Control {
             System.out.println("Pozitif : "+pozitive);
             System.out.println("Negatif : "+negative);
             System.out.println("Yuzde   : "+calculataPercentage(pozitive,negative)+" %");
-            scannerInput.close();
         }
-        catch (IOException ex)
+        catch (Exception ex)
         {
             System.out.println("Control.process hata : "+ex.getMessage());
         }
     }
+    private List<String> readAnnotatedFile()
+    {
+        List<String> annotatedTweets = new ArrayList<String>();
+        Scanner scannerInput = null;
+        try
+        {
+            scannerInput = new Scanner(new FileInputStream(Constants.trainingFileName), Constants.fEncoding);
+            String line = "";
+            while(scannerInput.hasNextLine())
+            {
+                line = scannerInput.nextLine();
+                annotatedTweets.add(line);
+            }
 
+        }
+        catch (IOException ex)
+        {
+            System.out.println("Control.readFİle hata : "+ex.getMessage());
+        }
+        finally {
+            scannerInput.close();
+        }
+        return annotatedTweets;
+    }
     public void processB1B2B3(List<Tweet> tweets)
     {
         try {
