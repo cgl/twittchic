@@ -145,7 +145,6 @@ public class Parser {
     private static void save(TreeMap<String,String> dictionary, String wordlist) throws IOException {
         FileWriter file = new FileWriter(wordlist);
         BufferedWriter writer = new BufferedWriter(file);
-
         for (Map.Entry<String, String> entry : dictionary.entrySet()) {
             if(entry.getValue().isEmpty())
                 writer.append(entry.getKey());
@@ -153,7 +152,6 @@ public class Parser {
                 writer.append(entry.getKey() + ";" + entry.getValue());    //TO DO space required in between
             writer.newLine();
         }
-
         writer.close();
         file.close();
     }

@@ -10,7 +10,7 @@ public class Constants {
     public static String b2 = "resources/output/baseline/b2.txt";
     public static String b3 = "resources/output/baseline/b3.txt";
     public static String b4 = "resources/output/baseline/b4.txt";
-
+    public static String resultNumFileName = "resources/output/resultNum.txt";
     public static String ann1 = "resources/input/annotation1.txt";
 
 

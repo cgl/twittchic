@@ -842,6 +842,10 @@ public class soundLevDict {
         //asagidakiler istemedigimiz kelimeler return ediyorsa context analysis yapmaliyiz
 
         //System.out.println(baselineC2("yapıyooom"));
+        elSound("spr");// - süper
+        elSound("ayn");// - aynen
+        elSound("dvm");// - devam
+
         elSound("Aaaaaaraaaaaaaaabaaaamddddaaa");
         elSound("ediyomuşum");
         elSound("kooooonnnnuşşşyoooooooooooooozzzz");
