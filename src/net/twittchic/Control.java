@@ -50,7 +50,7 @@ public class Control {
                                 if(corrected.equalsIgnoreCase(tweet.getResults().get(ind)))
                                     pozitive++;
                                 else{
-                                    System.out.println("Negatif : "+tweet.getResults().get(ind)+" - "+corrected+" - "+count);
+                                    System.out.println("Negatif : ["+original_text[ind-1]+"] : "+tweet.getResults().get(ind)+" - "+corrected+" - "+count);
                                     negative++;
                                 }
                             }

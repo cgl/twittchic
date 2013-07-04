@@ -7,6 +7,10 @@ public class Constants {
 //asli tokenized.txt olacak
     public static String fFileName = "resources/input/tokenized.txt";
     public static String tweetsFile = "resources/input/tweets.ser";
+    public static String allTweetsFile = "resources/input/alltweets.ser";
+
+    public static String graphFile = "resources/input/graph.ser";
+
     public static String outFileName = "resources/output/parsed.txt";
     public static String b1 = "resources/output/baseline/b1.txt";
     public static String b2 = "resources/output/baseline/b2.txt";

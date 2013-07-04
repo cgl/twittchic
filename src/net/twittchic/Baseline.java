@@ -21,7 +21,7 @@ public class Baseline {
     }
 
     public static void baseline1234() {
-        List<Tweet> tweets = deserializeTweets();
+        List<Tweet> tweets = deserializeTweets(Constants.allTweetsFile);
         Control control = new Control();
         //System.out.println("B0 ------------------------------------------------");
         //control.process_old(tweets);
@@ -49,11 +49,10 @@ public class Baseline {
         System.out.println("B0 ------------------------------------------------");
         control.process_old(tweets);
     }
-
-    public static List<Tweet> deserializeTweets() {
+    public static List<Tweet> deserializeTweets(String filename) {
         List<Tweet> tweets = null;
         try {
-            InputStream file = new FileInputStream(Constants.tweetsFile);
+            InputStream file = new FileInputStream(filename);
             InputStream buffer = new BufferedInputStream(file);
             ObjectInput input = new ObjectInputStream(buffer);
             try {
@@ -67,6 +66,10 @@ public class Baseline {
             System.out.println("DESerialize edilirken hata gerçekleşti 1 !!! : " + ex.getMessage());
         }
         return tweets;
+    }
+
+    public static List<Tweet> deserializeTweets() {
+        return deserializeTweets(Constants.tweetsFile);
     }
 
     public static void write(List<Tweet> tweets, String filename) {

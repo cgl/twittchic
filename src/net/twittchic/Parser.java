@@ -1,13 +1,11 @@
 package net.twittchic;
 
-import com.sun.org.apache.regexp.internal.RE;
 import net.twittchic.constants.Constants;
 import net.zemberek.erisim.Zemberek;
 import net.zemberek.tr.yapi.TurkiyeTurkcesi;
 
 import java.io.*;
 import java.util.*;
-import java.util.regex.Pattern;
 
 /**
  * Created with IntelliJ IDEA.
@@ -60,6 +58,14 @@ public class Parser {
         }
     }
 
+    public boolean denetle(String token){
+        Zemberek z = new Zemberek(new TurkiyeTurkcesi());
+        return z.kelimeDenetle(token);
+    }
+    public void process() throws IOException {
+        process(9999999);
+    }
+
     public void process(int limit) throws IOException {
         Scanner scanner = new Scanner(new FileInputStream(Constants.fFileName), Constants.fEncoding);
         Zemberek z = new Zemberek(new TurkiyeTurkcesi());
@@ -91,7 +97,7 @@ public class Parser {
                         tweet.addOov(token, i);
                         oovlist.put(token.toLowerCase(new Locale("utf-8")), "");
                     }
-                    else if(z.kelimeDenetle(token)) {
+                    else if(denetle(token)) {
                         ivlist.put(token.toLowerCase(Constants.locale), "");
 
 
@@ -156,15 +162,17 @@ public class Parser {
         file.close();
     }
 
-
     public void serializeTweet(){
+        serializeTweet(Constants.tweetsFile);
+    }
+    public void serializeTweet(String filename){
         if(this.tweets.size()>0){
             OutputStream file = null;
             OutputStream buffer = null;
             ObjectOutput output = null;
             try
             {
-                file = new FileOutputStream( Constants.tweetsFile );
+                file = new FileOutputStream( filename );
                 buffer = new BufferedOutputStream( file );
                 output = new ObjectOutputStream( buffer );
                 try{
@@ -183,7 +191,7 @@ public class Parser {
         }
 
     }
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         String l;
         /*
         if (args.length < 1){
@@ -198,7 +206,7 @@ public class Parser {
 
             //ovv_statistics();
             try {
-                deasc.process(999999);
+                deasc.process();
             } catch (IOException e) {
                 e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
             }

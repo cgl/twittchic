@@ -2,10 +2,10 @@ package net.twittchic.graph;
 
 import net.twittchic.Tweet;
 import net.twittchic.constants.Constants;
-import org.jgrapht.UndirectedGraph;
 import org.jgrapht.graph.DefaultWeightedEdge;
 import org.jgrapht.graph.SimpleWeightedGraph;
 
+import java.io.*;
 import java.util.List;
 import java.util.TreeMap;
 
@@ -23,22 +23,18 @@ public class CoGraph {
 
     public static void main(String [] args)
     {
-        List<Tweet> tweets = deserializeTweets();
-        UndirectedGraph<String, DefaultWeightedEdge> stringGraph = createStringGraph(tweets);
-
+        List<Tweet> tweets = deserializeTweets(Constants.allTweetsFile);
+        SimpleWeightedGraph<String, DefaultWeightedEdge> stringGraph = createStringGraph(tweets);
+        serialize(stringGraph);
         // note undirected edges are printed as: {<v1>,<v2>}
         System.out.println(stringGraph.toString());
-        System.out.println(stringGraph.degreeOf("ben"));
-
     }
 
-    private static UndirectedGraph<String, DefaultWeightedEdge> createStringGraph(List<Tweet> tweets)
+    private static SimpleWeightedGraph<String, DefaultWeightedEdge> createStringGraph(List<Tweet> tweets)
     {
         SimpleWeightedGraph <String, DefaultWeightedEdge> g =
                 new SimpleWeightedGraph <String, DefaultWeightedEdge>(DefaultWeightedEdge.class);
         String [] ivsWords;
-        String firstWord;
-        String secondWord;
         for (Tweet tweet : tweets) {
             final TreeMap<Integer,String> ivs = tweet.getIvs();
             if(ivs.size()>0){
@@ -76,5 +72,40 @@ public class CoGraph {
             g.addVertex(e);
         }
         return g;
+    }
+
+    public static void serialize(SimpleWeightedGraph<String, DefaultWeightedEdge> g){
+        if(g != null){
+            try
+            {
+            OutputStream file = new FileOutputStream( Constants.graphFile );
+            OutputStream buffer = new BufferedOutputStream( file );
+            ObjectOutput output = new ObjectOutputStream( buffer );
+
+            output.writeObject(g);
+            output.close();
+            }catch (IOException ex)
+            {
+                System.out.println("Serialize edilirken hata gerçekleşti 2 !!! : "+ex.getMessage());
+            }
+        }
+    }
+
+    public static SimpleWeightedGraph<String, DefaultWeightedEdge> deserialize() {
+        try {
+            InputStream file = new FileInputStream(Constants.graphFile);
+            InputStream buffer = new BufferedInputStream(file);
+            ObjectInput input = new ObjectInputStream(buffer);
+            SimpleWeightedGraph<String, DefaultWeightedEdge> g = (SimpleWeightedGraph<String, DefaultWeightedEdge>) input.readObject();
+            input.close();
+            return g;
+        }
+        catch (ClassNotFoundException ex) {
+            System.out.println("Deserialize edilirken hata gerçekleşti 1 !!! : " + ex.getMessage());
+        }
+        catch (IOException ex) {
+            System.out.println("Deserialize edilirken hata gerçekleşti 2 !!! : " + ex.getMessage());
+        }
+        return null;
     }
 }
