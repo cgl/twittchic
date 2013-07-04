@@ -87,10 +87,10 @@ public class Parser {
                         continue;
                     else if (isAbbrev(token)) {
                         tweet.addAbbrvs(i, token);
+                        System.out.println("Abb : "+token);
                     }
-                    if (isNumeric(token)) {
+                    else if (isNumeric(token)) {
                         tweet.addNumbers(i, token);
-                        System.out.println(token);
                     } else if (token.startsWith("http")
                             | token.matches("(\\p{Punct})+|(\\.)+")) {
                         continue;
@@ -98,9 +98,6 @@ public class Parser {
                         tweet.addHashtag(token, i);
                     } else if (token.startsWith("@")) {
                         tweet.addMention(token, i);
-                    } else if (isNumeric(token)) {
-                        tweet.addOov(token, i);
-                        oovlist.put(token.toLowerCase(new Locale("utf-8")), "");
                     } else if (denetle(token)) {
                         ivlist.put(token.toLowerCase(Constants.locale), "");
 

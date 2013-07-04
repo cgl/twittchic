@@ -33,12 +33,24 @@ public class ExtendedParser extends Parser{
     }
 
     public static void main(String[] args) throws IOException {
+        serializeTrainingTweets();
+        //serializeAllTweets();
+        //deasc.write();
+        //deasc.serializeTweet(Constants.tweetsFile);
+    }
+
+    public static void serializeTrainingTweets() throws IOException {
         ExtendedParser deasc = new ExtendedParser();
         deasc.process();
-        //deasc.write();
-        //deasc.serializeTweet(Constants.allTweetsFile);
         deasc.serializeTweet(Constants.tweetsFile);
     }
+
+    public static void serializeAllTweets() throws IOException {
+        ExtendedParser deasc = new ExtendedParser();
+        deasc.process();
+        deasc.serializeTweet(Constants.allTweetsFile);
+    }
+
 
     @Override
     public boolean denetle(String token){
@@ -46,10 +58,10 @@ public class ExtendedParser extends Parser{
         for (String re : res) {
             double v = res.get(re);
             if(v == 0.0){
+                System.out.println(token);
                 return true;
             }
         }
-        System.out.println(token);
 
         return false;
     }

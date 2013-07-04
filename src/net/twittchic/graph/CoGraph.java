@@ -22,8 +22,9 @@ public class CoGraph {
 
     public static void main(String [] args)
     {
-        List<Tweet> tweets = deserializeTweets(Constants.tweetsFile);
-        populateConfusionSet(tweets);
+        serializeCooccurenceGraph();
+        //List<Tweet> tweets = deserializeTweets(Constants.allTweetsFile);
+        //populateConfusionSet(tweets);
     }
     public static SimpleWeightedGraph<String, DefaultWeightedEdge> populateConfusionSet(List<Tweet> tweets){
         SimpleWeightedGraph<String, DefaultWeightedEdge> graph = deserialize(Constants.graphFile);
@@ -99,7 +100,7 @@ public class CoGraph {
     public static void readGraphFromFile(){
         SimpleWeightedGraph<String, DefaultWeightedEdge> stringGraph = deserialize(Constants.graphFile);
     }
-    public static void create(){
+    public static void serializeCooccurenceGraph(){
         List<Tweet> tweets = deserializeTweets(Constants.allTweetsFile);
         SimpleWeightedGraph<String, DefaultWeightedEdge> stringGraph = createStringGraph(tweets);
         serialize(stringGraph);
@@ -107,6 +108,7 @@ public class CoGraph {
 
     protected static SimpleWeightedGraph<String, DefaultWeightedEdge> createStringGraph(List<Tweet> tweets)
     {
+        String [] stopwords = {"de", "diye", "ki", "da", "için", "ne", "bir", "ve", "ama", "hep", "biz", "siz", "yada"};
         SimpleWeightedGraph <String, DefaultWeightedEdge> g =
                 new SimpleWeightedGraph <String, DefaultWeightedEdge>(DefaultWeightedEdge.class);
         String [] ivsWords;
@@ -125,6 +127,9 @@ public class CoGraph {
                 }
             }
         }
+        Set<String> mySet = new HashSet<String>();
+        Collections.addAll(mySet, stopwords);
+        g.removeAllVertices(mySet);
         return g;
     }
     public static void addEdge(SimpleWeightedGraph<String, DefaultWeightedEdge> g, String v1, String v2){
