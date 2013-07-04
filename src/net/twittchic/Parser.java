@@ -74,9 +74,10 @@ public class Parser {
         try {
             while (scanner.hasNextLine()){
                 String s = scanner.nextLine().trim();
-                tweet = new Tweet(s, false);
-                this.tweets.add(tweet);
                 i = 0;
+                tweet = new Tweet(s,i, false);
+                this.tweets.add(tweet);
+
                 for (String token : s.split(" ")) {
                     i++;
                     if(token.length() == 0)
@@ -166,7 +167,7 @@ public class Parser {
         serializeTweet(Constants.tweetsFile);
     }
     public void serializeTweet(String filename){
-        if(this.tweets.size()>0){
+        if(tweets.size()>0){
             OutputStream file = null;
             OutputStream buffer = null;
             ObjectOutput output = null;
@@ -188,7 +189,9 @@ public class Parser {
             {
                 System.out.println("Serialize edilirken hata gerçekleşti 2 !!! : "+ex.getMessage());
             }
+            System.out.println(tweets.size()+" adet tweet "+filename+" dosyasına serilize edildi");
         }
+
 
     }
     public static void main(String[] args) throws IOException {
@@ -199,19 +202,11 @@ public class Parser {
             Scanner v = new Scanner(System.in);
             l = v.next();
         }*/
-
         if (args.length > 1)
             l = args[1];
         Parser deasc = new Parser();
-
-            //ovv_statistics();
-            try {
-                deasc.process();
-            } catch (IOException e) {
-                e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
-            }
-            //deasc.write();
-            deasc.serializeTweet();
+        deasc.process();
+        deasc.serializeTweet();
         }
 
     public static void statistics(){

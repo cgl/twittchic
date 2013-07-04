@@ -10,6 +10,8 @@ public class Constants {
     public static String allTweetsFile = "resources/input/alltweets.ser";
 
     public static String graphFile = "resources/input/graph.ser";
+    public static String graphFileFull = "/Users/cagil/Documents/twittchic/resources/input/graph.ser";
+
 
     public static String outFileName = "resources/output/parsed.txt";
     public static String b1 = "resources/output/baseline/b1.txt";

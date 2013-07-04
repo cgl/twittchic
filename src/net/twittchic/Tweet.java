@@ -29,6 +29,16 @@ public class Tweet implements Serializable{
     private HashMap <Integer, String> results;
     private HashMap <Integer, Integer> scores;
 
+    public Integer getLineNo() {
+        return lineNo;
+    }
+
+    public void setLineNo(Integer lineNo) {
+        this.lineNo = lineNo;
+    }
+
+    private Integer lineNo;
+
     public HashMap<Integer, String> getResults() {
         return results;
     }
@@ -50,8 +60,9 @@ public class Tweet implements Serializable{
         this.confusionSet = confusionSet;
     }
 
-    public Tweet(String text, boolean False) {
+    public Tweet(String text,Integer line, boolean False) {
         this.text = text;
+        this.lineNo = line;
         this.ivs = new TreeMap <Integer, String> ();
         this.oovs = new TreeMap <Integer, String> ();
         this.mentions = new TreeMap <Integer, String> ();

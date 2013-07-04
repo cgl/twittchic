@@ -23,8 +23,8 @@ public class ExtendedParser extends Parser{
         super();
         dt = new SingleWordSpellChecker(1.4, true);
         System.out.println("Loading vocabulary");
-        List<String> list = Files.readAllLines(new File("/Users/cagil/Documents/zemberek-nlp/500.txt").toPath(), Charsets.UTF_8);
-        //List<String> list = Files.readAllLines(new File("resources/input/all-proper-candidate-sorted-cutted.txt").toPath(), Charsets.UTF_8);
+        //List<String> list = Files.readAllLines(new File("/Users/cagil/Documents/zemberek-nlp/500.txt").toPath(), Charsets.UTF_8);
+        List<String> list = Files.readAllLines(new File("resources/input/dictionary.txt").toPath(), Charsets.UTF_8);
 
         //List<String> list = Files.readAllLines(new File("/Users/cagil/Documents/allvoc.txt").toPath(), Charsets.UTF_8);
         System.out.println("Building tree");
@@ -35,22 +35,22 @@ public class ExtendedParser extends Parser{
     public static void main(String[] args) throws IOException {
         ExtendedParser deasc = new ExtendedParser();
         deasc.process();
-
         //deasc.write();
-        deasc.serializeTweet(Constants.allTweetsFile);
+        //deasc.serializeTweet(Constants.allTweetsFile);
+        //deasc.serializeTweet(Constants.tweetsFile);
     }
 
     @Override
     public boolean denetle(String token){
-        DoubleValueSet<String> res = dt.decode(token);
+        DoubleValueSet<String> res = dt.decode(token.toLowerCase(Constants.locale));
         for (String re : res) {
             double v = res.get(re);
-
             if(v == 0.0){
-                System.out.println(re + " " + v);
                 return true;
             }
         }
+        System.out.println(token);
+
         return false;
     }
             /*
