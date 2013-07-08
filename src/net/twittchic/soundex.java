@@ -1,4 +1,7 @@
 //Y ve H ne olacak
+
+
+//ETCEM [eteğim, etceğiz, emceğim, enceğim]
 package net.twittchic;
 
 public class soundex {
@@ -149,6 +152,11 @@ public class soundex {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 //		sound("ÇEKOSLOVAKYALILAŞTIRAMADIKLARIMIZDANMISINIZ");
+		
+		
+//		ETCEM [eteğim, etceğiz, emceğim, enceğim]
+		System.out.println(vowElim("ETCEM"));
+		System.out.println(vowElim("etceğiz"));
 		sound("mrb");
 		System.out.println(sound("herkezzzz"));
 		System.out.println(sound("harçsız"));

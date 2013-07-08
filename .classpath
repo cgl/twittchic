@@ -6,5 +6,9 @@
 	<classpathentry kind="lib" path="resources/lib/turkish-deasciifier-1.0.jar"/>
 	<classpathentry kind="lib" path="resources/lib/zemberek-cekirdek-2.1.jar"/>
 	<classpathentry kind="lib" path="resources/lib/zemberek-tr-2.1.jar"/>
+	<classpathentry kind="lib" path="resources/lib/core-1.0.0-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="resources/lib/guava-14.0.1.jar"/>
+	<classpathentry kind="lib" path="resources/lib/jgrapht-jdk1.6.jar"/>
+	<classpathentry kind="lib" path="resources/lib/spelling-1.0.0-SNAPSHOT.jar"/>
 	<classpathentry kind="output" path="out/production/twittchic"/>
 </classpath>
