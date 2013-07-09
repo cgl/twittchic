@@ -7,7 +7,24 @@
     </content>
     <orderEntry type="jdk" jdkName="1.7" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="lib" level="project" />
+    <orderEntry type="library" exported="" name="lib" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/resources/lib/core-1.0.0-SNAPSHOT.jar!/" />
+          <root url="jar://$MODULE_DIR$/resources/lib/guava-14.0.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/resources/lib/jgrapht-jdk1.6.jar!/" />
+          <root url="jar://$MODULE_DIR$/resources/lib/spelling-1.0.0-SNAPSHOT.jar!/" />
+          <root url="jar://$MODULE_DIR$/resources/lib/turkish-deasciifier-1.0.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$MODULE_DIR$/resources/lib/turkish-deasciifier-1.0.jar!/doc" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/resources/lib/turkish-deasciifier-1.0.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
   </component>
 </module>
 

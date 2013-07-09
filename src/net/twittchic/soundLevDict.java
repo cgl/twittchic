@@ -1,7 +1,9 @@
 package net.twittchic;
+import net.twittchic.soundex;
 import net.twittchic.constants.Constants;
 import net.zemberek.erisim.Zemberek;
 import net.zemberek.tr.yapi.TurkiyeTurkcesi;
+
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -10,9 +12,8 @@ import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-
-
-
+import org.jgrapht.graph.DefaultWeightedEdge;
+import org.jgrapht.graph.SimpleWeightedGraph;
 
 public class soundLevDict {
 
@@ -20,6 +21,7 @@ public class soundLevDict {
 
     //levenshtein distance'i uygulayacaksin
     //onceki hecedeki unlu inceyse bunu dondur
+	//levensh. dist. 1 idi, sonra 0'a indirildi
     /**
      * @param args
      */
@@ -27,9 +29,9 @@ public class soundLevDict {
             new HashMap<String, ArrayList<String>>();
 
     public static String[] suffixesNoise = {"yom", "yon", "yoz", "cam", "can", "caz", "cem", "cen", "cez", "caım", "ceim",
-            "caız", "ceiz"};
+            "caız", "ceiz", "yo"};
     public static String[] suffixesCorr = {"yorum", "yorsun", "yoruz", "cağım", "caksın", "cağız", "ceğim", "ceksin", "ceğiz", "cağım",
-            "ceğim", "cağız", "ceğiz"};
+            "ceğim", "cağız", "ceğiz", "yor"};
 
 
     public static Zemberek z = new Zemberek(new TurkiyeTurkcesi());
@@ -60,6 +62,338 @@ public class soundLevDict {
         return distance[str1.length()][str2.length()];
     }
 
+    
+    
+    public static ArrayList<String> elimDuplConf(String str)
+    {
+
+        String sRet = "";
+        Pattern p = Pattern.compile("(.)\\1+");
+        Matcher m = p.matcher(str);
+        ArrayList<String> rep = new ArrayList<String>();
+        ArrayList<String> alConf = new ArrayList<String>();
+        if(!m.find())
+        {
+            String suff = "";
+
+
+
+            for(int w = 0; w < suffixesNoise.length; w++)
+            {
+                if(str.contains(suffixesNoise[w]))
+                {
+
+
+                    String yourString = str;
+                    StringBuilder b = new StringBuilder(yourString);
+                    b.replace(yourString.lastIndexOf(suffixesNoise[w]), yourString.lastIndexOf(suffixesNoise[w]) + suffixesNoise[w].length(), suffixesCorr[w] );
+                    suff = b.toString();
+
+
+//					suff = str.replace(suffixesNoise[w], suffixesCorr[w]);
+                    String[] prop = z.oner(suff);
+                    if(z.kelimeDenetle(suff))
+                    {
+                        alConf.add(suff);
+                        //System.out.println(suff);
+                        //return suff;
+                    }
+                    else
+                    {
+
+                        for(int j = 0; j < prop.length; j++)
+                        {
+                            if(computeLevenshteinDistance(prop[j], suff) == 0)
+                            {
+                                alConf.add(prop[j]);
+                                //System.out.println(prop[j]);
+                                //return prop[j];
+                            }
+                        }
+                    }
+                    //üzmiycem denemesi - vocab'da üzmeyeceğim olmadığı için doğru çalışamaz, yani vocab'ın hatası
+//					try
+//					{
+//						System.out.println("sakjhdkjsahdahdkashksashkjadhs");
+//						BufferedReader br = new BufferedReader(new FileReader("vocab"));
+//						String line = "";
+//						//asagidakini kullanabilirsin
+//						ArrayList<String> candSound = new ArrayList<String>();
+//						String vowEl = soundex.vowElimY(suff);
+//						while((line = br.readLine()) != null)
+//						{
+//
+//							if(vowEl.equals(soundex.vowElimY(line)))
+//							{
+//								System.out.println(line);
+//								return line;
+//							}
+//						}
+//						br.close();
+//					}
+//					catch(IOException ioe)
+//					{
+//						ioe.printStackTrace();
+//					}
+
+//					for(int j = 0; j < prop.length; j++)
+//					{
+//						if(soundex.vowElimY(prop[j]).equals(suff))
+//						{
+//
+//							System.out.println(prop[j]);
+//							return prop[j];
+//						}
+//					}
+
+                    //buraya koyacaksin
+                }
+            }
+
+            return alConf;
+            //return sRet;
+        }
+        m = p.matcher(str);
+        while(m.find())
+        {
+            rep.add(m.group());
+
+        }
+
+
+        int dec = rep.size();
+        ArrayList<String> cand = new ArrayList<String>();
+        int no = (int) Math.pow(2, dec);
+        for(int i = 0; i < no; i++)
+        {
+
+            String res = str;
+            String tmp = String.format("%" + dec + "s", Integer.toBinaryString(i)).replace(' ', '0');
+
+            int ind = 0;
+            String subs = "";
+            for(int k = 0; k < tmp.length(); k++)
+            {
+                ind = res.indexOf(rep.get(k));
+                if(tmp.charAt(k) == '0')
+                {
+
+                    String s = res.replaceFirst(rep.get(k), rep.get(k).substring(0, 1));
+                    if(k == tmp.length() - 1)
+                        subs += s.substring(0, s.length());
+                    else
+                        subs += s.substring(0, ind + 1);
+                }
+                else
+                {
+                    String s = res.replaceFirst(rep.get(k), rep.get(k).substring(0, 2));
+
+                    if(k == tmp.length() - 1)
+                        subs += s.substring(0, s.length());
+                    else
+                        subs += s.substring(0, ind + 2);
+                }
+                res = res.substring(ind + rep.get(k).length(), res.length());
+
+            }
+
+//			System.out.println(subs);
+            if(z.kelimeDenetle(subs))
+            {
+//				System.out.println(subs);
+                sRet = subs;
+                cand.add(subs);
+
+//				break;
+            }
+            //asagisi eklendi
+            else
+            {
+                String suff = "";
+
+
+                for(int w = 0; w < suffixesNoise.length; w++)
+                {
+                    if(subs.contains(suffixesNoise[w]))
+                    {
+
+                        String yourString = subs;
+                        StringBuilder b = new StringBuilder(yourString);
+                        b.replace(yourString.lastIndexOf(suffixesNoise[w]), yourString.lastIndexOf(suffixesNoise[w]) + suffixesNoise[w].length(), suffixesCorr[w] );
+                        suff = b.toString();
+//						System.out.println("kelimmeeeeeeeeee: 1- " + str + ", 2- " + suff);
+
+//						suff.replace(suffixesNoise[w], suffixesCorr[w]);
+
+                        if(z.kelimeDenetle(suff))
+                        {
+                            alConf.add(suff);
+//                            System.out.println(suff);
+                            //return suff;
+                        }
+                        else
+                        {
+                            String[] prop = z.oner(suff);
+                            for(int j = 0; j < prop.length; j++)
+                            {
+                                if(computeLevenshteinDistance(prop[j], suff) == 0)
+                                {
+                                    alConf.add(prop[j]);
+                                    //System.out.println(prop[j]);
+                                    //return prop[j];
+                                }
+                            }
+                        }
+
+//						try
+//						{
+//							System.out.println("sakdgadjskgdasjkshskajagdsasdkg: " + suff);
+//							BufferedReader br = new BufferedReader(new FileReader("vocab"));
+//							String line = "";
+//							//asagidakini kullanabilirsin
+//							ArrayList<String> candSound = new ArrayList<String>();
+//							String vowEl = soundex.vowElimY(suff);
+//							while((line = br.readLine()) != null)
+//							{
+//
+//								if(vowEl.equals(soundex.vowElimY(line)))
+//								{
+//
+//									System.out.println(line);
+//									return line;
+//								}
+//							}
+//							br.close();
+//						}
+//						catch(IOException ioe)
+//						{
+//							ioe.printStackTrace();
+//						}
+
+                    }
+                }
+
+
+
+            }
+        }
+        int min = 100;
+        int index = 0;
+        for(int i = 0; i < cand.size(); i++)
+        {
+            int dist = computeLevenshteinDistance(cand.get(i), str);
+            if(dist < min)
+            {
+                index = i;
+                min = dist;
+            }
+            
+            alConf.add(cand.get(i));
+        }
+        if(cand.size() > 0)
+        {
+            //System.out.println(sRet);
+            sRet = cand.get(index);
+        }
+//		System.out.println(cand);
+        return alConf;
+    }
+
+    public static ArrayList<String> elSoundConf(String word)
+    {
+
+    	ArrayList<String> alConf = new ArrayList<String>();
+        String retWord = "";
+        ArrayList<String> el = elimDuplConf(word.toLowerCase());
+       
+//        System.out.println("kjjkjk: " + el.size() + ", word: " + word);
+        if(el.size() == 0)
+        {
+//        	System.out.println("jjjjjjjjjjjj");
+        	ArrayList<String> cand = new ArrayList<String>();
+            //asagidakini kullanabilirsin
+            ArrayList<String> candSound = new ArrayList<String>();
+            String firstChar = Character.toString(word.charAt(0));
+            if(!vocWords.containsKey(firstChar))
+            {
+            	return alConf;
+//                return retWord;
+            }
+            ArrayList<String> vocAl = vocWords.get(firstChar);
+            
+            for(int w = 0; w < vocAl.size(); w++)
+            {
+                String line = vocAl.get(w);
+                //asagidakileri de
+                String soundDict = soundex.sound(line);
+                String soundWord = soundex.sound(word);
+                String tmp = soundex.vowElim(line);
+                String mainWord = soundex.vowElim(word);
+                
+                if(mainWord.equals(tmp) && !mainWord.equals(line))
+                {
+                	
+                	
+                    //sildim
+                    retWord = line;ArrayList<String> dist1 = new ArrayList<String>();
+                    for(int i = 0; i < cand.size(); i++)
+                    {
+//							System.out.print(i + ": " + cand.get(i) + " ");
+                        int dist = computeLevenshteinDistance(cand.get(i), word);
+                        if(dist == 1)
+                            dist1.add(line);
+                    }
+//						System.out.println();
+                    int max = -1;
+//						System.out.println(line);
+                    //ekledim
+//						if(z.kelimeDenetle(line))
+                    cand.add(line);
+//						break;
+                }
+            }
+
+
+
+
+            //asagidakini uncomment yapacaksin
+
+            int min = 100;
+            int index = 0;
+            for(int i = 0; i < cand.size(); i++)
+            {
+                int dist = computeLevenshteinDistance(cand.get(i), word);
+                if(dist < min)
+                {
+                    index = i;
+                    min = dist;
+                }
+                alConf.add(cand.get(i));
+            }
+            if(cand.size() > 0)
+            {
+//					System.out.println(sRet);
+                retWord = cand.get(index);
+            }
+            else
+            {
+                //asagidakini sildim
+//					if(candSound.size() > 0)
+//						retWord = candSound.get(0);
+            }
+        }
+        else
+            return el;
+
+       
+        
+//			System.out.println(retWord);
+        return alConf;
+
+    }
+
+    
+    
     public static String baselineC1(String str)
     {
 
@@ -780,6 +1114,7 @@ public class soundLevDict {
         //basladi
         try
         {
+        	//dict. vs vocab.
             BufferedReader br = new BufferedReader(new FileReader(Constants.vocabulary));
             String line = "";
             while((line = br.readLine()) != null)
@@ -817,8 +1152,10 @@ public class soundLevDict {
                         //System.out.println(22222);
                         //System.out.println(44444);
                         String str = baselineC2(iv);
-                        if(!str.equals(""))
-                            tweet.putResult(baselineC2(iv),ind);
+                        if(!str.equals("")){
+                        	tweet.putResult(baselineC2(iv),ind);
+                        }
+                            
                     }
                 }
             }
@@ -828,6 +1165,63 @@ public class soundLevDict {
 
 
 
+    
+    public static void sndPopulateConfusionSet(List<Tweet> tweets){
+        try
+        {
+            BufferedReader br = new BufferedReader(new FileReader(Constants.vocabulary));
+            String line = "";
+            while((line = br.readLine()) != null)
+            {
+                String firstCh = Character.toString(line.charAt(0));
+                ArrayList<String> al = vocWords.containsKey(firstCh) ? vocWords.get(firstCh):
+                        new ArrayList<String>();
+                al.add(line);
+                vocWords.put(firstCh, al);
+                //asagidakileri de
+
+            }
+            br.close();
+
+        }
+        catch(IOException ioe)
+        {
+            ioe.printStackTrace();
+        }
+
+    	
+    	
+    	
+    	
+    	
+    	
+        HashMap<String,Double> all;
+        for (Tweet tweet : tweets) {
+            TreeMap<Integer, String> ivs = tweet.getOovs();
+            all = new HashMap<String,Double> ();
+            TreeMap<Integer, HashSet<String>> confusionSet = tweet.getConfusionSet();
+            for (Integer ind : ivs.keySet()) {
+                String iv = ivs.get(ind).toLowerCase(Constants.locale);
+
+                ArrayList<String> elSndAl = elSoundConf(iv);
+        		HashSet<String> mySet = new HashSet(elSoundConf(iv));
+        		
+        		System.out.println(ivs.get(ind) + " " + mySet);
+        		HashSet<String> hsConf = confusionSet.get(ind);
+        		for(int i = 0; i < elSndAl.size(); i++)
+        			hsConf.add(elSndAl.get(i));
+        		confusionSet.put(ind, hsConf);
+            }
+            
+        }
+       
+    }
+
+    
+    
+    
+    
+    
 
     public static void main(String[] args) {
         // TODO Auto-generated method stub
@@ -836,6 +1230,12 @@ public class soundLevDict {
         //asagidakiler eger zemberek oneri propose edemiyorsa calistirilmali
         //asagidakiler istemedigimiz kelimeler return ediyorsa context analysis yapmaliyiz
 
+//    	ETCEM [eteğim, etceğiz, emceğim, enceğim]
+    	
+    	System.out.println(elSoundConf("kiskaniyodum")); //bir sey dondurmuyor
+    	System.out.println(elSoundConf("ETCEM"));
+//    	System.out.println(elSoundConf("etceğiz"));
+    	
         System.out.println(baselineC2("yapıyooom"));
 
         elSound("ediyomuşum");

@@ -14,6 +14,7 @@ import java.util.*;
 
 import static net.twittchic.Baseline.deserializeTweets;
 import static net.twittchic.graph.CoGraph.populateConfusionSet;
+import net.twittchic.soundLevDict;
 
 /**
  * Created with IntelliJ IDEA.
@@ -110,6 +111,8 @@ public class Score {
 
     private static void feedConfusionSetL(List<Tweet> tweets) {
 
+    	soundLevDict.sndPopulateConfusionSet(tweets);
+    	System.out.println("sndLev finished");
         //To change body of created methods use File | Settings | File Templates.
     }
 
