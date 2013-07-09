@@ -22,9 +22,9 @@ public class CoGraph {
 
     public static void main(String [] args)
     {
-        serializeCooccurenceGraph();
-        //List<Tweet> tweets = deserializeTweets(Constants.allTweetsFile);
-        //populateConfusionSet(tweets);
+        //serializeCooccurenceGraph();
+        List<Tweet> tweets = deserializeTweets(Constants.tweetsFile);
+        populateConfusionSet(tweets);
     }
     public static SimpleWeightedGraph<String, DefaultWeightedEdge> populateConfusionSet(List<Tweet> tweets){
         SimpleWeightedGraph<String, DefaultWeightedEdge> graph = deserialize(Constants.graphFile);
@@ -58,6 +58,8 @@ public class CoGraph {
                 confusionSet.put(ind,values);
                 //System.out.println("Size of words : "+values.size());
             }
+            System.out.println("Tweet line no: "+ tweet.getLineNo().toString()+" IVs : "+ivs.values().toString()+" confusion set: "+confusionSet.values().toString());
+
         }
         return graph;
     }

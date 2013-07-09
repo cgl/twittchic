@@ -36,7 +36,7 @@ public class Tweet implements Serializable{
     }
 
     public void setLineNo(Integer lineNo) {
-        this.lineNo = lineNo;
+        lineNo = lineNo;
     }
 
     private Integer lineNo;
@@ -44,8 +44,6 @@ public class Tweet implements Serializable{
     public HashMap<Integer, String> getResults() {
         return results;
     }
-
-
 
     public String getText() {
         return text;
@@ -95,16 +93,16 @@ public class Tweet implements Serializable{
 
     @Override
     public String toString() {
-        return text;
-        /*
+        /* return text;     */
+
         return "Tweet{" +
+                "line no='" + lineNo +
                 "text='" + text + '\'' +
                 ", mentions=" + mentions.values().toString() +
                 ", hashtags=" + hashtags.values().toString() +
                 ", ivs=" + ivs.values().toString() +
                 ", oovs=" + oovs.values().toString() +
-                ", deasciified=" + deasciified.toString() +
-                '}';    */
+                '}';
     }
 
     public String ovvsToString() {
