@@ -29,9 +29,9 @@ public class soundLevDict {
             new HashMap<String, ArrayList<String>>();
 
     public static String[] suffixesNoise = {"yom", "yon", "yoz", "cam", "can", "caz", "cem", "cen", "cez", "caım", "ceim",
-            "caız", "ceiz", "yo"};
+            "caız", "ceiz", "yo", "om"};
     public static String[] suffixesCorr = {"yorum", "yorsun", "yoruz", "cağım", "caksın", "cağız", "ceğim", "ceksin", "ceğiz", "cağım",
-            "ceğim", "cağız", "ceğiz", "yor"};
+            "ceğim", "cağız", "ceğiz", "yor", "yorum"};
 
 
     public static Zemberek z = new Zemberek(new TurkiyeTurkcesi());
@@ -301,8 +301,43 @@ public class soundLevDict {
 
     public static ArrayList<String> elSoundConf(String word)
     {
+       	ArrayList<String> alConf = new ArrayList<String>();
+        
 
-    	ArrayList<String> alConf = new ArrayList<String>();
+        String suff = "";
+
+
+        ArrayList<String> suffChanged = new ArrayList<String>();
+        for(int q = 0; q < suffixesNoise.length; q++)
+        {
+            if(word.contains(suffixesNoise[q]))
+            {
+
+
+                String yourString = word;
+                StringBuilder b = new StringBuilder(yourString);
+                b.replace(yourString.lastIndexOf(suffixesNoise[q]), yourString.lastIndexOf(suffixesNoise[q]) + suffixesNoise[q].length(), suffixesCorr[q] );
+                suff = b.toString();
+
+
+                suffChanged.add(suff);
+//				suff = word.replace(suffixesNoise[q], suffixesCorr[q]);
+               
+                   
+                
+            }
+        }
+
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
         String retWord = "";
         ArrayList<String> el = elimDuplConf(word.toLowerCase());
        
@@ -330,6 +365,28 @@ public class soundLevDict {
                 String tmp = soundex.vowElim(line);
                 String mainWord = soundex.vowElim(word);
                 
+                
+                for(int y = 0; y < suffChanged.size(); y++)
+                {
+                	String suffStr = soundex.vowElim(suffChanged.get(y)); 
+                	if(suffStr.equals(tmp) && !suffStr.equals(line))
+                    {
+                		cand.add(line);
+                    }
+                }
+                
+                
+                
+
+            
+                
+                
+                
+                
+                
+                
+                
+                
                 if(mainWord.equals(tmp) && !mainWord.equals(line))
                 {
                 	
@@ -345,12 +402,8 @@ public class soundLevDict {
                     }
 //						System.out.println();
                     int max = -1;
-//						System.out.println(line);
-                    //ekledim
-//						if(z.kelimeDenetle(line))
                     cand.add(line);
-//						break;
-                }
+               }
             }
 
 
@@ -1232,6 +1285,7 @@ public class soundLevDict {
 
 //    	ETCEM [eteğim, etceğiz, emceğim, enceğim]
     	
+    	System.out.println(elSoundConf("dönücem"));
     	System.out.println(elSoundConf("kiskaniyodum")); //bir sey dondurmuyor
     	System.out.println(elSoundConf("ETCEM"));
 //    	System.out.println(elSoundConf("etceğiz"));
