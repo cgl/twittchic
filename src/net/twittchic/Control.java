@@ -50,8 +50,8 @@ public class Control {
                                 if(corrected.equalsIgnoreCase(tweet.getResults().get(ind)))
                                     pozitive++;
                                 else{
-                                    System.out.println(tweet.getConfusionSet().get(ind));
-                                    System.out.println("Negatif : ["+original_text[ind-1]+"] : "+tweet.getResults().get(ind)+" - "+corrected+" - "+count);
+                                    System.out.println("["+tweet.getLineNo()+"] confusion set: "+tweet.getConfusionSet().get(ind));
+                                    System.out.println("Negatif : ["+original_text[ind-1]+"] : result : "+tweet.getResults().get(ind)+" - "+corrected+" - "+count);
                                     negative++;
                                 }
                             }
