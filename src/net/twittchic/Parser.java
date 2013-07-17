@@ -7,14 +7,17 @@ import net.zemberek.tr.yapi.TurkiyeTurkcesi;
 import java.io.*;
 import java.util.*;
 
+import static net.twittchic.tools.Helpers.addToFrequencyDictionary;
+import static net.twittchic.tools.Helpers.loadFrequencyDictionary;
+
 /**
  * Created with IntelliJ IDEA. User: cagilulusahin Date: 6/24/13 Time: 8:07 PM
  * To change this template use File | Settings | File Templates.
  */
 public class Parser {
 
-    static TreeMap<String, String> oovlist = new TreeMap<String, String>();
-    static TreeMap<String, String> ivlist = new TreeMap<String, String>();
+    static TreeMap<String, Integer> oovlist = new TreeMap<String, Integer>();
+    static TreeMap<String, Integer> ivlist = new TreeMap<String, Integer>();
 
     private final String INPUT_TEXT = "";
 
@@ -69,6 +72,7 @@ public class Parser {
     }
 
     public void process(int limit) throws IOException {
+        TreeMap<String, Integer> slang = loadFrequencyDictionary(Constants.slang);
         Scanner scanner = new Scanner(new FileInputStream(Constants.fFileName),
                 Constants.fEncoding);
         Zemberek z = new Zemberek(new TurkiyeTurkcesi());
@@ -88,7 +92,7 @@ public class Parser {
                         continue;
                     else if (isAbbrev(token)) {
                         tweet.addAbbrvs(i, token);
-                        System.out.println("Abb : "+token);
+                        //System.out.println("Abb : "+token);
                     }
                     else if (isNumeric(token)) {
                         tweet.addNumbers(i, token);
@@ -99,17 +103,20 @@ public class Parser {
                         tweet.addHashtag(token, i);
                     } else if (token.startsWith("@")) {
                         tweet.addMention(token, i);
-                    } else if (denetle(token)) {
-                        ivlist.put(token.toLowerCase(Constants.locale), "");
-
+                    }
+                    else if(slang.containsKey(token.toLowerCase(Constants.locale))){
+                        addToFrequencyDictionary(slang,token.toLowerCase(Constants.locale));
+                        log("token slang: "+token);
+                    }
+                    else if (denetle(token)) {
+                        addToFrequencyDictionary(ivlist,token.toLowerCase(Constants.locale));
                         tweet.addIv(token, i);
+                        log("token iv: "+token);
                         // ivlist.put(token.toLowerCase(new Locale("utf-8")),"-"
                         // );
                     } else {
-
                         tweet.addOov(token, i);
-                        oovlist.put(token.toLowerCase(Locale
-                                .forLanguageTag("tr-TR")), "");
+                        addToFrequencyDictionary(oovlist,token.toLowerCase(Constants.locale));
                         /*
 						 * // iv_words.txt dosyasına deasciify edilmiş kelimleri
 						 * ekler turkish.Deasciifier d = new
@@ -127,6 +134,7 @@ public class Parser {
             }
             save(oovlist, Constants.needToNorm);
             save(ivlist, Constants.normed);
+            save(slang, Constants.slang);
         } finally {
             scanner.close();
         }
@@ -155,15 +163,12 @@ public class Parser {
         }
     }
 
-    private static void save(TreeMap<String, String> dictionary, String wordlist)
+    private static void save(TreeMap<String, Integer> dictionary, String wordlist)
             throws IOException {
         FileWriter file = new FileWriter(wordlist);
         BufferedWriter writer = new BufferedWriter(file);
-        for (Map.Entry<String, String> entry : dictionary.entrySet()) {
-            if (entry.getValue().isEmpty())
-                writer.append(entry.getKey());
-            else
-                writer.append(entry.getKey() + ";" + entry.getValue()); // TO DO
+        for (Map.Entry<String, Integer> entry : dictionary.entrySet()) {
+            writer.append(entry.getKey() + ":" + entry.getValue()); // TO DO
             // space
             // required
             // in
