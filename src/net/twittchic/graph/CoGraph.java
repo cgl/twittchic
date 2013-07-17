@@ -58,7 +58,7 @@ public class CoGraph {
                 confusionSet.put(ind,values);
                 //System.out.println("Size of words : "+values.size());
             }
-            System.out.println("Tweet line no: "+ tweet.getLineNo().toString()+" IVs : "+ivs.values().toString()+" confusion set: "+confusionSet.values().toString());
+            //System.out.println("Tweet line no: "+ tweet.getLineNo().toString()+" IVs : "+ivs.values().toString()+" confusion set: "+confusionSet.values().toString());
 
         }
         return graph;

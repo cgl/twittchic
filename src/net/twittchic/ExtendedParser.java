@@ -33,23 +33,25 @@ public class ExtendedParser extends Parser{
     }
 
     public static void main(String[] args) throws IOException {
-        serializeTrainingTweets();
+        serializeTrainingTweets(true);
         //serializeAllTweets();
-        //deasc.write();
         //deasc.serializeTweet(Constants.tweetsFile);
     }
 
-    public static void serializeTrainingTweets() throws IOException {
+    public static void serializeTrainingTweets(boolean write) throws IOException {
         ExtendedParser deasc = new ExtendedParser();
         deasc.process();
         deasc.serializeTweet(Constants.tweetsFile);
-        //deasc.write();
+        if(write)
+            deasc.write();
     }
 
-    public static void serializeAllTweets() throws IOException {
+    public static void serializeAllTweets(boolean write) throws IOException {
         ExtendedParser deasc = new ExtendedParser();
         deasc.process();
         deasc.serializeTweet(Constants.allTweetsFile);
+        if(write)
+            deasc.write();
     }
 
 

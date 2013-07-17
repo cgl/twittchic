@@ -106,12 +106,10 @@ public class Parser {
                     }
                     else if(slang.containsKey(token.toLowerCase(Constants.locale))){
                         addToFrequencyDictionary(slang,token.toLowerCase(Constants.locale));
-                        log("token slang: "+token);
                     }
                     else if (denetle(token)) {
                         addToFrequencyDictionary(ivlist,token.toLowerCase(Constants.locale));
                         tweet.addIv(token, i);
-                        log("token iv: "+token);
                         // ivlist.put(token.toLowerCase(new Locale("utf-8")),"-"
                         // );
                     } else {
