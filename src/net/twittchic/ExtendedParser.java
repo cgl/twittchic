@@ -43,6 +43,7 @@ public class ExtendedParser extends Parser{
         ExtendedParser deasc = new ExtendedParser();
         deasc.process();
         deasc.serializeTweet(Constants.tweetsFile);
+        //deasc.write();
     }
 
     public static void serializeAllTweets() throws IOException {

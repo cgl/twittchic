@@ -73,12 +73,13 @@ public class Parser {
                 Constants.fEncoding);
         Zemberek z = new Zemberek(new TurkiyeTurkcesi());
         int i;
+        int j = 0;
         Tweet tweet;
         try {
             while (scanner.hasNextLine()) {
                 i = 0;
                 String s = scanner.nextLine().trim();
-                tweet = new Tweet(s, i, false);
+                tweet = new Tweet(s, j++ , false);
                 this.tweets.add(tweet);
 
                 for (String token : s.split(" ")) {
