@@ -18,6 +18,53 @@ public class soundex {
 	public static String str6 = "R";
 	
 	public static String vowEl = "aeiou";
+//	public static String vowElim(String word)
+//	{
+//
+//		String lowWord = word.toLowerCase();
+//
+//		String temp1 = Character.toString(lowWord.charAt(0));
+//		for(int i = 1; i < lowWord.length(); i++)
+//		{
+//			char ch = lowWord.charAt(i);
+//			if(lowWord.charAt(i) == 'ö')
+//				ch = 'o';
+//			else if(lowWord.charAt(i) == 'ı')
+//				ch = 'i';
+//			else if(lowWord.charAt(i) == 'ü')
+//				ch = 'u';
+//			if(!vowEl.contains(Character.toString(ch)))
+//			{
+//				temp1 += Character.toString(ch);
+//			}
+//			else if(vowEl.contains(Character.toString(ch)))
+//				temp1 += "0";
+//			
+//		}
+//		
+//		String temp2 = "";
+//		
+//		temp2 += Character.toString(temp1.charAt(0));
+//		for(int i = 1; i < temp1.length(); i++)
+//		{
+//			
+//			if(temp1.charAt(i) != temp2.charAt(temp2.length() - 1))
+//				temp2 += Character.toString(temp1.charAt(i));
+//			
+//		}
+//		temp2 = temp2.replaceAll("0", "");
+//
+//		return temp2;
+//	}
+	
+	public static String str1_ = "bp";
+	public static String str2_ = "sşz";
+	public static String str3_ = "cç";
+	public static String str4_ = "kg";
+//	public static String str5_ = "mn";
+//	public static String str6_ = "r";
+
+	
 	public static String vowElim(String word)
 	{
 
@@ -33,12 +80,25 @@ public class soundex {
 				ch = 'i';
 			else if(lowWord.charAt(i) == 'ü')
 				ch = 'u';
-			if(!vowEl.contains(Character.toString(ch)))
-			{
-				temp1 += Character.toString(ch);
-			}
-			else if(vowEl.contains(Character.toString(ch)))
+//			if(!vowEl.contains(Character.toString(ch)))
+//			{
+//				temp1 += Character.toString(ch);
+//			}
+//			else if(vowEl.contains(Character.toString(ch)))
+//				temp1 += "0";
+			
+			if(vowEl.contains(Character.toString(ch)))
 				temp1 += "0";
+			else if(str1_.contains(Character.toString(ch)))
+				temp1 += "1";
+			else if(str2_.contains(Character.toString(ch)))
+				temp1 += "2";
+			else if(str3_.contains(Character.toString(ch)))
+				temp1 += "3";
+			else if(str4_.contains(Character.toString(ch)))
+				temp1 += "4";
+			else
+				temp1 += lowWord.charAt(i);
 			
 		}
 		
@@ -56,6 +116,8 @@ public class soundex {
 
 		return temp2;
 	}
+	
+	
 //	public static String vowAndMultElim(String word)
 //	{
 //		String lowWord = word.toLowerCase();
@@ -154,13 +216,15 @@ public class soundex {
 //		sound("ÇEKOSLOVAKYALILAŞTIRAMADIKLARIMIZDANMISINIZ");
 		
 		
+		System.out.println(vowElim("cücüşdekb"));
+		
 //		ETCEM [eteğim, etceğiz, emceğim, enceğim]
-		System.out.println(vowElim("ETCEM"));
-		System.out.println(vowElim("etceğiz"));
-		sound("mrb");
-		System.out.println(sound("herkezzzz"));
-		System.out.println(sound("harçsız"));
-		System.out.println("harçsız".toUpperCase());
+//		System.out.println(vowElim("ETCEM"));
+//		System.out.println(vowElim("etceğiz"));
+//		sound("mrb");
+//		System.out.println(sound("herkezzzz"));
+//		System.out.println(sound("harçsız"));
+//		System.out.println("harçsız".toUpperCase());
 	}
 
 }
