@@ -80,6 +80,9 @@ public class soundex {
 				ch = 'i';
 			else if(lowWord.charAt(i) == 'ü')
 				ch = 'u';
+			else if(lowWord.charAt(i) == 'h')
+				ch = 'u';
+			
 //			if(!vowEl.contains(Character.toString(ch)))
 //			{
 //				temp1 += Character.toString(ch);

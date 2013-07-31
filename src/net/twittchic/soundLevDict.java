@@ -25,9 +25,19 @@ public class soundLevDict {
     /**
      * @param args
      */
+	
+	public static String turkCh = "ÇçÖöŞşİıĞğÜüÂâÛûÎî";
+	public static String turkChLower = "çöşığüâûî";
+	public static String turkChUpper = "ÇÖŞİĞÜÂÛÎ";
+
+	
+	
     public static HashMap<String, ArrayList<String>> vocWords =
             new HashMap<String, ArrayList<String>>();
 
+    public static TreeMap<String, TreeMap<String, Double>> vocWordsFreq =
+    		new TreeMap<String, TreeMap<String, Double>>();
+    
     public static String[] suffixesNoise = {"yom", "yon", "yoz", "cam", "can", "caz", "cem", "cen", "cez", "caım", "ceim",
             "caız", "ceiz", "yo", "om"};
     public static String[] suffixesCorr = {"yorum", "yorsun", "yoruz", "cağım", "caksın", "cağız", "ceğim", "ceksin", "ceğiz", "cağım",
@@ -64,6 +74,108 @@ public class soundLevDict {
 
     
     
+	public static ArrayList<String> compAnalyzer(String str)
+	{
+		
+
+		ArrayList<String> al = new ArrayList<String>();
+//		String regex = "^([A-Z0-9]+[A-Za-z0-9,./\\-]*)+$";
+		String regex;
+		//asagidaki regex ile CabukCabukTak.. tarzindaki bilesik kelimeleri
+		//ayirabiliriz
+		regex = "([A-Z" + turkChUpper + "]+)[a-z" + turkChLower + "]*";
+		
+		//AByeGirebilecegiz
+		Pattern pat = Pattern.compile(regex);
+		Matcher mat = pat.matcher(str);
+		while((mat.find()))
+		{
+			al.add(zembSound(mat.group()));
+			
+//			al.add(mat.group());
+		}
+//		for(int i = 0; i < al.size(); i++)
+//			if(i != al.size() - 1)
+//				System.out.print(al.get(i) + " ");
+//			else
+//				System.out.println(al.get(i));
+//		
+		
+		String result = "";
+		for(int i = 0; i < al.size(); i++)
+			if(i != al.size() - 1)
+				result += al.get(i) + "_";
+			else
+				result += al.get(i);
+	
+		ArrayList<String> alCmp = new ArrayList<String>();
+		alCmp.add(result);
+		
+		if(result.length() > 0)
+		{
+			System.out.println(str + " implies " + result);
+			return alCmp;
+		}
+		return new ArrayList<String>();
+		
+	}
+	
+	
+	
+	
+	
+	public static String zembSound(String stri)
+	{
+		String[] str = z.oner(stri);
+		
+//		System.out.println(Arrays.toString(str));
+		
+		soundex snd = new soundex();
+		String sndStri = snd.vowElim(stri);
+		ArrayList<String> al = new ArrayList<String>();
+		
+		for(int i = 0; i < str.length; i++)
+		{
+			
+//			System.out.print(str[i] + " ");
+			if(sndStri.equals(snd.vowElim(str[i])))
+			{
+				
+				al.add(str[i]);
+			}
+//				System.out.print(str[i] + ": " + snd.sound(str[i]) + " ");
+		}
+		for(int i = 0; i < str.length; i++)
+		{
+			if(z.asciidenTurkceye(stri).length > 0)
+				if(str[i].equals(z.asciidenTurkceye(stri)[0].toLowerCase()))
+				{
+					
+					al = new ArrayList<String>();
+					al.add(z.asciidenTurkceye(stri)[0].toLowerCase());
+					break;
+				}
+		}
+		String zembSound = "";
+		
+		for(int i = 0; i < al.size(); i++)
+		{
+			if(al.get(i).contains(" "))
+				continue;
+			else
+			{	
+				zembSound = al.get(i);
+//				System.out.println(al.get(i));
+				break;
+			}
+				
+		}
+		if(zembSound.equals(""))
+			return stri;
+		return zembSound;
+	}
+	
+    
     public static ArrayList<String> elimDuplConf(String str)
     {
 
@@ -72,6 +184,15 @@ public class soundLevDict {
         Matcher m = p.matcher(str);
         ArrayList<String> rep = new ArrayList<String>();
         ArrayList<String> alConf = new ArrayList<String>();
+        
+//        ArrayList<String> cmpAnalyzer = compAnalyzer(str);
+//        
+//        for(int q = 0; q < cmpAnalyzer.size(); q++)	
+//        {
+//        	System.out.println("buraya bak: " + cmpAnalyzer.get(q));
+//        	alConf.add(cmpAnalyzer.get(q));
+//        }
+        
         if(!m.find())
         {
             String suff = "";
@@ -1218,11 +1339,31 @@ public class soundLevDict {
 
 
 
+   public static double getFreq(String word)
+   {
+	   TreeMap<String, Double> tm = vocWordsFreq.get(Character.toString(word.charAt(0)));
+	  
+	   if(tm != null)
+	   {
+		   Double freq = tm.get(word);
+		   if(freq != null)
+		   {
+			   freq = Math.log10(freq);
+			   System.out.println("freq: " + freq);
+			   return freq;    
+		   }
+		   else
+			   return 1.;
+		     
+	   }
+	   else
+		   return 1.;
+   }
     
     public static void sndPopulateConfusionSet(List<Tweet> tweets){
         try
         {
-            BufferedReader br = new BufferedReader(new FileReader(Constants.vocabulary));
+        	BufferedReader br = new BufferedReader(new FileReader(Constants.vocabulary));
             String line = "";
             while((line = br.readLine()) != null)
             {
@@ -1231,11 +1372,31 @@ public class soundLevDict {
                         new ArrayList<String>();
                 al.add(line);
                 vocWords.put(firstCh, al);
-                //asagidakileri de
+                
 
             }
             br.close();
 
+            //Frequency dosyasi asagida okunuyor
+//            BufferedReader br2 = new BufferedReader(new FileReader(Constants.vocabularyFreq));
+//            line = "";
+//            while((line = br2.readLine()) != null)
+//            {
+//                String firstCh = Character.toString(line.charAt(0));
+//                TreeMap<String, Double> tm = vocWordsFreq.containsKey(firstCh) ? vocWordsFreq.get(firstCh):
+//                        new TreeMap<String, Double>();
+////                al.add(line);
+//                String[] spl = line.split("\t");
+//                
+//                tm.put(spl[0], Double.parseDouble(spl[1]));
+//                vocWordsFreq.put(firstCh, tm);
+//                
+//
+//            }
+//            br2.close();
+
+            
+            
         }
         catch(IOException ioe)
         {

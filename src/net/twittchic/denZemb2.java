@@ -124,6 +124,11 @@ public class denZemb2 {
 		return al;
 		
 	}
+	
+	
+	
+	
+	
 	public static String zembSound(String stri)
 	{
 		String[] str = z.oner(stri);
@@ -131,14 +136,14 @@ public class denZemb2 {
 //		System.out.println(Arrays.toString(str));
 		
 		soundex snd = new soundex();
-		String sndStri = snd.sound(stri);
+		String sndStri = snd.vowElim(stri);
 		ArrayList<String> al = new ArrayList<String>();
 		
 		for(int i = 0; i < str.length; i++)
 		{
 			
 //			System.out.print(str[i] + " ");
-			if(sndStri.equals(snd.sound(str[i])))
+			if(sndStri.equals(snd.vowElim(str[i])))
 			{
 				
 				al.add(str[i]);
@@ -189,7 +194,8 @@ public class denZemb2 {
 		compAnalyzer("KatilleriBulunsun");
 		compAnalyzer("HayatımFilmOlsaİsmi");
 		compAnalyzer("TurkishHuntersWantSPN");
-		compAnalyzer("");
+		compAnalyzer("UyuşturucuyaHayırDiyor");
+		compAnalyzer("TürkGençliği");
 		
 		
 		System.out.println(soundDict("ağğğlama"));

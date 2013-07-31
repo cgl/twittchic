@@ -87,7 +87,7 @@ public class Score {
     }
 
     private static double scoreL(Integer ind, String confWord, Tweet tweet) {
-        return 1/(soundLevDict.computeLevenshteinDistance(tweet.getOovs().get(ind),confWord)+0.000001);
+        return 1/(soundLevDict.computeLevenshteinDistance(tweet.getOovs().get(ind),confWord)+0.000001)/* * soundLevDict.getFreq(confWord)*/;
 
     }
 
