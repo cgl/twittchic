@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="zemberek-cekirdek-2.1">
+    <archive path="/Users/cagilulusahin/cagil/zemberek-read-only/zemberek-server/lib/zemberek-cekirdek-2.1.jar" />
+    <archive path="/Users/cagilulusahin/cagil/zemberek-read-only/zemberek-server/lib/zemberek-tr-2.1.jar" />
+  </library>
+</eclipse-userlibraries>
+
