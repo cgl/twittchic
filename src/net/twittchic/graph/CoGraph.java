@@ -34,10 +34,10 @@ public class CoGraph {
         for (Tweet tweet : tweets) {
             TreeMap<Integer, String> ivs = tweet.getIvs();
             all = new HashMap<String,Double> ();
-            for (Integer ind : ivs.keySet()) {
+            for (Integer ind : ivs.keySet()) { //for eah iv in the tweet
                 String iv = ivs.get(ind).toLowerCase(Constants.locale);
                 if(graph.containsVertex(iv)){
-                Set<DefaultWeightedEdge> edges =  graph.edgesOf(iv);
+                Set<DefaultWeightedEdge> edges =  graph.edgesOf(iv);    // set of edged that the iv is connected
                 for (DefaultWeightedEdge edge : edges) {
                     String edgeTarget = graph.getEdgeTarget(edge);
                     edgeWeight = graph.getEdgeWeight(edge);
